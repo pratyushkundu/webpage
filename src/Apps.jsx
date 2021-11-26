@@ -2,31 +2,24 @@ import React from 'react';
 import { NavLink } from 'react-router-dom';
 import Navbar from "./Navbar";
 import Navbar1 from './Navbar1';
+
 const Apps = () => {
-
-    // const Home= ()=>{
-
-    //     console.log("happy;")
-    // }
     return (
         <><div class="main_div">
             <div class="top_div">
                 <div>
                     <div id="logo" style={{ cursor: "pointer" }}>NITR ICS</div>
                 </div>
-
-                {/* <div className="nav_bar">
-                    <h2 className="nav_hover">Home</h2>
-                    <h2 className="nav_hover">AboutSociety</h2>
-                    <h2 className="nav_hover" >Members</h2>
-                    <h2 className="nav_hover">ContactUs</h2>
-                </div> */}
-                <Navbar/>
+                <Navbar />
             </div>
-            <div className="gallery_div">
-                <div className="img_4">
-                    <img src="images/img4.jpg" alt="mypic" />
-                </div>
+            <div className="gallery_div" >
+                    <div>
+                        <h1 className="headingname">WELCOME TO NITR ICS</h1>
+                    </div>
+               
+                {/* <div className="img_4"> */}
+                {/* <img id="onion" src="images/img4.jpg" alt="mypic" style={{margin:"0 3px"}}  /> */}
+                {/* </div> */}
             </div>
             <div className="flash_1" style={{ backgroundcolor: "#FAFCEE" }}>
                 <div id="flash_inside"><h1>FLASHBACK FRIDAY</h1></div>
@@ -97,13 +90,7 @@ const Apps = () => {
                     </div>
                 </div>
                 <div className="end_bar">
-                    {/* <div className="info_div">
-                        <h2 className="nav_hover_1" >Home</h2>
-                        <h2 className="nav_hover_1" >AboutSociety</h2>
-                        <h2 className="nav_hover_1" >Members</h2>
-                        <h2 className="nav_hover_1">ContactUs</h2>
-                    </div> */}
-                    <Navbar1/>
+                    <Navbar1 />
                 </div>
             </div>
         </div></>);
