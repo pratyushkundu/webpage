@@ -1,11 +1,9 @@
 import React from 'react';
 import Navbar from './Navbar';
 import Navbar1 from './Navbar1';
-// import ImageSlider from './imageSlider';
 import App from './App';
+
 const About = () => {
-
-
     return (
         <><div class="main_div">
             <div class="top_div">
@@ -26,14 +24,14 @@ const About = () => {
                 <div className="memory">
                     <h1 id="heading">OUR MEMORIES</h1>
                 </div>
-                <div id="paragraphmemo" style={{textAlign:"justify"}}>
-                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dignissimos nihil cupiditate quae culpa,quos labore autem dolores, pariatur laborum voluptates quaerat? Voluptas quidem, provident doloribusreiciendis nesciunt voluptates doloremque voluptatibus voluptatum. Ipsam, aspernatur ad.Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dignissimos nihil cupiditate quae culpa,quos labore autem dolores, pariatur laborum voluptates quaerat? Voluptas quidem, provident doloribusreiciendis nesciunt voluptates doloremque voluptatibus voluptatum. Ipsam, aspernatur ad.Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dignissimos nihil cupiditate quae culpa,quos labore autem dolores, pariatur laborum voluptates quaerat? Voluptas quidem, provident doloribusreiciendis nesciunt voluptates doloremque voluptatibus voluptatum. Ipsam, aspernatur ad.Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dignissimos nihil cupiditate quae culpa,quos labore autem dolores, pariatur laborum voluptates quaerat? Voluptas quidem, provident doloribusreiciendis nesciunt voluptates doloremque voluptatibus voluptatum. Ipsam, aspernatur ad.</p>
+                <div id="paragraphmemo" style={{ textAlign: "justify" }}>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dignissimos nihil cupiditate quae culpa,quos labore autem dolores, pariatur laborum voluptates quaerat? Voluptas quidem, provident doloribusreiciendis nesciunt voluptates doloremque voluptatibus voluptatum. Ipsam, aspernatur ad.Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dignissimos nihil cupiditate quae culpa,quos labore autem dolores, pariatur laborum voluptates quaerat? Voluptas quidem, provident doloribusreiciendis nesciunt voluptates doloremque voluptatibus voluptatum. Ipsam, aspernatur ad.Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dignissimos nihil cupiditate quae culpa,quos labore autem dolores, pariatur laborum voluptates quaerat? Voluptas quidem, provident doloribusreiciendis nesciunt voluptates doloremque voluptatibus voluptatum. Ipsam, aspernatur ad.Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dignissimos nihil cupiditate quae culpa,quos labore autem dolores, pariatur laborum voluptates quaerat? Voluptas quidem, provident doloribusreiciendis nesciunt voluptates doloremque voluptatibus voluptatum. Ipsam, aspernatur ad.</p>
                 </div>
                 {/* <img src="images/img4.jpg" alt="mypic" /> */}
-                <App/>
+                <App />
                 <div id="gallerydiv">
                     <h1 id="heading">About page</h1>
-                    <div id="paragraph" style={{textAlign:"justify"}}>
+                    <div id="paragraph" style={{ textAlign: "justify" }}>
                         <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dignissimos nihil cupiditate quae culpa,quos labore autem dolores, pariatur laborum voluptates quaerat? Voluptas quidem, provident doloribusreiciendis nesciunt voluptates doloremque voluptatibus voluptatum. Ipsam, aspernatur ad.Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dignissimos nihil cupiditate quae culpa,quos labore autem dolores, pariatur laborum voluptates quaerat? Voluptas quidem, provident doloribusreiciendis nesciunt voluptates doloremque voluptatibus voluptatum. Ipsam, aspernatur ad.Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dignissimos nihil cupiditate quae culpa,quos labore autem dolores, pariatur laborum voluptates quaerat? Voluptas quidem, provident doloribusreiciendis nesciunt voluptates doloremque voluptatibus voluptatum. Ipsam, aspernatur ad.Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dignissimos nihil cupiditate quae culpa,quos labore autem dolores, pariatur laborum voluptates quaerat? Voluptas quidem, provident doloribusreiciendis nesciunt voluptates doloremque voluptatibus voluptatum. Ipsam, aspernatur ad.Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dignissimos nihil cupiditate quae culpa,quos labore autem dolores, pariatur laborum voluptates quaerat? Voluptas quidem, provident doloribusreiciendis nesciunt voluptates doloremque voluptatibus voluptatum. Ipsam, aspernatur ad.Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dignissimos nihil cupiditate quae culpa,quos labore autem dolores, pariatur laborum voluptates quaerat? Voluptas quidem, provident doloribusreiciendis nesciunt voluptates doloremque voluptatibus voluptatum. Ipsam, aspernatur ad.Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dignissimos nihil cupiditate quae culpa,quos labore autem dolores, pariatur laborum voluptates quaerat? Voluptas quidem, provident doloribusreiciendis nesciunt voluptates doloremque voluptatibus voluptatum. Ipsam, aspernatur ad.Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dignissimos nihil cupiditate quae culpa,quos labore autem dolores, pariatur laborum voluptates quaerat? Voluptas quidem, provident doloribusreiciendis nesciunt voluptates doloremque voluptatibus voluptatum. Ipsam, aspernatur ad.Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dignissimos nihil cupiditate quae culpa,quos labore autem dolores, pariatur laborum voluptates quaerat? Voluptas quidem, provident doloribusreiciendis nesciunt voluptates doloremque voluptatibus voluptatum. Ipsam, aspernatur ad.Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dignissimos nihil cupiditate quae culpa,quos labore autem dolores, pariatur laborum voluptates quaerat? Voluptas quidem, provident doloribusreiciendis nesciunt voluptates doloremque voluptatibus voluptatum. Ipsam, aspernatur ad.Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dignissimos nihil cupiditate quae culpa,quos labore autem dolores, pariatur laborum voluptates quaerat? Voluptas quidem, provident doloribusreiciendis nesciunt voluptates doloremque voluptatibus voluptatum. Ipsam, aspernatur ad.Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dignissimos nihil cupiditate quae culpa,quos labore autem dolores, pariatur laborum voluptates quaerat? Voluptas quidem, provident doloribusreiciendis nesciunt voluptates doloremque voluptatibus voluptatum. Ipsam, aspernatur ad.Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dignissimos nihil cupiditate quae culpa,quos labore autem dolores, pariatur laborum voluptates quaerat? Voluptas quidem, provident doloribusreiciendis nesciunt voluptates doloremque voluptatibus voluptatum. Ipsam, aspernatur ad.Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dignissimos nihil cupiditate quae culpa,quos labore autem dolores, pariatur laborum voluptates quaerat? Voluptas quidem, provident doloribusreiciendis nesciunt voluptates doloremque voluptatibus voluptatum. Ipsam, aspernatur ad.Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dignissimos nihil cupiditate quae culpa,quos labore autem dolores, pariatur laborum voluptates quaerat? Voluptas quidem, provident doloribusreiciendis nesciunt voluptates doloremque voluptatibus voluptatum. Ipsam, aspernatur ad.Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dignissimos nihil cupiditate quae culpa,quos labore autem dolores, pariatur laborum voluptates quaerat? Voluptas quidem, provident doloribusreiciendis nesciunt voluptates doloremque voluptatibus voluptatum. Ipsam, aspernatur ad.</p>
                     </div>
                 </div>
@@ -98,13 +96,13 @@ const About = () => {
             <div class="social_media_part">
                 <div class="logo_part">
                     <div class="img_3">
-                        <img src="images/facebook.png" style={{ height: "70px" }} alt="mypic" />
+                        <img src="images/facebook.png" style={{ height: "60px" }} alt="mypic" />
                     </div>
                     <div class="img_3">
-                        <img src="images/instagram.png" style={{ height: "70px" }} alt="mypic" />
+                        <img src="images/instagram.png" style={{ height: "60px" }} alt="mypic" />
                     </div>
                     <div class="img_3">
-                        <img src="images/linkedin.png" style={{ height: "70px" }} alt="mypic" />
+                        <img src="images/linkedin.png" style={{ height: "60px" }} alt="mypic" />
                     </div>
                 </div>
                 <div class="end_bar">

@@ -84,13 +84,13 @@ const Contact = () => {
             <div class="social_media_part">
                 <div class="logo_part">
                     <div class="img_3">
-                        <img src="images/facebook.png" style={{ height: "70px" }} alt="mypic" />
+                        <img src="images/facebook.png" style={{ height: "60px" }} alt="mypic" />
                     </div>
                     <div class="img_3">
-                        <img src="images/instagram.png" style={{ height: "70px" }} alt="mypic" />
+                        <img src="images/instagram.png" style={{ height: "60px" }} alt="mypic" />
                     </div>
                     <div class="img_3">
-                        <img src="images/linkedin.png" style={{ height: "70px" }} alt="mypic" />
+                        <img src="images/linkedin.png" style={{ height: "60px" }} alt="mypic" />
                     </div>
                 </div>
                 <div class="end_bar">
