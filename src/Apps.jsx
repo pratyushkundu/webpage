@@ -6,16 +6,16 @@ import App1 from './App1';
 import Carousel from 'react-multi-carousel'
 import "react-multi-carousel/lib/styles.css";
 import { SliderData } from './component/SliderData';
-import {Box,makeStyles } from "@material-ui/core";
+import { Box, makeStyles } from "@material-ui/core";
 import { Link } from 'react-router-dom';
 
 const useStyles = makeStyles({
     image: {
-        height: 600,
+        height: 500,
         width: 320,
     },
     wrapper: {
-        padding: "55px 55px"
+        padding: "55px 55px",
     },
 })
 const responsive = {
@@ -36,14 +36,168 @@ const width1 = window.screen.width;
 console.log(width1);
 
 const Apps = () => {
-  const classes = useStyles();
+    const classes = useStyles();
+    const functiondeal1 = () => {
+        const width2 = 700;
+        if (window.screen.width >= width2) {
+            return <>
+                <a href="/blog" style={{ textDecoration: "none" }}>
+                    <div className="img_1">
+                        <img id="peacock" src="images/FF1.jpg" alt="mypic" />
 
-  const functiondeal = ()=>{
-    const width2 = 700;
-      if(window.screen.width <= width2 ){
-          return <App1/>
-      }
-      else{
+                        <h2 id="proff1" style={{ color: "#fff" }}>Proff.Shnatanu T behera</h2>
+                        <p id="para" style={{ color: "#fff" }}>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dignissimos nihil cupiditate quae culpa,
+                            quos labore autem dolores, pariatur laborum voluptates quaerat? Voluptas quidem, provident doloribus
+                            reiciendis nesciunt voluptates doloremque voluptatibus voluptatum. Ipsam, aspernatur ad.
+                        </p>
+                    </div>
+                </a>
+                <a href="/blog1" style={{ textDecoration: "none" }}>
+                    <div className="img_1">
+                        <img id="peacock" src="images/FF2.png" alt="mypic" />
+
+                        <h2 id="proff1" style={{ color: "#fff" }}>Proff.Shnatanu T behera</h2>
+                        <p id="para" style={{ color: "#fff" }}>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dignissimos nihil cupiditate quae culpa,
+                            quos labore autem dolores, pariatur laborum voluptates quaerat? Voluptas quidem, provident doloribus
+                            reiciendis nesciunt voluptates doloremque voluptatibus voluptatum. Ipsam, aspernatur ad.
+                        </p>
+                    </div>
+                </a>
+                <a href="/blog2" style={{ textDecoration: "none" }}>
+                    <div className="img_1">
+                        <img id="peacock" src="images/FF3.png" alt="mypic" />
+
+                        <h2 id="proff1" style={{ color: "#fff" }}>Proff.Shnatanu T behera</h2>
+                        <p id="para" style={{ color: "#fff" }}>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dignissimos nihil cupiditate quae culpa,
+                            quos labore autem dolores, pariatur laborum voluptates quaerat? Voluptas quidem, provident doloribus
+                            reiciendis nesciunt voluptates doloremque voluptatibus voluptatum. Ipsam, aspernatur ad.
+                        </p>
+                    </div>
+                </a></>
+
+        }
+        else {
+            return <>
+                <a href="/blog" style={{ textDecoration: "none" }}>
+                    <div className="img_1">
+                        <img id="peacock" src="images/FF1.jpg" alt="mypic" />
+
+                    </div>
+                </a>
+                <a href="/blog1" style={{ textDecoration: "none" }}>
+                    <div className="img_1">
+                        <img id="peacock" src="images/FF2.png" alt="mypic" />
+
+                    </div>
+                </a>
+                <a href="/blog2" style={{ textDecoration: "none" }}>
+                    <div className="img_1">
+                        <img id="peacock" src="images/FF3.png" alt="mypic" />
+
+                    </div>
+                </a></>
+        }
+    }
+    const functiondeal2 = () => {
+        const width2 = 700;
+        if (window.screen.width >= width2) {
+            return <><a href="/blog1" style={{ textDecoration: "none" }}>
+                <div className="img_2">
+                    <img id="peacock_1" src="images/MM1.jpg " alt="mypic" />
+                    <p id="para1" style={{ color: "#fff" }}>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dignissimos nihil cupiditate quae culpa,
+                        quos labore autem dolores, pariatur laborum voluptates quaerat? Voluptas quidem, provident doloribus
+                        reiciendis nesciunt voluptates doloremque voluptatibus voluptatum. Ipsam, aspernatur ad.
+                    </p>
+                </div>
+            </a>
+                <a href="/blog1" style={{ textDecoration: "none" }}>
+                    <div className="img_2">
+                        <img id="peacock_1" src="images/MM2.jpg" alt="mypic" />
+                        <p id="para1" style={{ color: "#fff" }}>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dignissimos nihil cupiditate quae culpa,
+                            quos labore autem dolores, pariatur laborum voluptates quaerat? Voluptas quidem, provident doloribus
+                            reiciendis nesciunt voluptates doloremque voluptatibus voluptatum. Ipsam, aspernatur ad.
+                        </p>
+                    </div>
+                </a>
+                <a href="/blog1" style={{ textDecoration: "none" }}>
+                    <div className="img_2">
+                        <img id="peacock_1" src="images/MM3.jpg" alt="mypic" />
+                        <p id="para1" style={{ color: "#fff" }}>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dignissimos nihil cupiditate quae culpa,
+                            quos labore autem dolores, pariatur laborum voluptates quaerat? Voluptas quidem, provident doloribus
+                            reiciendis nesciunt voluptates doloremque voluptatibus voluptatum. Ipsam, aspernatur ad.
+                        </p>
+                    </div>
+                </a></>
+        }
+        else {
+            return <><a href="/blog1" style={{ textDecoration: "none" }}>
+                <div className="img_2">
+                    <img id="peacock_1" src="images/MM1.jpg " alt="mypic" />
+                    {/* <p id="para1" style={{ color: "#fff" }}>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dignissimos nihil cupiditate quae culpa,
+                    quos labore autem dolores, pariatur laborum voluptates quaerat? Voluptas quidem, provident doloribus
+                    reiciendis nesciunt voluptates doloremque voluptatibus voluptatum. Ipsam, aspernatur ad.
+                </p> */}
+                </div>
+            </a>
+                <a href="/blog1" style={{ textDecoration: "none" }}>
+                    <div className="img_2">
+                        <img id="peacock_1" src="images/MM2.jpg" alt="mypic" />
+                        {/* <p id="para1" style={{ color: "#fff" }}>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dignissimos nihil cupiditate quae culpa,
+                    quos labore autem dolores, pariatur laborum voluptates quaerat? Voluptas quidem, provident doloribus
+                    reiciendis nesciunt voluptates doloremque voluptatibus voluptatum. Ipsam, aspernatur ad.
+                </p> */}
+                    </div>
+                </a>
+                <a href="/blog1" style={{ textDecoration: "none" }}>
+                    <div className="img_2">
+                        <img id="peacock_1" src="images/MM3.jpg" alt="mypic" />
+                        {/* <p id="para1" style={{ color: "#fff" }}>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dignissimos nihil cupiditate quae culpa,
+                    quos labore autem dolores, pariatur laborum voluptates quaerat? Voluptas quidem, provident doloribus
+                    reiciendis nesciunt voluptates doloremque voluptatibus voluptatum. Ipsam, aspernatur ad.
+                </p> */}
+                    </div>
+                </a></>
+        }
+    }
+    // const functiondeal3 = () => {
+    //     const width2 = 700;
+    //     if (window.screen.width >= width2) {
+    //         return <>
+    //             <div className="logo_part">
+    //                 <div className="img_3">
+    //                     <a href=""><img src="images/facebook.png" style={{ height: "60px" }} alt="mypic" /></a>
+    //                 </div>
+    //                 <div className="img_3">
+    //                     <a href="https://instagram.com/nitr_ics?utm_medium=copy_link"><img src="images/instagram.png" style={{ height: "60px" }} alt="mypic" /></a>
+    //                 </div>
+    //                 <div className="img_3">
+    //                     <a href="https://www.linkedin.com/company/incers-nitr"><img src="images/linkedin.png" style={{ height: "60px" }} alt="mypic" /></a>
+    //                 </div>
+    //             </div>
+    //         </>
+    //     }
+    //     else {
+    //         <div className="logo_part">
+    //             <div className="img_3">
+    //                 <a href=""><img src="images/facebook.png" style={{ height: "60px" }} alt="mypic" /></a>
+    //             </div>
+    //             <div className="img_3">
+    //                 <a href="https://instagram.com/nitr_ics?utm_medium=copy_link"><img src="images/instagram.png" style={{ height: "60px" }} alt="mypic" /></a>
+    //             </div>
+    //             <div className="img_3">
+    //                 <a href="https://www.linkedin.com/company/incers-nitr"><img src="images/linkedin.png" style={{ height: "60px" }} alt="mypic" /></a>
+    //             </div>
+    //         </div>
+
+    //     }
+    // }
+
+    const functiondeal = () => {
+        const width2 = 700;
+        if (window.screen.width <= width2) {
+            return <App1 />
+        }
+        else {
             return <Carousel
                 swipeable={false}
                 draggable={false}
@@ -59,17 +213,17 @@ const Apps = () => {
                 dotListClass="custom-dot-list-style"
                 itemClass="carousel-item-padding-40-px">
                 {
-                  SliderData.map(product=>{
-                      return(<Link to={product.reciever}>
-                        <Box textAlign="center" className={classes.wrapper}>
-                          <img src={product.image} className={classes.image} />
-                          </Box>
-                      </Link>)
-                  })
+                    SliderData.map(product => {
+                        return (<Link to={product.reciever}>
+                            <Box textAlign="center" className={classes.wrapper}>
+                                <img src={product.image} className={classes.image} />
+                            </Box>
+                        </Link>)
+                    })
                 }
-            </Carousel> 
-      }
-  }
+            </Carousel>
+        }
+    }
     return (
         <><div class="main_div">
             <div class="top_div">
@@ -96,11 +250,13 @@ const Apps = () => {
                 </div>
 
                 <div className="image_div_1">
-                    <a href="/blog" style={{ textDecoration: "none" }}>
+                    {functiondeal1()}
+                    {/* <a href="/blog" style={{ textDecoration: "none" }}>
                         <div className="img_1">
-                            <img id="peacock" src="images/img1.jpeg" alt="mypic" />
-                            <h2 id="proff1" style={{ color: "#fff"}}>Proff.Shnatanu T behera</h2>
-                            <p id="para" style={{ color: "#fff"}}>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dignissimos nihil cupiditate quae culpa,
+                            <img id="peacock" src="images/FF1.jpg" alt="mypic" />
+                            {functiondeal1()}
+                            <h2 id="proff1" style={{ color: "#fff" }}>Proff.Shnatanu T behera</h2>
+                            <p id="para" style={{ color: "#fff" }}>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dignissimos nihil cupiditate quae culpa,
                                 quos labore autem dolores, pariatur laborum voluptates quaerat? Voluptas quidem, provident doloribus
                                 reiciendis nesciunt voluptates doloremque voluptatibus voluptatum. Ipsam, aspernatur ad.
                             </p>
@@ -108,7 +264,8 @@ const Apps = () => {
                     </a>
                     <a href="/blog1" style={{ textDecoration: "none" }}>
                         <div className="img_1">
-                            <img id="peacock" src="images/img2.jpeg" alt="mypic" />
+                            <img id="peacock" src="images/FF2.png" alt="mypic" />
+                            {functiondeal1()}
                             <h2 id="proff1" style={{ color: "#fff" }}>Proff.Shnatanu T behera</h2>
                             <p id="para" style={{ color: "#fff" }}>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dignissimos nihil cupiditate quae culpa,
                                 quos labore autem dolores, pariatur laborum voluptates quaerat? Voluptas quidem, provident doloribus
@@ -118,14 +275,15 @@ const Apps = () => {
                     </a>
                     <a href="/blog2" style={{ textDecoration: "none" }}>
                         <div className="img_1">
-                            <img id="peacock" src="images/img3.jpeg" alt="mypic" />
+                            <img id="peacock" src="images/FF3.png" alt="mypic" />
+                            {functiondeal1()}
                             <h2 id="proff1" style={{ color: "#fff" }}>Proff.Shnatanu T behera</h2>
                             <p id="para" style={{ color: "#fff" }}>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dignissimos nihil cupiditate quae culpa,
                                 quos labore autem dolores, pariatur laborum voluptates quaerat? Voluptas quidem, provident doloribus
                                 reiciendis nesciunt voluptates doloremque voluptatibus voluptatum. Ipsam, aspernatur ad.
                             </p>
                         </div>
-                    </a>
+                    </a> */}
                 </div>
                 {/* </div> */}
                 {/* <div className="family1"> */}
@@ -166,40 +324,47 @@ const Apps = () => {
                 {/* </div> */}
                 {/* <div className="family"> */}
                 <div className="flash_2" style={{ backgroundcolor: "#FAFCEE" }}>
-                    <div id="flash_inside">
-                        <h1 style={{color:"#fff"}}>MONDAY MORNING</h1>
+                    <div id="flash_inside" style={{ marginBottom: "40px" }}>
+                        <h1 style={{ color: "#fff" }}>MONDAY MATTER</h1>
                         <div className="underline"></div>
                     </div>
                 </div>
 
                 <div className="image_div_2">
-                    <div className="img_2">
-                        <img id="peacock_1" src="images/monday1.jpeg " alt="mypic" />
-                        <p id="para1" style={{ color: "#fff"}}>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dignissimos nihil cupiditate quae culpa,
-                            quos labore autem dolores, pariatur laborum voluptates quaerat? Voluptas quidem, provident doloribus
-                            reiciendis nesciunt voluptates doloremque voluptatibus voluptatum. Ipsam, aspernatur ad.
-                        </p>
-                    </div>
-                    <div className="img_2">
-                        <img id="peacock_1" src="images/monday2.jpeg" alt="mypic" />
-                        <p id="para1" style={{ color: "#fff"}}>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dignissimos nihil cupiditate quae culpa,
-                            quos labore autem dolores, pariatur laborum voluptates quaerat? Voluptas quidem, provident doloribus
-                            reiciendis nesciunt voluptates doloremque voluptatibus voluptatum. Ipsam, aspernatur ad.
-                        </p>
-                    </div>
-                    <div className="img_2">
-                        <img id="peacock_1" src="images/monday3.jpeg" alt="mypic" />
-                        <p id="para1" style={{ color: "#fff"}}>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dignissimos nihil cupiditate quae culpa,
-                            quos labore autem dolores, pariatur laborum voluptates quaerat? Voluptas quidem, provident doloribus
-                            reiciendis nesciunt voluptates doloremque voluptatibus voluptatum. Ipsam, aspernatur ad.
-                        </p>
-                    </div>
+                    {functiondeal2()}
+                    {/* <a href="/blog1" style={{ textDecoration: "none" }}>
+                        <div className="img_2">
+                            <img id="peacock_1" src="images/MM1.jpg " alt="mypic" />
+                            <p id="para1" style={{ color: "#fff" }}>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dignissimos nihil cupiditate quae culpa,
+                                quos labore autem dolores, pariatur laborum voluptates quaerat? Voluptas quidem, provident doloribus
+                                reiciendis nesciunt voluptates doloremque voluptatibus voluptatum. Ipsam, aspernatur ad.
+                            </p>
+                        </div>
+                    </a>
+                    <a href="/blog1" style={{ textDecoration: "none" }}>
+                        <div className="img_2">
+                            <img id="peacock_1" src="images/MM2.jpg" alt="mypic" />
+                            <p id="para1" style={{ color: "#fff" }}>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dignissimos nihil cupiditate quae culpa,
+                                quos labore autem dolores, pariatur laborum voluptates quaerat? Voluptas quidem, provident doloribus
+                                reiciendis nesciunt voluptates doloremque voluptatibus voluptatum. Ipsam, aspernatur ad.
+                            </p>
+                        </div>
+                    </a>
+                    <a href="/blog1" style={{ textDecoration: "none" }}>
+                        <div className="img_2">
+                            <img id="peacock_1" src="images/MM3.jpg" alt="mypic" />
+                            <p id="para1" style={{ color: "#fff" }}>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dignissimos nihil cupiditate quae culpa,
+                                quos labore autem dolores, pariatur laborum voluptates quaerat? Voluptas quidem, provident doloribus
+                                reiciendis nesciunt voluptates doloremque voluptatibus voluptatum. Ipsam, aspernatur ad.
+                            </p>
+                        </div>
+                    </a> */}
                 </div>
                 {/* </div> */}
                 {/* <div className="family"> */}
                 <div className="flash_2" style={{ backgroundcolor: "#FAFCEE" }}>
                     <div id="flash_inside">
-                        <h1 style={{color:"#fff"}}>MORE ON THIS....</h1>
+                        <h1 style={{ color: "#fff" }}>MORE ON THIS....</h1>
                         <div className="underline"></div>
                     </div>
                 </div>
@@ -233,15 +398,16 @@ const Apps = () => {
             </div>
 
             <div className="social_media_part">
+                {/* {functiondeal3()} */}
                 <div className="logo_part">
                     <div className="img_3">
-                        <a href=""><img src="images/facebook.png" style={{ height: "60px" }} alt="mypic" /></a>
+                        <a href=""><img src="images/facebook.png" id="logoimg" alt="mypic"/></a>
                     </div>
                     <div className="img_3">
-                        <a href="https://instagram.com/nitr_ics?utm_medium=copy_link"><img src="images/instagram.png" style={{ height: "60px" }} alt="mypic" /></a>
+                        <a href="https://instagram.com/nitr_ics?utm_medium=copy_link"><img src="images/instagram.png" id="logoimg"  alt="mypic" /></a>
                     </div>
                     <div className="img_3">
-                        <a href="https://www.linkedin.com/company/incers-nitr"><img src="images/linkedin.png" style={{ height: "60px" }} alt="mypic" /></a>
+                        <a href="https://www.linkedin.com/company/incers-nitr"><img src="images/linkedin.png" id="logoimg"  alt="mypic" /></a>
                     </div>
                 </div>
                 <div className="end_bar">

@@ -30,11 +30,12 @@ body {
   background-size: 100% 100%;
 }
 .family1{
-  background-image:url("https://thumbs.gfycat.com/ForkedInexperiencedGrouse.webp");
-  /* background-image: url("https://i.pinimg.com/originals/62/39/4d/62394d753859943e6a1a36443ef78795.gif"); */
+  /* background-image:url("https://thumbs.gfycat.com/ForkedInexperiencedGrouse.webp"); */
+  background-image: url("https://i.pinimg.com/originals/62/39/4d/62394d753859943e6a1a36443ef78795.gif");
   /* background-image:url("https://camo.githubusercontent.com/65475c61a0b084c0f8aafef3cef5585752f6771b326c33a3a8c70e020c4afe6d/68747470733a2f2f692e70696e696d672e636f6d2f6f726967696e616c732f33302f62382f31372f33306238313734633666316130376530616639626366343166656333613566352e676966"); */
   background-repeat: no-repeat;
-  background-size: 100% 100%;
+  background-size: 100% 100%;overflow-x: hidden;
+  object-fit: inherit;
 }
 .main_div {
   width: 100vw;
@@ -101,7 +102,7 @@ body {
 }
 .image_div_1 {
   width: 100%;
-  height: 720px;
+  height: 700px;
   /* background: blue; */
   /* background: #fafcee; */
   background:"#fff";
@@ -117,7 +118,7 @@ body {
 }
 
 img {
-  border-radius: 20px;
+  border-radius: 12px;
   box-shadow: 2px 10px 10px -6px #000;
 }
 .img_1 {
@@ -132,9 +133,11 @@ img {
   transform: scale(1.05, 1.05);
   border-radius: 20px;
 }
+
 #para {
   width: 250px;
-  height: 350px;
+  /* height: 350px; */
+  height:270px;
   padding: 20px;
   /* color:#fff; */
   color: #000;
@@ -146,7 +149,9 @@ img {
   display: flex;
   justify-content: center;
   background-image: url("images/img4.jpg");
-  background-size: 100%;
+  background-size: 100% 100%;
+  overflow-x: hidden;
+  object-fit: contain;
   background-repeat: no-repeat;
   background-color: rgba(0, 0, 0, 0.7);
   background-blend-mode: darken;
@@ -175,9 +180,12 @@ img {
 .flash_2 {
   display: flex;
   padding-left: 320px;
-  padding-top: 30px;
+  padding-top: 50px;
   /* color:#fff; */
   color: #000;
+}
+#flash_inside{
+  margin-bottom: 30px;
 }
 .image_div_2 {
   width: 100%;
@@ -205,7 +213,8 @@ img {
 }
 #para1 {
   width: 250px;
-  height: 350px;
+  /* height: 350px; */
+    height: 280px;
   padding: 20px;
   color: #000;
 }
@@ -222,6 +231,9 @@ img {
   flex-direction: row;
   text-align: center;
   justify-content: center;
+}
+#logoimg{
+  height:60px;
 }
 .img_3 {
   margin: 20px;
@@ -364,16 +376,21 @@ img {
     display: inline-block;
     padding-left: 120px;
     padding-top: 50px;
+    padding-bottom: 70px;
     /* color:#fff; */
     color: #000;
   }
   .flash_2 {
     display: inline-block;
     padding-left: 120px;
-    padding-top: 50px;
+    padding-top: 120px;
     padding-bottom: 50px;
     /* color:#fff; */
     color: #000;
+  }
+  #flash_inside{
+    margin-bottom:-35px;
+    margin-top: 30px;
   }
   .proffimage{
     display:block;
@@ -420,7 +437,7 @@ img {
    font-size: 45px;
  }
   .gallery_div {
-    width: 1000px;
+    width: 100%;
     height: 500px;
     /* display:flex; */
     /* flex-direction: column; */
@@ -454,27 +471,38 @@ img {
   }
   .img_1,
   .img_2 {
-    margin-left: 2%;
-    margin-right: 2%;
-    margin-top: 60px;
+    margin-left: 8%;
+    /* margin-right: 2%; */
+    margin-top: 50px;
     padding-top: 30px;
     margin-bottom: 70px;
     width: 800px;
-    height: 1800px;
-  }
-  #peacock,
-  #peacock_1 {
-    width: 700px;
     height: 1000px;
-    margin-left: 70px;
+    border: 0px;
+    border-radius: 20px;
+  }
+  #peacock {
+    width: 720px;
+    height: 950px;
+    margin-left: 35px;
+    border:4px solid white;
+    padding:4px;
+    /* margin-left:70px; */
+  }
+  #peacock_1 {
+    width: 720px;
+    height: 950px;
+    margin-left: 35px;
+    border:4px solid white;
+    padding:4px;
   }
 
-  #para,
+  /* #para,
   #para1 {
     margin-left: 90px;
     width: 600px;
     font-size: 40px;
-  }
+  } */
   #proff1 {
     margin-top: 40px;
     height: 100px;
@@ -507,6 +535,9 @@ img {
     margin: auto;
     /* padding:30px; */
   }
+  #logoimg{
+    height:100px
+  }
   .nav_hover,
   .img_3 {
     padding: 15px;
@@ -518,9 +549,6 @@ img {
   .logo_part {
     height: 150px;
     width: 1000px;
-  }
-  .img_3 {
-    height: 50px;
   }
 }
 @media(min-width:1048px){

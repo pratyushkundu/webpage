@@ -18,7 +18,7 @@
     right: 32px;
     font-size: 3rem;
     color: #000;
-    color:#fff;
+    /* color:#fff; */
     z-index: 10;
     cursor: pointer;
     user-select: none;
@@ -30,7 +30,7 @@
     left: 32px;
     font-size: 3rem;
     color: #000;
-    color:#fff;
+    /* color:#fff; */
     z-index: 10;
     cursor: pointer;
     user-select: none;
@@ -82,7 +82,7 @@
     top: 50%;
     right: 32px;
     font-size: 3rem;
-    color: #000;
+    color: white;
     z-index: 10;
     cursor: pointer;
     user-select: none;
@@ -93,7 +93,7 @@
     top: 50%;
     left: 32px;
     font-size: 3rem;
-    color: #000;
+    color: white;
     z-index: 10;
     cursor: pointer;
     user-select: none;
@@ -130,4 +130,26 @@
         justify-content: center;
         align-items: center;
       }
+      .right-arrow1 {
+        position: absolute;
+        top: 50%;
+        right: 32px;
+        font-size: 5rem;
+        color: white;
+        z-index: 10;
+        cursor: pointer;
+        user-select: none;
+      }
+      
+      .left-arrow1 {
+        position: absolute;
+        top: 50%;
+        left: 32px;
+        font-size: 5rem;
+        color: white;
+        z-index: 10;
+        cursor: pointer;
+        user-select: none;
+      }
+      
   }
