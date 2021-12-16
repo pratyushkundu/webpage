@@ -1,3 +1,4 @@
+
 * {
   margin: 0;
   padding: 0;
@@ -589,11 +590,11 @@ img {
     height: 180px;
   }
 }
-@media (max-width: 482px) {
+@media (max-width: 479px) {
   .flash_1 {
     display: inline-block;
     /* padding-left: 120px; */
-    padding-left: 90px;
+    padding-left: 70px;
     /* padding-top: 50px; */
     padding-top: 30px;
     padding-bottom: 70px;
@@ -603,22 +604,22 @@ img {
   .flash_2 {
     display: inline-block;
     /* padding-left: 120px; */
-    padding-left: 90px;
+    padding-left: 70px;
     padding-top: 50px;
     /* padding-top: 120px; */
     /* padding-bottom: 50px; */
-    padding-bottom: 15px;
+    padding-bottom: 10px;
     /* color:#fff; */
     color: #000;
   }
   #flash_inside{
     margin-bottom:-35px;
-    margin-top: 5px;
+    margin-top: -6px;
     font-size: 11px;
   }
    #flash_inside1{
     margin-bottom:15px;
-    margin-top: -10px;
+    margin-top: -30px;
   }
   .proffimage{
     display:block;
@@ -635,8 +636,9 @@ img {
     height:600px;
     margin-left :40%;
   }
+  
   .main_div{
-    width:106%;
+    width:100%;
     /* width:1000px; */
   }
   .infodiv1{
@@ -705,9 +707,9 @@ img {
   }
   .img_1,
   .img_2 {
-    margin-left: 8%;
+    margin-left: 7%;
     /* margin-top: 50px; */
-    padding-top: 30px;
+    padding-top: 10px;
     /* margin-bottom: 70px; */
     margin-bottom:-25px;
     /* width: 800px; */
@@ -719,20 +721,20 @@ img {
   }
   #peacock {
     /* width: 720px; */
-    width:70%;
+    width:80%;
     /* height: 950px; */
     height:300px;
-    margin-left: 25px;
+    margin-left: 15px;
     border:2px solid white;
     padding:2px;
     /* margin-left:70px; */
   }
   #peacock_1 {
     /* width: 720px; */
-    width:70%;
+    width:80%;
     /* height: 950px; */
     height:300px;
-    margin-left: 25px;
+    margin-left: 15px;
     border:2px solid white;
     padding:2px;
   }
@@ -766,18 +768,20 @@ img {
     /* font-size: 50px;; */
   }
   #logo {
-    margin: auto;
+    /* margin: auto; */
     margin-left: -3px;
+    width:20%;
   }
   .nav_bar,
   .info_div {
     /* font-size: 23px;; */
-    font-size: 9px;
+    width:80%;
+    font-size: 5px;
     display: flex;
-    flex-direction: row;
-    justify-content: space-around;
+    /* flex-direction: row; */
+    /* justify-content: space-around; */
     text-align: center;
-    margin: auto;
+    /* margin: auto; */
     /* padding:30px; */
   }
   #logoimg{
@@ -786,6 +790,9 @@ img {
     border-radius: 7px;
   }
   .nav_hover,
+  .img_3 {
+    font-size: 14px;
+  }
   .img_3 {
     padding: 15px;
   }
