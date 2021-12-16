@@ -163,7 +163,7 @@
     .image1 {
       /* height: 1000px; */
       margin-left:10%;
-      height:400px;
+      height:500px;
       /* width:750px; */
       width:80%;
         border-radius: 10px;
@@ -171,7 +171,7 @@
       .slider1 {
         position: relative;
         /* height: 1200px; */
-        height:500px;
+        height:600px;
         display: flex;
         justify-content: center;
         align-items: center;
