@@ -363,7 +363,7 @@ const Apps = () => {
                 {/* </div> */}
                 {/* <div className="family"> */}
                 <div className="flash_2" style={{ backgroundcolor: "#FAFCEE" }}>
-                    <div id="flash_inside">
+                    <div id="flash_inside1">
                         <h1 style={{ color: "#fff" }}>MORE ON THIS....</h1>
                         <div className="underline"></div>
                     </div>
