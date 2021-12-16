@@ -632,7 +632,8 @@ img {
     border:none;
   }
   .imagediv img{
-    width: 600px;
+    /* width: 600px; */
+    width:100%;
     height:600px;
     margin-left :40%;
   }
@@ -680,20 +681,25 @@ img {
     /* text-align: center; */
   }
   .gallery {
-    width: 1000px;
-    height: 4000px;
+    width: 100%;
+    height:4300px;
   }
   #gallerydiv {
-    height: 600px;
-    width: 900px;
-    margin: 20px;
+    height: 700px;
+    /* width: 900px; */
+    width:90%;
+    /* margin: 20px; */
   }
   #paragraph {
-    font-size: 30px;
+    font-size: 20px;
+    margin-left:9px;
+    margin-right:6px;
   }
   #paragraphmemo {
-    font-size: 30px;
-    height:600px;
+    margin-left:20px;
+    margin-right:17px;
+    font-size: 20px;
+    height:700px;
   }
   .image_div_1,
   .image_div_2 {
@@ -733,7 +739,7 @@ img {
     /* width: 720px; */
     width:80%;
     /* height: 950px; */
-    height:300px;
+    height:400px;
     margin-left: 15px;
     border:2px solid white;
     padding:2px;
