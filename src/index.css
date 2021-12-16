@@ -462,8 +462,8 @@ img {
     /* text-align: center; */
   }
   .gallery {
-    width: 100%;
-    height: 3200px;
+    width: 90%;
+    height: 3500px;
   }
   #gallerydiv {
     height: 600px;
@@ -471,13 +471,14 @@ img {
     margin: 20px;
   }
   #paragraph {
-    font-size: 18x;
-    margin-right:10px;
+    font-size: 25x;
+    margin-left:10px;
+    width:107%;
   }
   #paragraphmemo {
-    width:85%;
-    font-size: 20px;
-    height:700px;
+    width:90%;
+    font-size: 25px;
+    height:1120px;
 
   }
   .image_div_1,
@@ -592,7 +593,7 @@ img {
   }
   .social_media_part {
     width: 100%;
-    height: 180px;
+    height: 350px;
   }
 }
 @media (max-width: 479px) {
@@ -688,7 +689,7 @@ img {
   }
   .gallery {
     width: 90%;
-    height:4950px;
+    height:5020px;
   }
   #gallerydiv {
     height: 700px;
