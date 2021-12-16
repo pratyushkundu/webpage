@@ -462,20 +462,23 @@ img {
     /* text-align: center; */
   }
   .gallery {
-    width: 1000px;
-    height: 4000px;
+    width: 100%;
+    height: 3200px;
   }
   #gallerydiv {
     height: 600px;
-    width: 900px;
+    width: 90%;
     margin: 20px;
   }
   #paragraph {
-    font-size: 30px;
+    font-size: 18x;
+    margin-right:10px;
   }
   #paragraphmemo {
-    font-size: 30px;
-    height:600px;
+    width:85%;
+    font-size: 20px;
+    height:700px;
+
   }
   .image_div_1,
   .image_div_2 {
@@ -684,8 +687,8 @@ img {
     /* text-align: center; */
   }
   .gallery {
-    width: 100%;
-    height:4300px;
+    width: 90%;
+    height:4950px;
   }
   #gallerydiv {
     height: 700px;
@@ -694,15 +697,17 @@ img {
     /* margin: 20px; */
   }
   #paragraph {
+    width:107%;
     font-size: 20px;
-    margin-left:9px;
-    margin-right:6px;
+    margin-left:3px;
+    /* margin-right:-2px; */
   }
   #paragraphmemo {
+    width:100%;
     margin-left:20px;
-    margin-right:17px;
+    /* margin-right:2px; */
     font-size: 20px;
-    height:700px;
+    height:850px;
   }
   .image_div_1,
   .image_div_2 {
