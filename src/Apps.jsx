@@ -45,7 +45,7 @@ const Apps = () => {
                     <div className="img_1">
                         <img id="peacock" src="images/FF1.jpg" alt="mypic" />
 
-                        <h2 id="proff1" style={{ color: "#fff" }}>Proff.Shnatanu T behera</h2>
+                        <h2 id="proff1" style={{ color: "#fff" }}>Proff.Shantanu T behera</h2>
                         <p id="para" style={{ color: "#fff" }}>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dignissimos nihil cupiditate quae culpa,
                             quos labore autem dolores, pariatur laborum voluptates quaerat? Voluptas quidem, provident doloribus
                             reiciendis nesciunt voluptates doloremque voluptatibus voluptatum. Ipsam, aspernatur ad.
@@ -56,7 +56,7 @@ const Apps = () => {
                     <div className="img_1">
                         <img id="peacock" src="images/FF2.png" alt="mypic" />
 
-                        <h2 id="proff1" style={{ color: "#fff" }}>Proff.Shnatanu T behera</h2>
+                        <h2 id="proff1" style={{ color: "#fff" }}>Proff.Ranjan Das</h2>
                         <p id="para" style={{ color: "#fff" }}>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dignissimos nihil cupiditate quae culpa,
                             quos labore autem dolores, pariatur laborum voluptates quaerat? Voluptas quidem, provident doloribus
                             reiciendis nesciunt voluptates doloremque voluptatibus voluptatum. Ipsam, aspernatur ad.
@@ -67,7 +67,7 @@ const Apps = () => {
                     <div className="img_1">
                         <img id="peacock" src="images/FF3.png" alt="mypic" />
 
-                        <h2 id="proff1" style={{ color: "#fff" }}>Proff.Shnatanu T behera</h2>
+                        <h2 id="proff1" style={{ color: "#fff" }}>Proff. Beda Mohanty</h2>
                         <p id="para" style={{ color: "#fff" }}>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dignissimos nihil cupiditate quae culpa,
                             quos labore autem dolores, pariatur laborum voluptates quaerat? Voluptas quidem, provident doloribus
                             reiciendis nesciunt voluptates doloremque voluptatibus voluptatum. Ipsam, aspernatur ad.
