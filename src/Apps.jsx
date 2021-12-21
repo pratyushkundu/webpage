@@ -45,8 +45,8 @@ const Apps = () => {
                     <div className="img_1">
                         <img id="peacock" src="images/FF1.jpg" alt="mypic" />
 
-                        <h2 id="proff1" style={{ color: "#fff" }}>Proff.Shantanu T behera</h2>
-                        <p id="para" style={{ color: "#fff" }}>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dignissimos nihil cupiditate quae culpa,
+                        <h2 id="proff1" style={{ color: "#000" }}>Proff.Shantanu T behera</h2>
+                        <p id="para" style={{ color: "#000" }}>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dignissimos nihil cupiditate quae culpa,
                             quos labore autem dolores, pariatur laborum voluptates quaerat? Voluptas quidem, provident doloribus
                             reiciendis nesciunt voluptates doloremque voluptatibus voluptatum. Ipsam, aspernatur ad.
                         </p>
@@ -56,8 +56,8 @@ const Apps = () => {
                     <div className="img_1">
                         <img id="peacock" src="images/FF2.png" alt="mypic" />
 
-                        <h2 id="proff1" style={{ color: "#fff" }}>Proff.Ranjan Das</h2>
-                        <p id="para" style={{ color: "#fff" }}>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dignissimos nihil cupiditate quae culpa,
+                        <h2 id="proff1" style={{ color: "#000" }}>Proff.Ranjan Das</h2>
+                        <p id="para" style={{ color: "#000" }}>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dignissimos nihil cupiditate quae culpa,
                             quos labore autem dolores, pariatur laborum voluptates quaerat? Voluptas quidem, provident doloribus
                             reiciendis nesciunt voluptates doloremque voluptatibus voluptatum. Ipsam, aspernatur ad.
                         </p>
@@ -67,8 +67,8 @@ const Apps = () => {
                     <div className="img_1">
                         <img id="peacock" src="images/FF3.png" alt="mypic" />
 
-                        <h2 id="proff1" style={{ color: "#fff" }}>Proff.Beda Mohanty</h2>
-                        <p id="para" style={{ color: "#fff" }}>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dignissimos nihil cupiditate quae culpa,
+                        <h2 id="proff1" style={{ color: "#000" }}>Proff.Beda Mohanty</h2>
+                        <p id="para" style={{ color: "#000" }}>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dignissimos nihil cupiditate quae culpa,
                             quos labore autem dolores, pariatur laborum voluptates quaerat? Voluptas quidem, provident doloribus
                             reiciendis nesciunt voluptates doloremque voluptatibus voluptatum. Ipsam, aspernatur ad.
                         </p>
@@ -104,7 +104,7 @@ const Apps = () => {
             return <><a href="/blog1" style={{ textDecoration: "none" }}>
                 <div className="img_2">
                     <img id="peacock_1" src="images/MM1.jpg " alt="mypic" />
-                    <p id="para1" style={{ color: "#fff" }}>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dignissimos nihil cupiditate quae culpa,
+                    <p id="para1" style={{ color: "#000" }}>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dignissimos nihil cupiditate quae culpa,
                         quos labore autem dolores, pariatur laborum voluptates quaerat? Voluptas quidem, provident doloribus
                         reiciendis nesciunt voluptates doloremque voluptatibus voluptatum. Ipsam, aspernatur ad.
                     </p>
@@ -113,7 +113,7 @@ const Apps = () => {
                 <a href="/blog1" style={{ textDecoration: "none" }}>
                     <div className="img_2">
                         <img id="peacock_1" src="images/MM2.jpg" alt="mypic" />
-                        <p id="para1" style={{ color: "#fff" }}>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dignissimos nihil cupiditate quae culpa,
+                        <p id="para1" style={{ color: "#000" }}>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dignissimos nihil cupiditate quae culpa,
                             quos labore autem dolores, pariatur laborum voluptates quaerat? Voluptas quidem, provident doloribus
                             reiciendis nesciunt voluptates doloremque voluptatibus voluptatum. Ipsam, aspernatur ad.
                         </p>
@@ -122,7 +122,7 @@ const Apps = () => {
                 <a href="/blog1" style={{ textDecoration: "none" }}>
                     <div className="img_2">
                         <img id="peacock_1" src="images/MM3.jpg" alt="mypic" />
-                        <p id="para1" style={{ color: "#fff" }}>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dignissimos nihil cupiditate quae culpa,
+                        <p id="para1" style={{ color: "#000" }}>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dignissimos nihil cupiditate quae culpa,
                             quos labore autem dolores, pariatur laborum voluptates quaerat? Voluptas quidem, provident doloribus
                             reiciendis nesciunt voluptates doloremque voluptatibus voluptatum. Ipsam, aspernatur ad.
                         </p>
@@ -244,7 +244,7 @@ const Apps = () => {
             <div className="family1">
                 <div className="flash_1" style={{ backgroundcolor: "#FAFCEE" }}>
                     <div id="flash_inside">
-                        <h1 style={{ color: "#fff" }}>FLASHBACK FRIDAY</h1>
+                        <h1 style={{ color: "#000" }}>FLASHBACK FRIDAY</h1>
                         <div className="underline"></div>
                     </div>
                 </div>
@@ -289,7 +289,7 @@ const Apps = () => {
                 {/* <div className="family1"> */}
                 <div className="flash_1" style={{ backgroundcolor: "#FAFCEE" }}>
                     <div id="flash_inside">
-                        <h1 style={{ color: "#fff" }}>MORE ON THIS.....</h1>
+                        <h1 style={{ color: "#000" }}>MORE ON THIS.....</h1>
                         <div className="underline"></div>
                     </div>
                 </div>
@@ -325,7 +325,7 @@ const Apps = () => {
                 {/* <div className="family"> */}
                 <div className="flash_2" style={{ backgroundcolor: "#FAFCEE" }}>
                     <div id="flash_inside" style={{ marginBottom: "40px" }}>
-                        <h1 style={{ color: "#fff" }}>MONDAY MATTER</h1>
+                        <h1 style={{ color: "#000" }}>MONDAY MATTER</h1>
                         <div className="underline"></div>
                     </div>
                 </div>
@@ -364,7 +364,7 @@ const Apps = () => {
                 {/* <div className="family"> */}
                 <div className="flash_2" style={{ backgroundcolor: "#FAFCEE" }}>
                     <div id="flash_inside1">
-                        <h1 style={{ color: "#fff" }}>MORE ON THIS....</h1>
+                        <h1 style={{ color: "#000" }}>MORE ON THIS....</h1>
                         <div className="underline"></div>
                     </div>
                 </div>

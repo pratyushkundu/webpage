@@ -32,7 +32,7 @@ body {
 }
 .family1{
   /* background-image:url("https://thumbs.gfycat.com/ForkedInexperiencedGrouse.webp"); */
-  background-image: url("https://i.pinimg.com/originals/62/39/4d/62394d753859943e6a1a36443ef78795.gif");
+  /* background-image: url("https://i.pinimg.com/originals/62/39/4d/62394d753859943e6a1a36443ef78795.gif"); */
   /* background-image:url("https://camo.githubusercontent.com/65475c61a0b084c0f8aafef3cef5585752f6771b326c33a3a8c70e020c4afe6d/68747470733a2f2f692e70696e696d672e636f6d2f6f726967696e616c732f33302f62382f31372f33306238313734633666316130376530616639626366343166656333613566352e676966"); */
   background-repeat: no-repeat;
   background-size: 100% 100%;overflow-x: hidden;
@@ -1081,7 +1081,7 @@ img {
 }
 
 .headingname{
-  animation:type 4s steps(31);
+  animation:type 6s steps(31);
   overflow: hidden;
   white-space: nowrap;
   animation-iteration-count: infinite;
