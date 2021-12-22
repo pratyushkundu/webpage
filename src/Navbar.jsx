@@ -32,15 +32,14 @@ const navbar = () => {
     const w = 700;
     if (window.screen.width <= 700) {
         return (<>
-            {/* <NavLink to="/" exact activeClassName="active_class" style={{ textDecoration: "none" }}> <h2 className="nav_hover" ><i class="fa fa-home"></i></h2></NavLink>
+            <NavLink to="/" exact activeClassName="active_class" style={{ textDecoration: "none" }}> <h2 className="nav_hover" ><i class="fa fa-home"></i></h2></NavLink>
             <NavLink to="/about" exact activeClassName="active_class" style={{ textDecoration: "none" }}> <h2 className="nav_hover" >About</h2></NavLink>
             <NavLink to="/members" exact activeClassName="active_class" style={{ textDecoration: "none" }}> <h2 className="nav_hover" ><i class="fa fa-user-secret"></i></h2></NavLink>
             <NavLink to="/contact" exact activeClassName="active_class" style={{ textDecoration: "none" }}> <h2 className="nav_hover" ><i class="fa fa-phone"></i></h2></NavLink>
-            <NavLink to="/contact" exact activeClassName="active_class" style={{ textDecoration: "none" }}> <h2 className="nav_hover" ><i class="fa fa-calendar"></i></h2></NavLink> */}
-            <nav>
+            <NavLink to="/contact" exact activeClassName="active_class" style={{ textDecoration: "none" }}> <h2 className="nav_hover" ><i class="fa fa-calendar"></i></h2></NavLink>
+            {/* <nav>
                 <div class="openMenu"><i class="fa fa-bars"></i></div>
                 <ul class="mainMenu">
-                    {/* <li><a href="#">Home</a></li> */}
                     <li><a href="#">About</a></li>
                     <li><a href="#">Members</a></li>
                     <li><a href="#">Contact</a></li>
@@ -52,7 +51,7 @@ const navbar = () => {
                         <i class="fa fa-linkedin"></i>
                     </span>
                 </ul>
-            </nav>
+            </nav> */}
         </>)
     }
     else {
