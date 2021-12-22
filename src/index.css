@@ -1,3 +1,5 @@
+@import url('https://stackpath.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&family=Roboto+Mono:wght@200&display=swap');
 
 * {
   margin: 0;
@@ -56,9 +58,9 @@ body {
   width: 80px;
   height: 60px;
   /* background-color: red; */
-  background: #000;
+  /* background: #000; */
   margin: 10px;
-  padding: 15px;
+  padding: 10px;
   text-align: center;
 }
 .nav_bar {
@@ -268,6 +270,8 @@ img {
 }
 .nav_hover_1 {
   color: #000;
+  /* font-family: 'Roboto Condensed', sans-serif;
+font-family: 'Roboto Mono', monospace; */
 }
 .nav_hover:hover {
   color: aqua;
@@ -304,6 +308,30 @@ img {
 }
 .section{
   font-size: 20px;
+}
+.hello_div .nav_hover{
+  font-family: 'Roboto Condensed', sans-serif;
+  font-family: 'Roboto Mono', monospace;
+}
+.hello_div .menu_1{
+  display: none;
+}
+
+.hello_div:hover .menu_1{
+  display: block;
+  position:absolute;
+  margin-top:15px;
+  margin-left: 5px;
+}
+.hello_div:hover .menu_1 ul{
+  display:block;
+  margin:10px;
+}
+.hello_div:hover .menu_1 ul li{
+   width:120px;
+   padding:10px;
+   border-bottom: 1px  dotted #fff;
+   background: transparent;
 }
 
 @media (min-width: 770px) and (max-width: 1050px) {
@@ -1097,3 +1125,99 @@ img {
     width:0ch;
   }
 }
+nav {
+  background: #000;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+}
+nav .mainMenu {
+  display: flex;
+  list-style: none;
+}
+nav .mainMenu li a {
+  display: inline-block;
+  padding: 15px;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #fff;
+  font-size: 1.3rem;
+}
+nav .mainMenu li a:hover {
+  background: rgb(255,94,0);
+}
+nav .openMenu {
+  font-size: 1.4rem;
+  margin: 10px;
+  margin-left: 200px;
+  display: none;
+  cursor: pointer;
+
+}
+nav .mainMenu .closeMenu , .icons i {
+  font-size: 2rem;
+  display: none;
+  cursor: pointer;
+}
+.fa-facebook:hover {color: rgb(0, 110, 255);}
+.fa-instagram:hover {color: rgb(255, 0, 191);}
+.fa-linkedin:hover {color: rgb(255, 123, 0);}
+
+nav .logo {
+  margin: 6px;
+  font-size: 5px;
+  cursor: pointer;
+}
+@media(max-width: 800px){
+  nav .mainMenu {
+      height: 100vh;
+      position: fixed;
+      top: 0;
+      right: 0;
+      left: 0;
+      z-index: 10;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      background: #000;
+      transition: top 1s ease;
+      display: none;
+  }
+  nav .mainMenu .closeMenu {
+      display: block;
+      position: absolute;
+      top: 20px;
+      right: 20px;
+
+  }
+  nav .openMenu {
+      display: block;
+  }
+  nav .mainMenu li a:hover {
+      background: none;
+      color: rgb(255, 123, 0);
+      font-size: 1.6rem;
+  }
+  .icons i {
+      display: inline-block;
+      padding: 12px;
+  }
+}
+/* .img_3 .fa-facebook,.fa-instagram,.fa-linkedin{
+  font-size: 3rem;
+} */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
