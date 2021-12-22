@@ -215,7 +215,7 @@ img {
   border-radius: 20px;
 }
 #para1 {
-  width: 250px;
+  width: 280px;
   /* height: 350px; */
     height: 280px;
   padding: 20px;
@@ -631,7 +631,7 @@ font-family: 'Roboto Mono', monospace; */
     padding-left: 70px;
     /* padding-top: 50px; */
     padding-top: 30px;
-    padding-bottom: 70px;
+    padding-bottom: 20px;
     /* color:#fff; */
     color: #000;
   }
@@ -642,7 +642,7 @@ font-family: 'Roboto Mono', monospace; */
     padding-top: 50px;
     /* padding-top: 120px; */
     /* padding-bottom: 50px; */
-    padding-bottom: 10px;
+    padding-bottom: 0px;
     /* color:#fff; */
     color: #000;
   }
