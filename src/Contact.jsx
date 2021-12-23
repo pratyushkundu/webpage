@@ -83,14 +83,15 @@ const Contact = () => {
             </div> */}
             <div class="social_media_part">
                 <div class="logo_part">
-                    <div class="img_3">
-                        <img src="images/facebook.png" style={{ height: "60px" }} alt="mypic" />
+                <div className="img_3">
+                        <a href="">
+                        <i class="fa fa-facebook"></i></a>
                     </div>
-                    <div class="img_3">
-                        <img src="images/instagram.png" style={{ height: "60px" }} alt="mypic" />
+                    <div className="img_3">
+                        <a href="https://instagram.com/nitr_ics?utm_medium=copy_link">  <i class="fa fa-instagram"></i></a>
                     </div>
-                    <div class="img_3">
-                        <img src="images/linkedin.png" style={{ height: "60px" }} alt="mypic" />
+                    <div className="img_3">
+                        <a href="https://www.linkedin.com/company/incers-nitr"><i class="fa fa-linkedin"></i></a>
                     </div>
                 </div>
                 <div class="end_bar">

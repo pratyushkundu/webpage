@@ -94,8 +94,8 @@ const About = () => {
         </div>
     </div> */}
             <div class="social_media_part">
-            <div className="logo_part">
-                    <div className="img_3">
+             <div className="logo_part">
+                    {/* <div className="img_3">
                         <a href=""><img src="images/facebook.png" id="logoimg" alt="mypic"/></a>
                     </div>
                     <div className="img_3">
@@ -103,8 +103,18 @@ const About = () => {
                     </div>
                     <div className="img_3">
                         <a href="https://www.linkedin.com/company/incers-nitr"><img src="images/linkedin.png" id="logoimg"  alt="mypic" /></a>
+                    </div> */}
+                <div className="img_3">
+                        <a href="">
+                        <i class="fa fa-facebook"></i></a>
                     </div>
-                </div>
+                    <div className="img_3">
+                        <a href="https://instagram.com/nitr_ics?utm_medium=copy_link">  <i class="fa fa-instagram"></i></a>
+                    </div>
+                    <div className="img_3">
+                        <a href="https://www.linkedin.com/company/incers-nitr"><i class="fa fa-linkedin"></i></a>
+                    </div>
+                </div> 
                 <div class="end_bar">
                     {/* <div class="info_div">
                 <h2 class="nav_hover_1">Home</h2>
