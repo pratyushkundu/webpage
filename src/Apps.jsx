@@ -401,13 +401,14 @@ const Apps = () => {
                 {/* {functiondeal3()} */}
                 <div className="logo_part">
                     <div className="img_3">
-                        <a href=""><img src="images/facebook.png" id="logoimg" alt="mypic"/></a>
+                        <a href="">
+                        <i class="fa fa-facebook"></i></a>
                     </div>
                     <div className="img_3">
-                        <a href="https://instagram.com/nitr_ics?utm_medium=copy_link"><img src="images/instagram.png" id="logoimg"  alt="mypic" /></a>
+                        <a href="https://instagram.com/nitr_ics?utm_medium=copy_link">  <i class="fa fa-instagram"></i></a>
                     </div>
                     <div className="img_3">
-                        <a href="https://www.linkedin.com/company/incers-nitr"><img src="images/linkedin.png" id="logoimg"  alt="mypic" /></a>
+                        <a href="https://www.linkedin.com/company/incers-nitr"><i class="fa fa-linkedin"></i></a>
                     </div>
                 </div>
                 <div className="end_bar">
