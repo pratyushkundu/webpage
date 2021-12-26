@@ -579,10 +579,10 @@ const Apps = () => {
 {/* <a href="#"><i class="fa fa-telegram"></i></a> */}
 </section>
 <section>
-<a href="#">Home</a>
-<a href="#">About</a>
-<a href="#">Contact</a>
-<a href="#">Members</a>
+<a href="#" style={{fontSize:"1.3rem"}}>Home</a>
+<a href="#" style={{fontSize:"1.3rem"}}>About</a>
+<a href="#" style={{fontSize:"1.3rem"}}>Contact</a>
+<a href="#" style={{fontSize:"1.3rem"}}>Members</a>
 {/* <a href="#">Member</a> */}
 {/* <a href="#">Contact Us</a> */}
 </section>
