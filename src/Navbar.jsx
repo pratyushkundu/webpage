@@ -1,6 +1,6 @@
 import { NavLink } from 'react-router-dom';
 import { makeStyles } from '@material-ui/core';
-import React, { useEffect,useState } from 'react'
+import React, { useEffect, useState } from 'react'
 
 const usestyles = makeStyles({
     menu: {
@@ -14,7 +14,7 @@ const usestyles = makeStyles({
 });
 
 const Navbar1 = () => {
-    const [open,setOpen]= useState('');
+    const [open, setOpen] = useState('');
 
 
     function show() {
@@ -26,15 +26,15 @@ const Navbar1 = () => {
         const mainMenu = document.querySelector('.mainMenu');
         mainMenu.style.top = '-100%';
     }
-    const functionopen =()=>{
+    const functionopen = () => {
         setOpen(show);
     }
-    const functionclose = ()=>{
+    const functionclose = () => {
         setOpen(close)
     }
-    
 
- 
+
+
 
     // openMenu.addEventListener('click', show);
     // closeMenu.addEventListener('click', close);
@@ -52,15 +52,16 @@ const Navbar1 = () => {
             <nav>
                 <div class="openMenu" onClick={functionopen}><i class="fa fa-bars"></i></div>
                 <ul class="mainMenu">
-                    <li><a href="#">About</a></li>
-                    <li><a href="#">Members</a></li>
-                    <li><a href="#">Contact</a></li>
-                    <li><a href="#">Events</a></li>
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/about">About</a></li>
+                    <li><a href="/members">Members</a></li>
+                    <li><a href="/contact">Contact</a></li>
+                    <li><a href="/">Events</a></li>
                     <div class="closeMenu" onClick={functionclose}><i class="fa fa-times"></i></div>
                     <span class="icons">
-                        <i class="fa fa-facebook"></i>
-                        <i class="fa fa-instagram"></i>
-                        <i class="fa fa-linkedin"></i>
+                    <a href=""><i class="fa fa-facebook"></i></a>
+                    <a href="https://instagram.com/nitr_ics?utm_medium=copy_link"> <i class="fa fa-instagram"></i></a>
+                    <a href="https://www.linkedin.com/company/incers-nitr"> <i class="fa fa-linkedin"></i></a>
                     </span>
                 </ul>
             </nav>

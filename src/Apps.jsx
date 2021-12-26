@@ -457,15 +457,14 @@ const Apps = () => {
                     <div class="bottom_content">
                         <section>
                             <a href="#"><i class="fa fa-facebook" style={{ fontSize: "2rem" }}></i></a>
-                            <a href="#"><i class="fa fa-instagram" style={{ fontSize: "2rem" }}></i></a>
-                            <a href="#"><i class="fa fa-linkedin" style={{ fontSize: "2rem" }}></i></a>
-                            {/* <a href="#"><i class="fa fa-telegram"></i></a> */}
+                            <a href="https://instagram.com/nitr_ics?utm_medium=copy_link"><i class="fa fa-instagram" style={{ fontSize: "2rem" }}></i></a>
+                            <a href="https://www.linkedin.com/company/incers-nitr"><i class="fa fa-linkedin" style={{ fontSize: "2rem" }}></i></a>
                         </section>
                         <section>
-                            <a href="#" style={{ fontSize: "1.1rem" }}>Home</a>
-                            <a href="#" style={{ fontSize: "1.1rem" }}>About</a>
-                            <a href="#" style={{ fontSize: "1.1rem" }}>Contact</a>
-                            <a href="#" style={{ fontSize: "1.1rem" }}>Members</a>
+                            <a href="/" style={{ fontSize: "1.1rem" }}>Home</a>
+                            <a href="/about" style={{ fontSize: "1.1rem" }}>About</a>
+                            <a href="/contact" style={{ fontSize: "1.1rem" }}>Contact</a>
+                            <a href="/members" style={{ fontSize: "1.1rem" }}>Members</a>
                         </section>
                     </div>
                     <div class="copyright">

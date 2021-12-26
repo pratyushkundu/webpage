@@ -102,10 +102,10 @@ const Members = () => {
                             {/* <a href="#"><i class="fa fa-telegram"></i></a> */}
                         </section>
                         <section>
-                            <a href="#" style={{ fontSize: "1.1rem" }}>Home</a>
-                            <a href="#" style={{ fontSize: "1.1rem" }}>About</a>
-                            <a href="#" style={{ fontSize: "1.1rem" }}>Contact</a>
-                            <a href="#" style={{ fontSize: "1.1rem" }}>Members</a>
+                        <a href="/" style={{ fontSize: "1.1rem" }}>Home</a>
+                            <a href="/about" style={{ fontSize: "1.1rem" }}>About</a>
+                            <a href="/contact" style={{ fontSize: "1.1rem" }}>Contact</a>
+                            <a href="/members" style={{ fontSize: "1.1rem" }}>Members</a>
                         </section>
                     </div>
                     <div class="copyright">
