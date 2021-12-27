@@ -157,8 +157,27 @@ body {
   justify-content: center;
 }
 .underline {
+  /* height: 2px;
+  background-color: red; */
+  display: inline-block;
+  position: relative;
+  color: #0087ca;
+}
+.underline:after{
+  content: '';
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
   height: 2px;
-  background-color: red;
+  bottom: 0;
+  left: 0;
+  background-color: #0087ca;
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-out;
+}
+.underline:hover:after{
+  transform: scaleX(1);
+  transform-origin: bottom left;
 }
 
 img {
@@ -1543,3 +1562,5 @@ margin:0 5px;
 .our-webcoderskull .cnt-block .follow-us li .fa:hover{ 
  color:#025a8e;
 }
+
+

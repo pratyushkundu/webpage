@@ -252,8 +252,8 @@ const Apps = () => {
             <div className="family1">
                 <div className="flash_1" style={{ backgroundcolor: "#FAFCEE" }}>
                     <div id="flash_inside">
-                        <h1 style={{ color: "#000" }}>FLASHBACK FRIDAY</h1>
-                        <div className="underline"></div>
+                        <h1 style={{ color: "#000" }} class="underline">FLASHBACK FRIDAY</h1>
+                        {/* <div className="underline"></div> */}
                     </div>
                 </div>
 
@@ -297,8 +297,8 @@ const Apps = () => {
                 {/* <div className="family1"> */}
                 <div className="flash_1" style={{ backgroundcolor: "#FAFCEE" }}>
                     <div id="flash_inside">
-                        <h1 style={{ color: "#000" }}>MORE ON THIS.....</h1>
-                        <div className="underline"></div>
+                        <h1 style={{ color: "#000" }} class="underline">MORE ON THIS.....</h1>
+                        {/* <div className="underline"></div> */}
                     </div>
                 </div>
                 {functiondeal()}
@@ -333,8 +333,8 @@ const Apps = () => {
                 {/* <div className="family"> */}
                 <div className="flash_2" style={{ backgroundcolor: "#FAFCEE" }}>
                     <div id="flash_inside" style={{ marginBottom: "40px" }}>
-                        <h1 style={{ color: "#000" }}>MONDAY MATTER</h1>
-                        <div className="underline"></div>
+                        <h1 style={{ color: "#000" }} class="underline">MONDAY MATTER</h1>
+                        {/* <div className="underline"></div> */}
                     </div>
                 </div>
 
@@ -372,8 +372,8 @@ const Apps = () => {
                 {/* <div className="family"> */}
                 <div className="flash_2" style={{ backgroundcolor: "#FAFCEE" }}>
                     <div id="flash_inside1">
-                        <h1 style={{ color: "#000" }}>MORE ON THIS....</h1>
-                        <div className="underline"></div>
+                        <h1 style={{ color: "#000" }} class="underline">MORE ON THIS....</h1>
+                        {/* <div className="underline"></div> */}
                     </div>
                 </div>
                 {functiondeal()}
