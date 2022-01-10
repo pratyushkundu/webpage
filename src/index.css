@@ -132,7 +132,7 @@ body {
   text-align: justify;
 }
 #gallerydiv {
-  height: 700px;
+  height: 350px;
   margin: 30px;
 }
 #paragraphmemo {
@@ -141,7 +141,7 @@ body {
 }
 #paragraph {
   /* width:350px; */
-  height: 600px;
+  height: 300px;
   margin: 30px;
 }
 .image_div_1 {
@@ -446,7 +446,7 @@ img {
     height: 2200px;
   }
   #gallerydiv {
-    height: 1200px;
+    height: 700px;
     width: 900px;
     margin: 20px;
   }
@@ -563,7 +563,7 @@ img {
   }
   .gallery {
     width: 90%;
-    height: 3500px;
+    height: 3000px;
   }
   #gallerydiv {
     height: 600px;
@@ -571,13 +571,13 @@ img {
     margin: 20px;
   }
   #paragraph {
-    font-size: 25x;
+    font-size: 17px;
     margin-left: 10px;
     width: 107%;
   }
   #paragraphmemo {
     width: 90%;
-    font-size: 25px;
+    font-size: 21px;
     height: 1120px;
   }
   .image_div_1,
@@ -794,17 +794,17 @@ img {
   }
   .gallery {
     width: 90%;
-    height: 5400px;
+    height: 3400px;
   }
   #gallerydiv {
-    height: 710px;
+    height: 820px;
     /* width: 900px; */
     width: 90%;
     /* margin: 20px; */
   }
   #paragraph {
     width: 107%;
-    font-size: 20px;
+    font-size: 18px;
     margin-left: 3px;
     /* margin-right:-2px; */
   }
@@ -813,7 +813,7 @@ img {
     margin-left: 20px;
     /* margin-right:2px; */
     font-size: 20px;
-    height: 850px;
+    height: 1050px;
   }
   .image_div_1,
   .image_div_2 {
@@ -1037,10 +1037,10 @@ img {
   }
   .gallery {
     width: 90%;
-    height: 5350px;
+    height: 4050px;
   }
   #gallerydiv {
-    height: 700px;
+    height: 1150px;
     /* width: 900px; */
     width: 90%;
     /* margin: 20px; */
@@ -1056,7 +1056,7 @@ img {
     margin-left: 20px;
     /* margin-right:2px; */
     font-size: 20px;
-    height: 850px;
+    height: 1200px;
   }
   .image_div_1,
   .image_div_2 {
