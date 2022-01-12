@@ -1,24 +1,94 @@
 import img1 from '../images/img4.jpg'
+import img1 from '../images/FF1.jpg'
+import img1 from '../images/FF2.jpg'
+import img1 from '../images/FF3.jpg'
+import img1 from '../images/FF4.jpg'
+import img1 from '../images/FF5.jpg'
+import img1 from '../images/FF6.jpg'
+import img1 from '../images/FF7.jpg'
+import img1 from '../images/FF8.jpg'
+import img1 from '../images/FF9.jpg'
+import img1 from '../images/FF10.jpg'
+import img1 from '../images/FF11.jpg'
+import img1 from '../images/FF12.jpg'
+import img1 from '../images/FF13.jpg'
+import img1 from '../images/FF 14.jpg'
 
 export const SliderData = [
     {
       image:
-        'https://images.unsplash.com/photo-1546768292-fb12f6c92568?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80'
-    },
-    {
-      image:
         img1
     },
-    {
+ 
+     {
       image:
-        'https://images.unsplash.com/photo-1483729558449-99ef09a8c325?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=500&q=80'
+        FF1
     },
-    {
+    
+     {
       image:
-        'https://images.unsplash.com/photo-1475189778702-5ec9941484ae?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=500&q=80'
+        FF2
     },
+    
+     {
+      image:
+        FF3
+    },
+    
+     {
+      image:
+        FF4
+    },
+    
+     {
+      image:
+        FF5
+    },
+    
+     {
+      image:
+        FF6
+    },
+    
+     {
+      image:
+        FF7
+    },
+    
+     {
+      image:
+        FF8
+    },
+    
+     {
+      image:
+        FF9
+    },
+    
+     {
+      image:
+        FF10
+    },
+    
+    
     {
       image:
-        'https://images.unsplash.com/photo-1503177119275-0aa32b3a9368?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=500&q=80'
-    }
+        FF11
+    },
+    
+     {
+      image:
+        FF12
+    },
+    
+    {
+      image:
+        FF13
+    },
+    
+    {
+      image:
+        FF 14
+    },
+   
   ];
