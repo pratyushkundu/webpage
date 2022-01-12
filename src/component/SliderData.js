@@ -12,7 +12,7 @@ import img1 from '../images/FF10.jpg'
 import img1 from '../images/FF11.jpg'
 import img1 from '../images/FF12.jpg'
 import img1 from '../images/FF13.jpg'
-import img1 from '../images/FF 14.jpg'
+import img1 from '../images/FF14.jpg'
 
 export const SliderData = [
     {
@@ -88,7 +88,7 @@ export const SliderData = [
     
     {
       image:
-        FF 14
+        FF14
     },
    
   ];
