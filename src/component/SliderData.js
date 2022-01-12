@@ -1,18 +1,18 @@
 import img1 from '../images/img4.jpg'
-import img1 from '../images/FF1.jpg'
-import img1 from '../images/FF2.jpg'
-import img1 from '../images/FF3.jpg'
-import img1 from '../images/FF4.jpg'
-import img1 from '../images/FF5.jpg'
-import img1 from '../images/FF6.jpg'
-import img1 from '../images/FF7.jpg'
-import img1 from '../images/FF8.jpg'
-import img1 from '../images/FF9.jpg'
-import img1 from '../images/FF10.jpg'
-import img1 from '../images/FF11.jpg'
-import img1 from '../images/FF12.jpg'
-import img1 from '../images/FF13.jpg'
-import img1 from '../images/FF14.jpg'
+import img2 from '../images/FF1.jpg'
+import img3 from '../images/FF2.jpg'
+import img4 from '../images/FF3.jpg'
+import img5 from '../images/FF4.jpg'
+import img6 from '../images/FF5.jpg'
+import img7 from '../images/FF6.jpg'
+import img8 from '../images/FF7.jpg'
+import img9 from '../images/FF8.jpg'
+import img10 from '../images/FF9.jpg'
+import img11 from '../images/FF10.jpg'
+import img12 from '../images/FF11.jpg'
+import img13 from '../images/FF12.jpg'
+import img14 from '../images/FF13.jpg'
+import img15 from '../images/FF14.jpg'
 
 export const SliderData = [
     {
@@ -22,73 +22,73 @@ export const SliderData = [
  
      {
       image:
-        FF1
+        img2
     },
     
      {
       image:
-        FF2
+         img3
     },
     
      {
       image:
-        FF3
+        img4
     },
     
      {
       image:
-        FF4
+         img5
     },
     
      {
       image:
-        FF5
+         img6
     },
     
      {
       image:
-        FF6
+         img7
     },
     
      {
       image:
-        FF7
+         img8
     },
     
      {
       image:
-        FF8
+        img9
     },
     
      {
       image:
-        FF9
+        img10
     },
     
      {
       image:
-        FF10
+         img11
     },
     
     
     {
       image:
-        FF11
+         img12
     },
     
      {
       image:
-        FF12
+         img13
     },
     
     {
       image:
-        FF13
+         img14
     },
     
     {
       image:
-        FF14
+         img15
     },
    
   ];
