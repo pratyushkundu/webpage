@@ -1,32 +1,57 @@
-import img1 from '../images/img4.jpg'
+import img1 from '../images/FF4.jpg'
+import img2 from '../images/FF5.jpg'
+import img3 from '../images/FF6.jpg'
+import img4 from '../images/FF7.jpg'
+import img5 from '../images/FF8.jpg'
+import img6 from '../images/FF9.jpg'
+import img7 from '../images/FF10.jpg'
+import img8 from '../images/FF11.jpg'
+import img9 from '../images/FF12.jpg'
+import img10 from '../images/FF13.jpg'
 import blog from '../Blog'
 import blog1 from '../Blog1'
 import blog2 from '../Blog2'
 
 export const SliderData = [
   {
-    reciever:"/blog",
-    image:
-        'https://images.unsplash.com/photo-1546768292-fb12f6c92568?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80'
+    reciever:"https://www.instagram.com/p/CGHED3elid2/?utm_source=ig_web_copy_link",
+    image:img1
  },
 
     {
-      reciever:"/blog",
-      image:img1
+      reciever:"https://www.instagram.com/p/CJgJbgnF_9w/?utm_source=ig_web_copy_link",
+      image:img2
     },
     {
-      reciever:"/blog1",
-      image:
-        'https://images.unsplash.com/photo-1483729558449-99ef09a8c325?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=500&q=80'
+      reciever:"https://www.instagram.com/p/CJxUVuqFn-H/?utm_source=ig_web_copy_link",
+      image:img3
     },
     {
-      reciever:"/blog2",
-      image:
-        'https://images.unsplash.com/photo-1475189778702-5ec9941484ae?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=500&q=80'
+      reciever:"https://www.instagram.com/p/CKVbgtXlwLK/?utm_source=ig_web_copy_link",
+      image:img4
     },
     {
-      reciever:"/blog2",
-      image:
-        'https://images.unsplash.com/photo-1503177119275-0aa32b3a9368?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=500&q=80'
+      reciever:"https://www.instagram.com/p/CNcI0kclBQ2/?utm_source=ig_web_copy_link",
+      image:img5
+    }   ,
+    {
+      reciever:"https://www.instagram.com/p/CTE9KHbFIoe/?utm_source=ig_web_copy_link",
+      image:img6
+    }   ,
+    {
+      reciever:"https://www.instagram.com/p/CTpDGQehplE/?utm_source=ig_web_copy_link",
+      image:img7
+    }   ,
+    {
+      reciever:"https://www.instagram.com/p/CVDPWOLFUv3/?utm_source=ig_web_copy_link",
+      image:img8
+    }   ,
+    {
+      reciever:"https://www.instagram.com/p/CV7RmfYliKQ/?utm_source=ig_web_copy_link",
+      image:img9
+    }   ,
+    {
+      reciever:"https://www.instagram.com/p/CWvUkomP5-a/?utm_source=ig_web_copy_link",
+      image:img10
     }   ,
   ];

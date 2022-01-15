@@ -6,9 +6,10 @@ import App1 from './App1';
 import Carousel from 'react-multi-carousel'
 import "react-multi-carousel/lib/styles.css";
 import { SliderData } from './component/SliderData';
+import { SliderData1 } from './component/SliderData1';
 import { Box, makeStyles } from "@material-ui/core";
 import { Link } from 'react-router-dom';
-// import 'bootstrap/dist/css/bootstrap.min.css';
+
 
 const useStyles = makeStyles({
     image: {
@@ -134,28 +135,16 @@ const Apps = () => {
             return <><a href="/blog1" style={{ textDecoration: "none" }}>
                 <div className="img_2">
                     <img id="peacock_1" src="images/MM1.jpg " alt="mypic" />
-                    {/* <p id="para1" style={{ color: "#fff" }}>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dignissimos nihil cupiditate quae culpa,
-                    quos labore autem dolores, pariatur laborum voluptates quaerat? Voluptas quidem, provident doloribus
-                    reiciendis nesciunt voluptates doloremque voluptatibus voluptatum. Ipsam, aspernatur ad.
-                </p> */}
                 </div>
             </a>
                 <a href="/blog1" style={{ textDecoration: "none" }}>
                     <div className="img_2">
                         <img id="peacock_1" src="images/MM2.jpg" alt="mypic" />
-                        {/* <p id="para1" style={{ color: "#fff" }}>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dignissimos nihil cupiditate quae culpa,
-                    quos labore autem dolores, pariatur laborum voluptates quaerat? Voluptas quidem, provident doloribus
-                    reiciendis nesciunt voluptates doloremque voluptatibus voluptatum. Ipsam, aspernatur ad.
-                </p> */}
                     </div>
                 </a>
                 <a href="/blog1" style={{ textDecoration: "none" }}>
                     <div className="img_2">
                         <img id="peacock_1" src="images/MM3.jpg" alt="mypic" />
-                        {/* <p id="para1" style={{ color: "#fff" }}>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dignissimos nihil cupiditate quae culpa,
-                    quos labore autem dolores, pariatur laborum voluptates quaerat? Voluptas quidem, provident doloribus
-                    reiciendis nesciunt voluptates doloremque voluptatibus voluptatum. Ipsam, aspernatur ad.
-                </p> */}
                     </div>
                 </a></>
         }
@@ -165,7 +154,7 @@ const Apps = () => {
         if (window.screen.width >= width2) {
             return <>
                 <div className="logo_part">
-                    <h2>NITR ICS </h2>
+                    <h2>NITR ICS</h2>
                     <h3 style={{ display: "flex", flexDirection: "column", marginLeft: "-550px", color: "orange", marginTop: "40px" }}><span>Address:NIT ROURKELA </span><span>Pin-Code:769001</span></h3>
                     <div className="img_3">
                         <a href="">
@@ -222,11 +211,43 @@ const Apps = () => {
                 itemClass="carousel-item-padding-40-px">
                 {
                     SliderData.map(product => {
-                        return (<Link to={product.reciever}>
+                        return (<a href={product.reciever}>
                             <Box textAlign="center" className={classes.wrapper}>
                                 <img src={product.image} className={classes.image} />
                             </Box>
-                        </Link>)
+                        </a>)
+                    })
+                }
+            </Carousel>
+        }
+    }
+    const functiondeals = () => {
+        const width2 = 700;
+        if (window.screen.width <= width2) {
+            return <App1 />
+        }
+        else {
+            return <Carousel
+                swipeable={false}
+                draggable={false}
+                responsive={responsive}
+                centerMode={true}
+                infinite={true}
+                autoPlay={true}
+                autoPlaySpeed={1500}
+                keyBoardControl={true}
+                showDots={false}
+                containerClass="carousel-container"
+                // removeArrowOnDeviceType={["tablet", "mobile"]}
+                dotListClass="custom-dot-list-style"
+                itemClass="carousel-item-padding-40-px">
+                {
+                    SliderData1.map(product => {
+                        return (<a href={product.reciever}>
+                            <Box textAlign="center" className={classes.wrapper}>
+                                <img src={product.image} className={classes.image} />
+                            </Box>
+                        </a>)
                     })
                 }
             </Carousel>
@@ -244,197 +265,43 @@ const Apps = () => {
                 <div>
                     <h1 className="headingname">WELCOME TO NITR ICS</h1>
                 </div>
-
-                {/* <div className="img_4"> */}
-                {/* <img id="onion" src="images/img4.jpg" alt="mypic" style={{margin:"0 3px"}}  /> */}
-                {/* </div> */}
             </div>
             <div className="family1">
                 <div className="flash_1" style={{ backgroundcolor: "#FAFCEE" }}>
                     <div id="flash_inside">
                         <h1 style={{ color: "#000" }} class="underline">FLASHBACK FRIDAY</h1>
-                        {/* <div className="underline"></div> */}
                     </div>
                 </div>
 
                 <div className="image_div_1">
                     {functiondeal1()}
-                    {/* <a href="/blog" style={{ textDecoration: "none" }}>
-                        <div className="img_1">
-                            <img id="peacock" src="images/FF1.jpg" alt="mypic" />
-                            {functiondeal1()}
-                            <h2 id="proff1" style={{ color: "#fff" }}>Proff.Shnatanu T behera</h2>
-                            <p id="para" style={{ color: "#fff" }}>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dignissimos nihil cupiditate quae culpa,
-                                quos labore autem dolores, pariatur laborum voluptates quaerat? Voluptas quidem, provident doloribus
-                                reiciendis nesciunt voluptates doloremque voluptatibus voluptatum. Ipsam, aspernatur ad.
-                            </p>
-                        </div>
-                    </a>
-                    <a href="/blog1" style={{ textDecoration: "none" }}>
-                        <div className="img_1">
-                            <img id="peacock" src="images/FF2.png" alt="mypic" />
-                            {functiondeal1()}
-                            <h2 id="proff1" style={{ color: "#fff" }}>Proff.Shnatanu T behera</h2>
-                            <p id="para" style={{ color: "#fff" }}>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dignissimos nihil cupiditate quae culpa,
-                                quos labore autem dolores, pariatur laborum voluptates quaerat? Voluptas quidem, provident doloribus
-                                reiciendis nesciunt voluptates doloremque voluptatibus voluptatum. Ipsam, aspernatur ad.
-                            </p>
-                        </div>
-                    </a>
-                    <a href="/blog2" style={{ textDecoration: "none" }}>
-                        <div className="img_1">
-                            <img id="peacock" src="images/FF3.png" alt="mypic" />
-                            {functiondeal1()}
-                            <h2 id="proff1" style={{ color: "#fff" }}>Proff.Shnatanu T behera</h2>
-                            <p id="para" style={{ color: "#fff" }}>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dignissimos nihil cupiditate quae culpa,
-                                quos labore autem dolores, pariatur laborum voluptates quaerat? Voluptas quidem, provident doloribus
-                                reiciendis nesciunt voluptates doloremque voluptatibus voluptatum. Ipsam, aspernatur ad.
-                            </p>
-                        </div>
-                    </a> */}
                 </div>
-                {/* </div> */}
-                {/* <div className="family1"> */}
                 <div className="flash_1" style={{ backgroundcolor: "#FAFCEE" }}>
                     <div id="flash_inside">
                         <h1 style={{ color: "#000" }} class="underline">MORE ON THIS.....</h1>
-                        {/* <div className="underline"></div> */}
                     </div>
                 </div>
                 {functiondeal()}
-                {/* <App1 /> */}
-                {/* <Carousel
-                swipeable={false}
-                draggable={false}
-                responsive={responsive}
-                centerMode={true}
-                infinite={true}
-                autoPlay={true}
-                autoPlaySpeed={1500}
-                keyBoardControl={true}
-                showDots={false}
-                containerClass="carousel-container"
-                // removeArrowOnDeviceType={["tablet", "mobile"]}
-                dotListClass="custom-dot-list-style"
-                itemClass="carousel-item-padding-40-px">
-                {
-                  SliderData.map(product=>{
-                      return(<Link to={product.reciever}>
-                        <Box textAlign="center" className={classes.wrapper}>
-                          <img src={product.image} className={classes.image} />
-                          </Box>
-                      </Link>)
-                  })
-                }
-                    
-                </Carousel> */}
 
-                {/* </div> */}
-                {/* <div className="family"> */}
                 <div className="flash_2" style={{ backgroundcolor: "#FAFCEE" }}>
                     <div id="flash_inside" style={{ marginBottom: "40px" }}>
                         <h1 style={{ color: "#000" }} class="underline">MONDAY MATTER</h1>
-                        {/* <div className="underline"></div> */}
                     </div>
                 </div>
 
                 <div className="image_div_2">
                     {functiondeal2()}
-                    {/* <a href="/blog1" style={{ textDecoration: "none" }}>
-                        <div className="img_2">
-                            <img id="peacock_1" src="images/MM1.jpg " alt="mypic" />
-                            <p id="para1" style={{ color: "#fff" }}>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dignissimos nihil cupiditate quae culpa,
-                                quos labore autem dolores, pariatur laborum voluptates quaerat? Voluptas quidem, provident doloribus
-                                reiciendis nesciunt voluptates doloremque voluptatibus voluptatum. Ipsam, aspernatur ad.
-                            </p>
-                        </div>
-                    </a>
-                    <a href="/blog1" style={{ textDecoration: "none" }}>
-                        <div className="img_2">
-                            <img id="peacock_1" src="images/MM2.jpg" alt="mypic" />
-                            <p id="para1" style={{ color: "#fff" }}>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dignissimos nihil cupiditate quae culpa,
-                                quos labore autem dolores, pariatur laborum voluptates quaerat? Voluptas quidem, provident doloribus
-                                reiciendis nesciunt voluptates doloremque voluptatibus voluptatum. Ipsam, aspernatur ad.
-                            </p>
-                        </div>
-                    </a>
-                    <a href="/blog1" style={{ textDecoration: "none" }}>
-                        <div className="img_2">
-                            <img id="peacock_1" src="images/MM3.jpg" alt="mypic" />
-                            <p id="para1" style={{ color: "#fff" }}>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dignissimos nihil cupiditate quae culpa,
-                                quos labore autem dolores, pariatur laborum voluptates quaerat? Voluptas quidem, provident doloribus
-                                reiciendis nesciunt voluptates doloremque voluptatibus voluptatum. Ipsam, aspernatur ad.
-                            </p>
-                        </div>
-                    </a> */}
                 </div>
-                {/* </div> */}
-                {/* <div className="family"> */}
+               
                 <div className="flash_2" style={{ backgroundcolor: "#FAFCEE" }}>
                     <div id="flash_inside1">
                         <h1 style={{ color: "#000" }} class="underline">MORE ON THIS....</h1>
-                        {/* <div className="underline"></div> */}
                     </div>
                 </div>
-                {functiondeal()}
-                {/* <App1 /> */}
-                {/* <Carousel
-                swipeable={false}
-                draggable={false}
-                responsive={responsive}
-                centerMode={true}
-                infinite={true}
-                autoPlay={true}
-                autoPlaySpeed={1500}
-                keyBoardControl={true}
-                showDots={false}
-                containerClass="carousel-container"
-                // removeArrowOnDeviceType={["tablet", "mobile"]}
-                dotListClass="custom-dot-list-style"
-                itemClass="carousel-item-padding-40-px">
-                {
-                  SliderData.map(product=>{
-                      return(<Link to={product.reciever}>
-                        <Box textAlign="center" className={classes.wrapper}>
-                          <img src={product.image} className={classes.image} />
-                          </Box>
-                      </Link>)
-                  })
-                }
-                    
-                </Carousel> */}
+                {functiondeals()}
             </div>
 
             <div className="social_media_part">
-                {/* {functiondeal3()} */}
-                {/* <div className="logo_part">
-                    <h2>NITR ICS </h2>
-                    <h3 style={{ display: "flex", flexDirection: "column", marginLeft: "-550px", color: "orange", marginTop: "40px" }}><span>Address:NIT ROURKELA </span><span>Pin-Code:769001</span></h3>
-                    <div className="img_3">
-                        <a href="">
-                            <i className="fa fa-facebook"></i></a>
-                    </div>
-                    <div className="img_3">
-                        <a href="https://instagram.com/nitr_ics?utm_medium=copy_link">  <i class="fa fa-instagram"></i></a>
-                    </div>
-                    <div className="img_3">
-                        <a href="https://www.linkedin.com/company/incers-nitr"><i class="fa fa-linkedin"></i></a>
-                    </div>
-                    <h3 style={{ display: "flex", flexDirection: "column",color:"orange", marginTop: "40px",marginRight: "-500px" }}><span><i class="fa fa-phone"  style={{marginRight:"10px",marginLeft:"10px"}}></i>Siddharth Nanda Sir:92732709727</span><span><i class="fa fa-phone" style={{marginRight:"10px",marginLeft:"10px"}}></i>Sakti Swaroop Sir:792347979</span></h3>
-                </div> */}
-                {/* <div className="end_bar">
-                    <Navbar1 />
-                </div> */}
-                {/* <div className="end_bars">
-                    <div className="end_bars_inside">
-                        <h2>NITR ICS </h2>
-                        <h3 style={{ display: "flex", flexDirection: "column" }}><span>Address:NIT ROURKELA </span><span>Pin-Code:769001</span></h3>
-                    </div>
-                    <div className="end_bars_inside_1">
-                        <h3 style={{ display: "flex", flexDirection: "column" }}><span>xyzzzzz:92732709727</span><span>chjsgddjsg:792347979</span></h3>
-                    </div>
-                </div> */}
-
 
                 <footer>
                     <div class="top_header">

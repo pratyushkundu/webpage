@@ -56,7 +56,7 @@ const Navbar1 = () => {
                     <li><a href="/about">About</a></li>
                     <li><a href="/members">Members</a></li>
                     <li><a href="/contact">Contact</a></li>
-                    <li><a href="/">Events</a></li>
+                    <li><a href="/events">Events</a></li>
                     <div class="closeMenu" onClick={functionclose}><i class="fa fa-times"></i></div>
                     <span class="icons">
                     <a href=""><i class="fa fa-facebook"></i></a>
@@ -97,7 +97,7 @@ const Navbar1 = () => {
                 </NavLink>
                 <div className="menu_1">
                     <ul>
-                        <li><h3>hello</h3></li>
+                        <li><h3>Members(2018-22)</h3></li>
                         <li><h3>hello</h3></li>
                         <li><h3>hello</h3></li>
                     </ul>
@@ -106,16 +106,16 @@ const Navbar1 = () => {
                 <NavLink to="/contact" exact activeClassName="active_class" style={{ textDecoration: "none" }}>
                     <h2 className="nav_hover">Contact</h2>
                 </NavLink>
-                <div className="menu_1">
+                {/* <div className="menu_1">
                     <ul>
                         <li><h3>hello</h3></li>
                         <li><h3>hello</h3></li>
                         <li><h3>hello</h3></li>
                     </ul>
-                </div>
+                </div> */}
             </div>
             <div className="hello_div">
-                <NavLink to="/contact" exact activeClassName="active_class" style={{ textDecoration: "none" }}>
+                <NavLink to="/events" exact activeClassName="active_class" style={{ textDecoration: "none" }}>
                     <h2 className="nav_hover">Events</h2>
                 </NavLink>
                 <div className="menu_1">

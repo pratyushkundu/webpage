@@ -12,6 +12,44 @@ const Members = () => {
                 <Navbar />
             </div>
 
+            <section class="our-webcoderskull padding-lg">
+                
+
+            
+                <div class="container">
+                    <div class="row heading heading-icon">
+                        <h2>FOUNDERS</h2>
+                    </div>
+                    <ul class="row">
+                        <li class="col-12 col-md-6 col-lg-3">
+                            <div class="cnt-block equal-hight" style={{height:" 349px"}}>
+                                <figure><img src="http://www.webcoderskull.com/img/team4.png" class="img-responsive" alt="" /></figure>
+                                <h3><a href="">Sakti Swaroop</a></h3>
+                                <p>Web Developer</p>
+                                <ul class="follow-us clearfix">
+                                    <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                                    <li><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+                                    <li><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="col-12 col-md-6 col-lg-3">
+                            <div class="cnt-block equal-hight" style={{height:" 349px"}}>
+                                <figure><img src="http://www.webcoderskull.com/img/team1.png" class="img-responsive" alt="" /></figure>
+                                <h3><a href="#">Sakti Swaroop</a></h3>
+                                <p>Freelance Web Developer</p>
+                                <ul class="follow-us clearfix">
+                                    <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                                    <li><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+                                    <li><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+                                </ul>
+                            </div>
+                        </li>
+                      
+                        
+                    </ul>
+                </div>
+            </section> 
 
                  <section class="our-webcoderskull padding-lg">
                 
@@ -35,10 +73,13 @@ const Members = () => {
                                 </div>
                             </li>
                             <li class="col-12 col-md-6 col-lg-3">
-                                <div class="cnt-block equal-hight" style={{height:" 349px"}}>
+                                <div class="cnt-block equal-hight" style={{height:" 400px"}}>
                                     <figure><img src="http://www.webcoderskull.com/img/team1.png" class="img-responsive" alt="" /></figure>
                                     <h3><a href="#">Sakti Swaroop</a></h3>
                                     <p>Freelance Web Developer</p>
+                                    <h4>Course:sss,cbkdhf</h4>
+                                    <h4>RollNo:753712375</h4>
+                                    <h4>phno:ioyioywyrw</h4>
                                     <ul class="follow-us clearfix">
                                         <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
                                         <li><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>

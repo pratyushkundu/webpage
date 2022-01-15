@@ -3,108 +3,101 @@ import Navbar from './Navbar';
 import Navbar1 from './Navbar1';
 
 const Contact = () => {
-        return(
+    return (
         <><div class="main_div">
             <div class="top_div">
                 <div>
-                <div id="logo" style={{ cursor: "pointer" }}><img src="images/logo1.png" style={{height:"48px",width:"55px",background:"100% 100%",borderRadius:"0px",padding:"2px"}}/></div>
+                    <div id="logo" style={{ cursor: "pointer" }}><img src="images/logo1.png" style={{ height: "48px", width: "55px", background: "100% 100%", borderRadius: "0px", padding: "2px" }} /></div>
                 </div>
-
-                {/* <div class="nav_bar">
-                    <h2 class="nav_hover">Home</h2>
-                    <h2 class="nav_hover">AboutSociety</h2>
-                    <h2 class="nav_hover">Members</h2>
-                    <h2 class="nav_hover">ContactUs</h2>
-                </div> */}
-                <Navbar/>
-            </div>
-            
-            <div class="gallery_div">
-                <div class="img_4">
-                    {/* <img src="images/img4.jpg" alt="mypic" /> */}
-                    <h1>Contact page</h1>
-                </div>
-            </div>
-            {/* <div class="flash_1" style={{ backgroundcolor: "#FAFCEE" }}>
-                <div id="flash_inside"><h1>FLASHBACK FRIDAY</h1></div>
-            </div>
-            <div class="image_div_1">
-                <div class="img_1">
-                    <img id="peacock" src="images/img1.jpeg" alt="mypic" />
-                    <h2 id="proff1">Proff.Shnatanu T behera</h2>
-                    <p id="para">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dignissimos nihil cupiditate quae culpa,
-                        quos labore autem dolores, pariatur laborum voluptates quaerat? Voluptas quidem, provident doloribus
-                        reiciendis nesciunt voluptates doloremque voluptatibus voluptatum. Ipsam, aspernatur ad.
-                    </p>
-                </div>
-                <div class="img_1">
-                    <img id="peacock" src="images/img2.jpeg" alt="mypic" />
-                    <h2 id="proff1">Proff.Shnatanu T behera</h2>
-                    <p id="para">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dignissimos nihil cupiditate quae culpa,
-                        quos labore autem dolores, pariatur laborum voluptates quaerat? Voluptas quidem, provident doloribus
-                        reiciendis nesciunt voluptates doloremque voluptatibus voluptatum. Ipsam, aspernatur ad.
-                    </p>
-                </div>
-                <div class="img_1">
-                    <img id="peacock" src="images/img3.jpeg" alt="mypic" />
-                    <h2 id="proff1">Proff.Shnatanu T behera</h2>
-                    <p id="para">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dignissimos nihil cupiditate quae culpa,
-                        quos labore autem dolores, pariatur laborum voluptates quaerat? Voluptas quidem, provident doloribus
-                        reiciendis nesciunt voluptates doloremque voluptatibus voluptatum. Ipsam, aspernatur ad.
-                    </p>
-                </div>
-            </div>
-            <div class="flash_2" style={{ backgroundcolor: "#FAFCEE" }}>
-                <h1>MONDAY MORNING</h1>
+                <Navbar />
             </div>
 
-            <div class="image_div_2">
-                <div class="img_2">
-                    <img id="peacock_1" src="images/monday1.jpeg " alt="mypic" />
-                    <p id="para1">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dignissimos nihil cupiditate quae culpa,
-                        quos labore autem dolores, pariatur laborum voluptates quaerat? Voluptas quidem, provident doloribus
-                        reiciendis nesciunt voluptates doloremque voluptatibus voluptatum. Ipsam, aspernatur ad.
-                    </p>
+            <section id="candy" class="our-webcoderskull padding-lg">
+                <div class="container">
+                    <div class="row heading heading-icon">
+                        <h2 style={{ fontSize: "30px", color: "black", fontWeight: "bolder" }}>HEY ! REACH OUT TO US</h2>
+                    </div>
+                    <ul class="row">
+                        <li class="col-12 col-md-6 col-lg-3">
+                            <div class="cnt-block equal-hight" style={{ height: " 349px" }}>
+                                <figure><img src="http://www.webcoderskull.com/img/team4.png" class="img-responsive" alt="" /></figure>
+                                <h3><a href="">Sakti Swaroop</a></h3>
+                                <p>Web Developer</p>
+                                <ul class="follow-us clearfix">
+                                    <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                                    <li><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+                                    <li><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="col-12 col-md-6 col-lg-3">
+                            <div class="cnt-block equal-hight" style={{ height: " 349px" }}>
+                                <figure><img src="http://www.webcoderskull.com/img/team1.png" class="img-responsive" alt="" /></figure>
+                                <h3><a href="#">Sakti Swaroop</a></h3>
+                                <p>Freelance Web Developer</p>
+                                <ul class="follow-us clearfix">
+                                    <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                                    <li><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+                                    <li><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="col-12 col-md-6 col-lg-3">
+                            <div class="cnt-block equal-hight" style={{ height: " 349px" }}>
+                                <figure><img src="http://www.webcoderskull.com/img/team1.png" class="img-responsive" alt="" /></figure>
+                                <h3><a href="#">Sakti Swaroop</a></h3>
+                                <p>Freelance Web Developer</p>
+                                <ul class="follow-us clearfix">
+                                    <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                                    <li><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+                                    <li><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+                                </ul>
+                            </div>
+                        </li>
+                    </ul>
                 </div>
-                <div class="img_2">
-                    <img id="peacock_1" src="images/monday2.jpeg" alt="mypic" />
-                    <p id="para1">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dignissimos nihil cupiditate quae culpa,
-                        quos labore autem dolores, pariatur laborum voluptates quaerat? Voluptas quidem, provident doloribus
-                        reiciendis nesciunt voluptates doloremque voluptatibus voluptatum. Ipsam, aspernatur ad.
-                    </p>
-                </div>
-                <div class="img_2">
-                    <img id="peacock_1" src="images/monday3.jpeg" alt="mypic" />
-                    <p id="para1">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dignissimos nihil cupiditate quae culpa,
-                        quos labore autem dolores, pariatur laborum voluptates quaerat? Voluptas quidem, provident doloribus
-                        reiciendis nesciunt voluptates doloremque voluptatibus voluptatum. Ipsam, aspernatur ad.
-                    </p>
-                </div>
-            </div> */}
+            </section>
+
             <div class="social_media_part">
-                <div class="logo_part">
-                <div className="img_3">
-                        <a href="">
-                        <i class="fa fa-facebook"></i></a>
+                <footer>
+                    <div class="top_header">
+                        <section>
+                            <span><i class="fa fa-map-marker"></i></span>
+                            <span>NIT ROAD, Sector-2, Odisha, India, 769015</span>
+                        </section>
+                        <section>
+                            <span><i class="fa fa-phone"></i></span>
+                            <span>Siddharth Nanda 734597839</span>
+                            <span><i class="fa fa-phone"></i></span>
+                            <span>Sakti Swaroop 8936498379</span>
+                        </section>
+                        <section>
+                            <span><i class="fa fa-envelope"></i></span>
+                            <span>info@websitename.com</span>
+                        </section>
                     </div>
-                    <div className="img_3">
-                        <a href="https://instagram.com/nitr_ics?utm_medium=copy_link">  <i class="fa fa-instagram"></i></a>
+                    <span class="border-shape"></span>
+                    <div class="bottom_content">
+                        <section>
+                            <a href="#"><i class="fa fa-facebook" style={{ fontSize: "2rem" }}></i></a>
+                            <a href="#"><i class="fa fa-instagram" style={{ fontSize: "2rem" }}></i></a>
+                            <a href="#"><i class="fa fa-linkedin" style={{ fontSize: "2rem" }}></i></a>
+                            {/* <a href="#"><i class="fa fa-telegram"></i></a> */}
+                        </section>
+                        <section>
+                            <a href="/" style={{ fontSize: "1.1rem" }}>Home</a>
+                            <a href="/about" style={{ fontSize: "1.1rem" }}>About</a>
+                            <a href="/contact" style={{ fontSize: "1.1rem" }}>Contact</a>
+                            <a href="/members" style={{ fontSize: "1.1rem" }}>Members</a>
+                        </section>
                     </div>
-                    <div className="img_3">
-                        <a href="https://www.linkedin.com/company/incers-nitr"><i class="fa fa-linkedin"></i></a>
+                    <div class="copyright">
+                        Copyright © 2021 NITRICS - All rights reserved
                     </div>
-                </div>
-                <div class="end_bar">
-                    {/* <div class="info_div">
-                        <h2 class="nav_hover_1">Home</h2>
-                        <h2 class="nav_hover_1">AboutSociety</h2>
-                        <h2 class="nav_hover_1">Members</h2>
-                        <h2 class="nav_hover_1">ContactUs</h2>
-                    </div> */}
-                    <Navbar1/>
-                </div>
+                </footer>
             </div>
-        </div></>
-        );
+        </div>
+        </>
+    );
 }
 export default Contact;
