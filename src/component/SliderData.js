@@ -1,3 +1,4 @@
+
 import img1 from '../images/FF4.jpg'
 import img2 from '../images/FF5.jpg'
 import img3 from '../images/FF6.jpg'
@@ -12,6 +13,7 @@ import blog from '../Blog'
 import blog1 from '../Blog1'
 import blog2 from '../Blog2'
 
+
 export const SliderData = [
   {
     reciever:"https://www.instagram.com/p/CGHED3elid2/?utm_source=ig_web_copy_link",
@@ -19,18 +21,31 @@ export const SliderData = [
  },
 
     {
+
       reciever:"https://www.instagram.com/p/CJgJbgnF_9w/?utm_source=ig_web_copy_link",
       image:img2
     },
     {
       reciever:"https://www.instagram.com/p/CJxUVuqFn-H/?utm_source=ig_web_copy_link",
       image:img3
+
     },
+    
+    
     {
+
       reciever:"https://www.instagram.com/p/CKVbgtXlwLK/?utm_source=ig_web_copy_link",
       image:img4
+
     },
+    
+     {
+      image:
+         img13
+    },
+    
     {
+
       reciever:"https://www.instagram.com/p/CNcI0kclBQ2/?utm_source=ig_web_copy_link",
       image:img5
     }   ,
@@ -55,3 +70,4 @@ export const SliderData = [
       image:img10
     }   ,
   ];
+
