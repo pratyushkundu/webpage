@@ -4,7 +4,8 @@ import Apps from './Apps';
 import About from './About';
 import Contact from './Contact';
 import Members from './Members'
-import Events from './Events'
+import Events from './PlacementDiary'
+import Events1 from './PresentationCompetetions'
 import Navbar from './Navbar';
 // import Navbar from './Navbar';
 import Blog from './Blog'
@@ -20,6 +21,7 @@ const Routing = ()=>{
               <Route exact path="/members" component={Members}/>
               <Route exact path="/contact" component={Contact}/>
               <Route exact path="/events" component={Events}/>
+              <Route exact path="/events1" component={Events1}/>
               <Route exact path="/blog" component={Blog}/>
               <Route exact path="/blog1" component={Blog1}/>
               <Route exact path="/blog2" component={Blog2}/>

@@ -43,22 +43,43 @@ const About = () => {
                 </div>
 
             </div>
-            <div class="social_media_part">
-                <div className="logo_part">
-                    <div className="img_3">
-                        <a href="">
-                            <i class="fa fa-facebook"></i></a>
+            <div className="social_media_part">
+
+                <footer>
+                    <div class="top_header">
+                        <section>
+                            <span><i class="fa fa-map-marker"></i></span>
+                            <span>NATIONAL INSTITUTE OF TECHNOLOGY ROURKELA, Odisha, India, 769008</span>
+                        </section>
+                        <section>
+                            <span><i class="fa fa-phone"></i></span>
+                            <span>Siddharth Nanda +91 8093308828</span>
+                            <span><i class="fa fa-phone"></i></span>
+                            <span>Sakti Swaroop +91 9337318011</span>
+                        </section>
+                        <section>
+                            <span><i class="fa fa-envelope"></i></span>
+                            <span>incersnitr@gmail.com</span>
+                        </section>
                     </div>
-                    <div className="img_3">
-                        <a href="https://instagram.com/nitr_ics?utm_medium=copy_link">  <i class="fa fa-instagram"></i></a>
+                    <span class="border-shape"></span>
+                    <div class="bottom_content">
+                        <section>
+                            <a href="#"><i class="fa fa-facebook" style={{ fontSize: "2rem" }}></i></a>
+                            <a href="https://instagram.com/nitr_ics?utm_medium=copy_link"><i class="fa fa-instagram" style={{ fontSize: "2rem" }}></i></a>
+                            <a href="https://www.linkedin.com/company/incers-nitr"><i class="fa fa-linkedin" style={{ fontSize: "2rem" }}></i></a>
+                        </section>
+                        <section>
+                            <a href="/" style={{ fontSize: "1.1rem" }}>Home</a>
+                            <a href="/about" style={{ fontSize: "1.1rem" }}>About</a>
+                            <a href="/contact" style={{ fontSize: "1.1rem" }}>Contact</a>
+                            <a href="/members" style={{ fontSize: "1.1rem" }}>Members</a>
+                        </section>
                     </div>
-                    <div className="img_3">
-                        <a href="https://www.linkedin.com/company/incers-nitr"><i class="fa fa-linkedin"></i></a>
+                    <div class="copyright">
+                        Copyright © 2021 NITRICS - All rights reserved
                     </div>
-                </div>
-                <div class="end_bar">
-                    <Navbar1 />
-                </div>
+                </footer>
             </div>
         </div></>);
 }

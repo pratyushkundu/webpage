@@ -7,11 +7,10 @@ const Contact = () => {
         <><div class="main_div">
             <div class="top_div">
                 <div>
-                    <div id="logo" style={{ cursor: "pointer" }}><img src="images/logo1.png" style={{ height: "48px", width: "55px", background: "100% 100%", borderRadius: "0px", padding: "2px" }} /></div>
+                    <div id="logo" style={{ cursor: "pointer" }}><img src="images/logo1.jpg" style={{ height: "48px", width: "55px", background: "100% 100%", borderRadius: "0px", padding: "2px" }} /></div>
                 </div>
                 <Navbar />
             </div>
-
             <section id="candy" class="our-webcoderskull padding-lg">
                 <div class="container">
                     <div class="row heading heading-icon">
@@ -19,61 +18,66 @@ const Contact = () => {
                     </div>
                     <ul class="row">
                         <li class="col-12 col-md-6 col-lg-3">
-                            <div class="cnt-block equal-hight" style={{ height: " 349px" }}>
-                                <figure><img src="http://www.webcoderskull.com/img/team4.png" class="img-responsive" alt="" /></figure>
-                                <h3><a href="">Sakti Swaroop</a></h3>
-                                <p>Web Developer</p>
+                            <div class="cnt-block equal-hight" style={{ height: " 355px" }}>
+                                <figure><img src="images/SB.jpg" style={{objectFit:"cover"}} class="img-responsive" alt="" /></figure>
+                                <h3><a href="https://www.linkedin.com/in/shanbehera/">Prof. Shantanu Behera</a></h3>
+                                <p>Department of ceramic Engineering</p>
+                                <p>mail id: beherash@nitrkl.ac.in</p>
+                                <p>Contact no: +91 8328928574</p>
                                 <ul class="follow-us clearfix">
-                                    <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
-                                    <li><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
-                                    <li><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+                                    {/* <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li> */}
+                                    {/* <li><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li> */}
+                                    {/* <li><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li> */}
                                 </ul>
                             </div>
                         </li>
                         <li class="col-12 col-md-6 col-lg-3">
-                            <div class="cnt-block equal-hight" style={{ height: " 349px" }}>
-                                <figure><img src="http://www.webcoderskull.com/img/team1.png" class="img-responsive" alt="" /></figure>
-                                <h3><a href="#">Sakti Swaroop</a></h3>
-                                <p>Freelance Web Developer</p>
+                            <div class="cnt-block equal-hight" style={{ height: " 355px" }}>
+                                <figure><img src="images/SN.jpg" class="img-responsive" alt="" style={{objectFit:"cover"}}/></figure>
+                                <h3><a href="https://www.linkedin.com/in/siddhartha-nanda-2000/">Siddhartha Nanda</a></h3>
+                                <p>Dual Degree - Ceramic Engineering</p>
+                                <p>mail id: nanda.siddhartha2018@gmail.com</p>
+                                <p>Contact no: +91 8093308828</p>
                                 <ul class="follow-us clearfix">
-                                    <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
-                                    <li><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
-                                    <li><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+                                    {/* <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li> */}
+                                    {/* <li><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li> */}
+                                    {/* <li><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li> */}
                                 </ul>
                             </div>
                         </li>
                         <li class="col-12 col-md-6 col-lg-3">
-                            <div class="cnt-block equal-hight" style={{ height: " 349px" }}>
-                                <figure><img src="http://www.webcoderskull.com/img/team1.png" class="img-responsive" alt="" /></figure>
-                                <h3><a href="#">Sakti Swaroop</a></h3>
-                                <p>Freelance Web Developer</p>
+                            <div class="cnt-block equal-hight" style={{ height: " 355px" }}>
+                                <figure><img src="images/SS.jpg" class="img-responsive" style={{objectFit:"cover"}} alt="" /></figure>
+                                <h3><a href="#">Sakti swaroop</a></h3>
+                                <p>B.Tech - Ceramic Engineering</p>
+                                <p>mail id: sakti.ssm9080@gmail.com</p>
+                                <p>Contact no: +91 9337318011</p>
                                 <ul class="follow-us clearfix">
-                                    <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
-                                    <li><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
-                                    <li><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+                                    {/* <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li> */}
+                                    {/* <li><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li> */}
+                                    {/* <li><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li> */}
                                 </ul>
                             </div>
                         </li>
                     </ul>
                 </div>
             </section>
-
             <div class="social_media_part">
                 <footer>
                     <div class="top_header">
                         <section>
                             <span><i class="fa fa-map-marker"></i></span>
-                            <span>NIT ROAD, Sector-2, Odisha, India, 769015</span>
+                            <span>NATIONAL INSTITUTE OF TECHNOLOGY ROURKELA, Odisha, India, 769008</span>
                         </section>
                         <section>
                             <span><i class="fa fa-phone"></i></span>
-                            <span>Siddharth Nanda 734597839</span>
+                            <span>Siddharth Nanda +91 8093308828</span>
                             <span><i class="fa fa-phone"></i></span>
-                            <span>Sakti Swaroop 8936498379</span>
+                            <span>Sakti Swaroop +91 9337318011</span>
                         </section>
                         <section>
                             <span><i class="fa fa-envelope"></i></span>
-                            <span>info@websitename.com</span>
+                            <span>incersnitr@gmail.com</span>
                         </section>
                     </div>
                     <span class="border-shape"></span>

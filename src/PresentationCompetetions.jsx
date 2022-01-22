@@ -1,17 +1,12 @@
 import React from 'react';
-import { NavLink } from 'react-router-dom';
-import Navbar from "./Navbar";
-import Navbar1 from './Navbar1';
-import App1 from './App1';
+import Navbar from './Navbar';
 import Carousel from 'react-multi-carousel'
 import "react-multi-carousel/lib/styles.css";
 import { SliderData } from './component/SliderData';
 import { SliderData1 } from './component/SliderData1';
 import { Box, makeStyles } from "@material-ui/core";
-import { Link } from 'react-router-dom';
-import img from './images/img4.jpg'
 
-
+import App1 from './App1';
 const useStyles = makeStyles({
     image: {
         height: 500,
@@ -30,16 +25,11 @@ const responsive = {
         breakpoint: { max: 1100, min: 602 },
         items: 2
     },
-    // mobile: {
-    //     breakpoint: { max: 464, min: 0 },
-    //     items: 1
-    // }
-};
-const width1 = window.screen.width;
-console.log(width1);
 
-const Apps = () => {
-    const classes = useStyles();
+};
+
+const Events1 = () => {
+      const classes = useStyles();
     const functiondeal1 = () => {
         const width2 = 700;
         if (window.screen.width >= width2) {
@@ -262,48 +252,30 @@ const Apps = () => {
                 </div>
                 <Navbar />
             </div>
-            <div className="gallery_div">
-                <div>
-                    <h1 className="headingname">WELCOME TO NITR ICS</h1>
-                </div>
-            </div>
+            {/* <div className="gallery_div_placement" >
+                
+            </div> */}
             <div className="family1">
-                <div className="flash_1" style={{ backgroundcolor: "#FAFCEE" }}>
+                {/* <div className="flash_1" style={{ backgroundcolor: "#FAFCEE" }}>
                     <div id="flash_inside">
                         <h1 style={{ color: "#000" }} class="underline">FLASHBACK FRIDAY</h1>
                     </div>
-                </div>
+                </div> */}
 
-                <div className="image_div_1">
-                    {functiondeal1()}
-                </div>
-                <div className="flash_1" style={{ backgroundcolor: "#FAFCEE" }}>
-                    <div id="flash_inside">
-                        <h1 style={{ color: "#000" }} class="underline">MORE ON THIS.....</h1>
+               
+                <div id="gallerydiv">
+                <h1 id="heading">PRESENTATION COMPETITIONS</h1>
+                    <div id="paragraph" style={{ textAlign: "justify" }}>
+                        <p>Memories are meant to be remembered, because even the bad memories are usually part of something we once thought was good.Memory is more indelible than ink. Life must be lived forwards, but it can only be understood backwards, through the experience of oneself and others. There is no definitive roadmap to follow for success, while the road is a huge game of Tetris. The inputs that we manage to get, must be arranged in a suitable way to make them advantageous to us. But it is the inputs that are sometimes very difficult to get owing to certain reasons.
+
+                            To help everyone in this regard, NITR-ICS is going to collect such experiences and words of wisdom from successful ceramists, material scientists and industrialists who have excelled in their fields. It will be a conglomeration of important events in their journey from college to where they are now. All the information will be shared fortnightly through the label “Flashback Friday”. Stay tuned for further information.
+                        </p>
                     </div>
                 </div>
                 {functiondeal()}
-
-                <div className="flash_2" style={{ backgroundcolor: "#FAFCEE" }}>
-                    <div id="flash_inside" style={{ marginBottom: "40px" }}>
-                        <h1 style={{ color: "#000" }} class="underline">MONDAY MATTER</h1>
-                    </div>
-                </div>
-
-                <div className="image_div_2">
-                    {functiondeal2()}
-                </div>
-               
-                <div className="flash_2" style={{ backgroundcolor: "#FAFCEE" }}>
-                    <div id="flash_inside1">
-                        <h1 style={{ color: "#000" }} class="underline">MORE ON THIS....</h1>
-                    </div>
-                </div>
-                {functiondeals()}
             </div>
 
-            <div className="social_media_part">
-
+            <div class="social_media_part">
                 <footer>
                     <div class="top_header">
                         <section>
@@ -325,8 +297,9 @@ const Apps = () => {
                     <div class="bottom_content">
                         <section>
                             <a href="#"><i class="fa fa-facebook" style={{ fontSize: "2rem" }}></i></a>
-                            <a href="https://instagram.com/nitr_ics?utm_medium=copy_link"><i class="fa fa-instagram" style={{ fontSize: "2rem" }}></i></a>
-                            <a href="https://www.linkedin.com/company/incers-nitr"><i class="fa fa-linkedin" style={{ fontSize: "2rem" }}></i></a>
+                            <a href="#"><i class="fa fa-instagram" style={{ fontSize: "2rem" }}></i></a>
+                            <a href="#"><i class="fa fa-linkedin" style={{ fontSize: "2rem" }}></i></a>
+                            {/* <a href="#"><i class="fa fa-telegram"></i></a> */}
                         </section>
                         <section>
                             <a href="/" style={{ fontSize: "1.1rem" }}>Home</a>
@@ -340,7 +313,7 @@ const Apps = () => {
                     </div>
                 </footer>
             </div>
-        </div></>);
+        </div></>)
 }
 
-export default Apps;
+export default Events1
