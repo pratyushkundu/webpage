@@ -39,10 +39,7 @@ export const SliderData = [
 
     },
     
-     {
-      image:
-         img13
-    },
+   
     
     {
 

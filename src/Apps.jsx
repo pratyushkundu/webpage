@@ -11,6 +11,7 @@ import { Box, makeStyles } from "@material-ui/core";
 import { Link } from 'react-router-dom';
 
 
+
 const useStyles = makeStyles({
     image: {
         height: 500,
@@ -257,7 +258,7 @@ const Apps = () => {
         <><div class="main_div">
             <div class="top_div">
                 <div>
-                    <div id="logo" style={{ cursor: "pointer" }}><img src="images/logo1.png" style={{ height: "48px", width: "55px", background: "100% 100%", borderRadius: "0px", padding: "2px" }} /></div>
+                    <div id="logo" style={{ cursor: "pointer" }}><img src="images/logo1.jpg" style={{ height: "48px", width: "55px", background: "100% 100%", borderRadius: "0px", padding: "2px" }} /></div>
                 </div>
                 <Navbar />
             </div>
