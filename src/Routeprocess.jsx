@@ -11,6 +11,7 @@ import Navbar from './Navbar';
 import Blog from './Blog'
 import Blog1 from './Blog1'
 import Blog2 from './Blog2'
+import Mritika from './Events'
 
 
 const Routing = ()=>{
@@ -25,6 +26,7 @@ const Routing = ()=>{
               <Route exact path="/blog" component={Blog}/>
               <Route exact path="/blog1" component={Blog1}/>
               <Route exact path="/blog2" component={Blog2}/>
+              <Route exact path="/mritika" component={Mritika}/>
           {/* </Switch> */}
       </>);
 }

@@ -12,10 +12,9 @@ import { Link } from 'react-router-dom';
 import img from './images/img4.jpg'
 
 
-
 const useStyles = makeStyles({
     image: {
-        height: 500,
+        height: 400,
         width: 320,
     },
     wrapper: {
@@ -49,7 +48,7 @@ const Apps = () => {
                     <div className="img_1">
                         <img id="peacock" src="images/FF1.jpg" alt="mypic" />
 
-                        <h2 id="proff1" style={{ color: "#000" }}>Proff.Shantanu T behera</h2>
+                        <h2 id="proff1" style={{ color: "#000" }}>Proff.Shantanu behera</h2>
                         <p id="para" style={{ color: "#000" }}>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dignissimos nihil cupiditate quae culpa,
                             quos labore autem dolores, pariatur laborum voluptates quaerat? Voluptas quidem, provident doloribus
                             reiciendis nesciunt voluptates doloremque voluptatibus voluptatum. Ipsam, aspernatur ad.
@@ -259,7 +258,7 @@ const Apps = () => {
         <><div class="main_div">
             <div class="top_div">
                 <div>
-                    <div id="logo" style={{ cursor: "pointer" }}><img src="images/logo1.jpg" style={{ height: "48px", width: "55px", background: "100% 100%", borderRadius: "0px", padding: "2px" }} /></div>
+                    <div id="logo" style={{ cursor: "pointer" }}><img src="images/logo." style={{ height: "48px", width: "55px", background: "100% 100%", borderRadius: "0px", padding: "2px" }} /></div>
                 </div>
                 <Navbar />
             </div>
@@ -313,9 +312,9 @@ const Apps = () => {
                         </section>
                         <section>
                             <span><i class="fa fa-phone"></i></span>
-                            <span>Siddharth Nanda +91 8093308828</span>
+                            <span>Siddhartha Nanda  8093308828</span>
                             <span><i class="fa fa-phone"></i></span>
-                            <span>Sakti Swaroop +91 9337318011</span>
+                            <span>Sakti Swarup  9337318011</span>
                         </section>
                         <section>
                             <span><i class="fa fa-envelope"></i></span>

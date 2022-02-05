@@ -48,7 +48,7 @@ const Contact = () => {
                         <li class="col-12 col-md-6 col-lg-3">
                             <div class="cnt-block equal-hight" style={{ height: " 355px" }}>
                                 <figure><img src="images/SS.jpg" class="img-responsive" style={{objectFit:"cover"}} alt="" /></figure>
-                                <h3><a href="#">Sakti swaroop</a></h3>
+                                <h3><a href="#">Sakti Swarup Mohapatra</a></h3>
                                 <p>B.Tech - Ceramic Engineering</p>
                                 <p>mail id: sakti.ssm9080@gmail.com</p>
                                 <p>Contact no: +91 9337318011</p>
@@ -71,9 +71,9 @@ const Contact = () => {
                         </section>
                         <section>
                             <span><i class="fa fa-phone"></i></span>
-                            <span>Siddharth Nanda +91 8093308828</span>
+                            <span>Siddhartha Nanda  8093308828</span>
                             <span><i class="fa fa-phone"></i></span>
-                            <span>Sakti Swaroop +91 9337318011</span>
+                            <span>Sakti Swarup  9337318011</span>
                         </section>
                         <section>
                             <span><i class="fa fa-envelope"></i></span>

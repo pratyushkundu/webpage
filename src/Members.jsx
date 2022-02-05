@@ -66,7 +66,7 @@ const Members = () => {
                                 <div class="cnt-block equal-hight" style={{height:" 349px"}}>
                                     <figure><img src="images/SN.jpg" class="img-responsive" alt="" style={{objectFit:"cover"}}/></figure>
                                     <h3><a href="">Siddhartha Nanda</a></h3>
-                                    <p>Web Developer</p>
+                                    {/* <p>Web Developer</p> */}
                                     <h4>Chairperson</h4>
                                     <ul class="follow-us clearfix">
                                         {/* <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li> */}
@@ -78,8 +78,8 @@ const Members = () => {
                             <li class="col-12 col-md-6 col-lg-3">
                                 <div class="cnt-block equal-hight" style={{height:" 349px"}}>
                                     <figure><img src="images/SS.jpg" style={{objectFit:"cover"}} class="img-responsive" alt="" /></figure>
-                                    <h3><a href="#">Sakti Swaroop</a></h3>
-                                    <p>Freelance Web Developer</p>
+                                    <h3><a href="#">Sakti Swarup Mohapatra</a></h3>
+                                    {/* <p>Freelance Web Developer</p> */}
                                     <h4>Vice Chairperson</h4>
                                     <ul class="follow-us clearfix">
                                         {/* <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li> */}
@@ -92,7 +92,7 @@ const Members = () => {
                                 <div class="cnt-block equal-hight" style={{height:" 349px"}}>
                                     <figure><img src="images/DP.jpg" class="img-responsive" style={{objectFit:"cover" ,backgroundRepeat:"no-repeat"}} alt="" /></figure>
                                     <h3><a href="http://www.webcoderskull.com/">Deepshikha</a></h3>
-                                    <p>Freelance Developer</p>
+                                    {/* <p>Freelance Developer</p> */}
                                     <h4>Secretary</h4>
                                     <ul class="follow-us clearfix">
                                         {/* <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li> */}
@@ -105,7 +105,7 @@ const Members = () => {
                                 <div class="cnt-block equal-hight" style={{height:" 349px"}}>
                                     <figure><img src="images/RP.jpg" class="img-responsive" style={{objectFit:"cover"}} alt="" /></figure>
                                     <h3><a href="http://www.webcoderskull.com/">Riyali</a></h3>
-                                    <p>Freelance Developer</p>
+                                    {/* <p>Freelance Developer</p> */}
                                     <h4>joint Secretary</h4>
                                     <ul class="follow-us clearfix">
                                         {/* <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li> */}
@@ -118,7 +118,7 @@ const Members = () => {
                                 <div class="cnt-block equal-hight" style={{height:" 349px"}}>
                                     <figure><img src="images/SG.jpeg" class="img-responsive" style={{objectFit:"cover"}} alt="" /></figure>
                                     <h3><a href="">Somdeb Ganguly</a></h3>
-                                    <p>Freelance Web Developer</p>
+                                    {/* <p>Freelance Web Developer</p> */}
                                     <h4>Branch Representative</h4>
                                     <ul class="follow-us clearfix">
                                         {/* <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li> */}
@@ -141,9 +141,9 @@ const Members = () => {
                         </section>
                         <section>
                             <span><i class="fa fa-phone"></i></span>
-                            <span>Siddharth Nanda +91 8093308828</span>
+                            <span>Siddhartha Nanda  8093308828</span>
                             <span><i class="fa fa-phone"></i></span>
-                            <span>Sakti Swaroop +91 9337318011</span>
+                            <span>Sakti Swarup  9337318011</span>
                         </section>
                         <section>
                             <span><i class="fa fa-envelope"></i></span>

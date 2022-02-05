@@ -53,9 +53,9 @@ const About = () => {
                         </section>
                         <section>
                             <span><i class="fa fa-phone"></i></span>
-                            <span>Siddharth Nanda +91 8093308828</span>
+                            <span>Siddhartha Nanda  8093308828</span>
                             <span><i class="fa fa-phone"></i></span>
-                            <span>Sakti Swaroop +91 9337318011</span>
+                            <span>Sakti Swarup  9337318011</span>
                         </section>
                         <section>
                             <span><i class="fa fa-envelope"></i></span>
