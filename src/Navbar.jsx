@@ -52,11 +52,18 @@ const Navbar1 = () => {
             <nav>
                 <div class="openMenu" onClick={functionopen}><i class="fa fa-bars"></i></div>
                 <ul class="mainMenu">
-                    <li><a href="/">Home</a></li>
-                    <li><a href="/about">About</a></li>
-                    <li><a href="/members">Members</a></li>
-                    <li><a href="/contact">Contact</a></li>
-                    <li><a href="#">Events</a></li>
+                    <li><a href="/"> <h3 class="my-heading " style={{fontSize:"18px"}}><span class="bg-main">Home</span></h3></a></li>
+                    <li><a href="/about"><h3 class="my-heading " style={{fontSize:"18px"}}><span class="bg-main">About</span></h3></a></li>
+                    <li><a href="/members"><h3 class="my-heading " style={{fontSize:"18px"}}><span class="bg-main">Members</span></h3></a></li>
+                    <li><a href="/contact"><h3 class="my-heading " style={{fontSize:"18px"}}><span class="bg-main">Contact</span></h3></a></li>
+                    <li>
+                    <div className="menu_1">
+                    <ul>
+                    <NavLink to="/events" exact activeClassName="active_class" style={{ textDecoration: "none", color: "red" }} ><li> <h3 class="my-heading " style={{fontSize:"18px"}}><span class="bg-main">Placement-Diaries</span></h3></li> </NavLink>
+                    <NavLink to="/events1" exact activeClassName="active_class" style={{ textDecoration: "none", color: "red" }} ><li> <h3 class="my-heading " style={{fontSize:"18px"}}><span class="bg-main">Presentation-Competetions</span></h3></li> </NavLink>
+                        {/* <li><h3>hello</h3></li> */}
+                    </ul>
+                </div></li>
                     <li><a href="/mritika">Mritika</a></li>
                     <div class="closeMenu" onClick={functionclose}><i class="fa fa-times"></i></div>
                     <span class="icons">
@@ -74,35 +81,35 @@ const Navbar1 = () => {
                 <NavLink to="/" exact activeClassName="active_class" style={{ textDecoration: "none" }}>
                     <h2 className="nav_hover" style={{fontSize:"20px"}}>Home</h2>
                 </NavLink>
-                <div className="menu_1">
+                {/* <div className="menu_1">
                     <ul>
                         <NavLink to="/blog" exact activeClassName="active_class" style={{ textDecoration: "none", color: "red" }} ><li><h3>hello</h3></li> </NavLink>
                         <li><h3>hello</h3></li>
                         <li><h3>hello</h3></li>
                     </ul>
-                </div>
+                </div> */}
             </div> <div className="hello_div">
                 <NavLink to="/about" exact activeClassName="active_class" style={{ textDecoration: "none" }}>
                     <h2 className="nav_hover" style={{fontSize:"20px"}}>About</h2>
                 </NavLink>
-                <div className="menu_1">
+                {/* <div className="menu_1">
                     <ul>
                         <li><h3>hello</h3></li>
                         <li><h3>hello</h3></li>
                         <li><h3>hello</h3></li>
                     </ul>
-                </div>
+                </div> */}
             </div> <div className="hello_div">
                 <NavLink to="/members" exact activeClassName="active_class" style={{ textDecoration: "none" }}>
                     <h2 className="nav_hover" style={{fontSize:"20px"}}>Members</h2>
                 </NavLink>
-                <div className="menu_1">
+                {/* <div className="menu_1">
                     <ul>
                         <li><h3>Members(2018-22)</h3></li>
                         <li><h3>hello</h3></li>
                         <li><h3>hello</h3></li>
                     </ul>
-                </div>
+                </div> */}
             </div> <div className="hello_div">
                 <NavLink to="/contact" exact activeClassName="active_class" style={{ textDecoration: "none" }}>
                     <h2 className="nav_hover" style={{fontSize:"20px"}}>Contact</h2>
@@ -121,9 +128,9 @@ const Navbar1 = () => {
                 </NavLink>
                 <div className="menu_1">
                     <ul>
-                    <NavLink to="/events" exact activeClassName="active_class" style={{ textDecoration: "none", color: "red" }} ><li><h3>PlacementDiaries</h3></li> </NavLink>
-                    <NavLink to="/events1" exact activeClassName="active_class" style={{ textDecoration: "none", color: "red" }} ><li><h3>Presentation-Competetions</h3></li> </NavLink>
-                        <li><h3>hello</h3></li>
+                    <NavLink to="/events" exact activeClassName="active_class" style={{ textDecoration: "none", color: "red" }} ><li> <h3 class="my-heading " style={{fontSize:"15px"}}><span class="bg-main">Placement-Diaries</span></h3></li> </NavLink>
+                    <NavLink to="/events1" exact activeClassName="active_class" style={{ textDecoration: "none", color: "red" }} ><li> <h3 class="my-heading " style={{fontSize:"15px"}}><span class="bg-main">Presentation-Competetions</span></h3></li> </NavLink>
+                        {/* <li><h3>hello</h3></li> */}
                     </ul>
                 </div>
             </div>
@@ -131,13 +138,13 @@ const Navbar1 = () => {
                 <NavLink to="/mritika" exact activeClassName="active_class" style={{ textDecoration: "none" }}>
                     <h2 className="nav_hover" style={{fontSize:"20px"}}>Mritika</h2>
                 </NavLink>
-                <div className="menu_1">
+                {/* <div className="menu_1">
                     <ul>
                     <NavLink to="/events" exact activeClassName="active_class" style={{ textDecoration: "none", color: "red" }} ><li><h3>PlacementDiaries</h3></li> </NavLink>
                     <NavLink to="/events1" exact activeClassName="active_class" style={{ textDecoration: "none", color: "red" }} ><li><h3>Presentation-Competetions</h3></li> </NavLink>
                         <li><h3>hello</h3></li>
                     </ul>
-                </div>
+                </div> */}
             </div>
             {/* <NavLink to="/about" exact activeClassName="active_class" style={{ textDecoration: "none" }}> <h2 className="nav_hover" >AboutSociety</h2></NavLink> */}
             {/* <NavLink to="/members" exact activeClassName="active_class" style={{ textDecoration: "none" }}> <h2 className="nav_hover" >Members</h2></NavLink> */}

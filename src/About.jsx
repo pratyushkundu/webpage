@@ -13,7 +13,7 @@ const About = () => {
                 <Navbar />
             </div>
             <div className="gallery">
-                  <div className="memory">
+                {/* <div className="memory">
                     <h1 id="heading">ABOUT NITR ICS</h1>
                 </div>
                 <div id="paragraphmemo" style={{ textAlign: "justify" }}>
@@ -21,8 +21,31 @@ const About = () => {
                         The club releases a weekly dose of Ceramic and Material science updates every Monday through the label “Monday Matter”.All the latest known and unknown realms of Material Science are brought out to the people to make their Monday an interesting one. Online/Offline technical sessions on various topics related to new research topics, latest materials are discussed by the expert professionals belonging to the field of Material Science.
                         The Scientific Writing team and other interested persons will be engaged in online/offline presentation competitions where they will present on their areas of interest. These Presentation competitions will enhance their skills and boost up their confidence level to participate in several competitions.
                         .</p>
-                </div>
-                <App />
+                </div> */}
+                {/* <App /> */}
+                <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css" />
+                <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+                <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+                <section class="about-us py-5 " id="about-us">
+                    <div class="container mt-5">
+                        <div class="row">
+                            <div class="col-md-8" style={{ textAlign: "justify" }}>
+                                <h1 class='text-success'>Welcome!</h1>
+                                <h2>Know More About Us</h2>
+                                <hr />
+                                <p>The Indian Ceramic Society (ICS) team, here at NIT Rourkela provides a forum for delegates from the field of ceramics and material science to exchange thoughts and ideas and to provide exposure to ceramic and material science students or those interested in the same field.NITR ICS collects experiences and words of wisdom from successful ceramists, industrialists and material scientists and shares with the audience via “Flashback Friday”. A conglomeration of important events in their journey from college to where they are now, their experiences and words of wisdom from successful ceramists, industrialists, and material scientists, are shared fortnightly through a label “Flashback Friday”.
+                                    The club releases a weekly dose of Ceramic and Material science updates every Monday through the label “Monday Matter”.All the latest known and unknown realms of Material Science are brought out to the people to make their Monday an interesting one. Online/Offline technical sessions on various topics related to new research topics, latest materials are discussed by the expert professionals belonging to the field of Material Science.
+                                    The Scientific Writing team and other interested persons will be engaged in online/offline presentation competitions where they will present on their areas of interest. These Presentation competitions will enhance their skills and boost up their confidence level to participate in several competitions.
+                                    .</p>
+
+                            </div>
+                            <div class="col-md-3">
+                                <img src="https://cdn.pixabay.com/photo/2015/03/24/06/40/cup-687147__340.jpg"  style={{height:"450px" }} alt="" />
+                            </div>
+                        </div>
+                    </div>
+                </section>
                 <div id="gallerydiv">
                     <h1 id="heading">MONDAY MATTER</h1>
                     <div id="paragraph" style={{ textAlign: "justify" }}>
@@ -33,7 +56,7 @@ const About = () => {
                     </div>
                 </div>
                 <div id="gallerydiv">
-                <h1 id="heading">FLASHBACK FRIDAY</h1>
+                    <h1 id="heading">FLASHBACK FRIDAY</h1>
                     <div id="paragraph" style={{ textAlign: "justify" }}>
                         <p>Memories are meant to be remembered, because even the bad memories are usually part of something we once thought was good.Memory is more indelible than ink. Life must be lived forwards, but it can only be understood backwards, through the experience of oneself and others. There is no definitive roadmap to follow for success, while the road is a huge game of Tetris. The inputs that we manage to get, must be arranged in a suitable way to make them advantageous to us. But it is the inputs that are sometimes very difficult to get owing to certain reasons.
 
