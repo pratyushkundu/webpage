@@ -393,9 +393,9 @@ It also works to provide exposure to students on material science & technology a
                         </section>
                         <section>
                             <span><i class="fa fa-phone"></i></span>
-                            <span>Siddhartha -- 8093308828</span>
+                            <span>Siddhartha Nanda 8093308828</span>
                             <span><i class="fa fa-phone"></i></span>
-                            <span>Sakti -- 9337318011</span>
+                            <span>Sakti Swarup 9337318011</span>
                         </section>
                         <section>
                             <span><i class="fa fa-envelope"></i></span>

@@ -35,7 +35,7 @@ const Contact = () => {
                             <div class="cnt-block equal-hight" style={{ height: " 355px" }}>
                                 <figure><img src="images/SN.jpg" class="img-responsive" alt="" style={{objectFit:"cover"}}/></figure>
                                 <h3><a href="https://www.linkedin.com/in/siddhartha-nanda-2000/">Siddhartha Nanda</a></h3>
-                                <p>Dual Degree - Ceramic Engineering</p>
+                                <p>Department of Ceramic Engineering</p>
                                 <p>mail id: nanda.siddhartha2018@gmail.com</p>
                                 <p>Contact no: +91 8093308828</p>
                                 <ul class="follow-us clearfix">
@@ -49,7 +49,7 @@ const Contact = () => {
                             <div class="cnt-block equal-hight" style={{ height: " 355px" }}>
                                 <figure><img src="images/SS.jpg" class="img-responsive" style={{objectFit:"cover"}} alt="" /></figure>
                                 <h3><a href="#">Sakti Swarup Mohapatra</a></h3>
-                                <p>B.Tech - Ceramic Engineering</p>
+                                <p>Department of Ceramic Engineering</p>
                                 <p>mail id: sakti.ssm9080@gmail.com</p>
                                 <p>Contact no: +91 9337318011</p>
                                 <ul class="follow-us clearfix">
