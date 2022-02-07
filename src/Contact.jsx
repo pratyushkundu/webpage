@@ -13,9 +13,9 @@ const Contact = () => {
             </div>
             <section id="candy" class="our-webcoderskull padding-lg">
                 <div class="container">
-                    <div class="row heading heading-icon">
+                    <div style={{height:"260px"}}><div class="row heading heading-icon">
                         <h2 style={{ fontSize: "30px", color: "black", fontWeight: "bolder" }}>HEY ! REACH OUT TO US</h2>
-                    </div>
+                    </div></div>
                     <ul class="row">
                         <li class="col-12 col-md-6 col-lg-3">
                             <div class="cnt-block equal-hight" style={{ height: " 355px" }}>

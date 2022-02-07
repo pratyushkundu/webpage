@@ -46,8 +46,45 @@ const About = () => {
                         </div>
                     </div>
                 </section>
+                {/* <section class="about-us py-5 " id="about-us">
+                    <div class="container mt-5">
+                        <div class="row">
+                            <div class="col-md-8" style={{ textAlign: "justify" }}>
+                                <h1 class='text-success'>Welcome!</h1>
+                                <h2>Know More About Us</h2>
+                                <hr />
+                                <p>Memories are meant to be remembered, because even the bad memories are usually part of something we once thought was good.Memory is more indelible than ink. Life must be lived forwards, but it can only be understood backwards, through the experience of oneself and others. There is no definitive roadmap to follow for success, while the road is a huge game of Tetris. The inputs that we manage to get, must be arranged in a suitable way to make them advantageous to us. But it is the inputs that are sometimes very difficult to get owing to certain reasons.
+
+To help everyone in this regard, NITR-ICS is going to collect such experiences and words of wisdom from successful ceramists, material scientists and industrialists who have excelled in their fields. It will be a conglomeration of important events in their journey from college to where they are now. All the information will be shared fortnightly through the label “Flashback Friday”. Stay tuned for further information.
+</p>
+
+                            </div>
+                            <div class="col-md-3">
+                                <img src="https://cdn.pixabay.com/photo/2015/03/24/06/40/cup-687147__340.jpg"  style={{height:"450px" }} alt="" />
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section class="about-us py-5 " id="about-us">
+                    <div class="container mt-5">
+                        <div class="row">
+                            <div class="col-md-8" style={{ textAlign: "justify" }}>
+                                <h1 class='text-success'>Welcome!</h1>
+                                <h2>Know More About Us</h2>
+                                <hr />
+                                <p>Every week, you suffer from the same malady: a terrible case of the Mondays. You dread that alarm going off. And no matter how many things you try—meditation, reciting inspirational quotes, reading a bunch of happy quotes, you're having trouble getting going. But why not think of Monday as an opportunity rather than a punishment? It's a chance to start fresh.
+                            Who wants to wake up to a Monday after a good weekend rest? Mondays are boring, seems longer than usual and almost everyone hates it, right? It is also marked by tiredness and reluctance to start the week's work. But not anymore.
+                            NITR-ICS is going to make you look forward to the Monday and the next Monday and so on. Presenting before you, "Monday Matter", your weekly dose of Ceramics and Material Science updates, to keep you intrigued for the rest of the week. We will be keeping you informed of all the latest, known, and unknown realms of material science, making your start of the week an interesting one.
+                            To all material enthusiasts out there, a unique fortuity knocks at your doors. Not everyone is blessed to receive the pearl of wisdom. Give light to the heed of many others who are aspiring to know more.</p>
+                            </div>
+                            <div class="col-md-3">
+                                <img src="https://cdn.pixabay.com/photo/2015/03/24/06/40/cup-687147__340.jpg"  style={{height:"450px" }} alt="" />
+                            </div>
+                        </div>
+                    </div>
+                </section> */}
                 <div id="gallerydiv">
-                    <h1 id="heading">MONDAY MATTER</h1>
+                    <h2 id="heading" style={{marginLeft:"90px"}}>MONDAY MATTER</h2>
                     <div id="paragraph" style={{ textAlign: "justify" }}>
                         <p>Every week, you suffer from the same malady: a terrible case of the Mondays. You dread that alarm going off. And no matter how many things you try—meditation, reciting inspirational quotes, reading a bunch of happy quotes, you're having trouble getting going. But why not think of Monday as an opportunity rather than a punishment? It's a chance to start fresh.
                             Who wants to wake up to a Monday after a good weekend rest? Mondays are boring, seems longer than usual and almost everyone hates it, right? It is also marked by tiredness and reluctance to start the week's work. But not anymore.
@@ -56,7 +93,7 @@ const About = () => {
                     </div>
                 </div>
                 <div id="gallerydiv">
-                    <h1 id="heading">FLASHBACK FRIDAY</h1>
+                    <h2 id="heading" style={{marginLeft:"90px"}}>FLASHBACK FRIDAY</h2>
                     <div id="paragraph" style={{ textAlign: "justify" }}>
                         <p>Memories are meant to be remembered, because even the bad memories are usually part of something we once thought was good.Memory is more indelible than ink. Life must be lived forwards, but it can only be understood backwards, through the experience of oneself and others. There is no definitive roadmap to follow for success, while the road is a huge game of Tetris. The inputs that we manage to get, must be arranged in a suitable way to make them advantageous to us. But it is the inputs that are sometimes very difficult to get owing to certain reasons.
 

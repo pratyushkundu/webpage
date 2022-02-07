@@ -128,15 +128,15 @@ const Navbar1 = () => {
                 </NavLink>
                 <div className="menu_1">
                     <ul>
-                    <NavLink to="/events" exact activeClassName="active_class" style={{ textDecoration: "none", color: "red" }} ><li> <h3 class="my-heading " style={{fontSize:"15px"}}><span class="bg-main">Placement-Diaries</span></h3></li> </NavLink>
-                    <NavLink to="/events1" exact activeClassName="active_class" style={{ textDecoration: "none", color: "red" }} ><li> <h3 class="my-heading " style={{fontSize:"15px"}}><span class="bg-main">Presentation-Competetions</span></h3></li> </NavLink>
+                    <NavLink to="/events" exact activeClassName="active_class" style={{ textDecoration: "none", color: "red" }} ><li> <h3 class="my-heading " style={{fontSize:"15px",marginLeft:"-50px"}}><span class="bg-main">Placement-Diaries</span></h3></li> </NavLink>
+                    <NavLink to="/events1" exact activeClassName="active_class" style={{ textDecoration: "none", color: "red" }} > <h3 class="my-heading " style={{fontSize:"15px",marginLeft:"-50px"}}><span class="bg-main">Presentation-Competetions</span></h3></NavLink>
                         {/* <li><h3>hello</h3></li> */}
                     </ul>
                 </div>
             </div>
             <div className="hello_div">
                 <NavLink to="/mritika" exact activeClassName="active_class" style={{ textDecoration: "none" }}>
-                    <h2 className="nav_hover" style={{fontSize:"20px"}}>Mritika</h2>
+                    <h2 className="nav_hover" style={{fontSize:"20px"}}>Mrittika</h2>
                 </NavLink>
                 {/* <div className="menu_1">
                     <ul>

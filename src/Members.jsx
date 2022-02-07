@@ -18,9 +18,11 @@ const Members = () => {
 
             
                 <div class="container">
-                    <div class="row heading heading-icon">
-                        <h2>FOUNDERS</h2>
-                    </div>
+                
+                    <div style={{height:"240px"}}><div class="row heading heading-icon">
+                        <h2 style={{marginTop:"50px"}}>FOUNDERS</h2>
+                    </div></div>
+                 
                     <ul class="row">
                         <li class="col-12 col-md-6 col-lg-3">
                             <div class="cnt-block equal-hight" style={{height:" 349px"}}>
@@ -110,6 +112,32 @@ const Members = () => {
                                     <ul class="follow-us clearfix">
                                         {/* <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li> */}
                                         <li><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+                                        <li><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li class="col-12 col-md-6 col-lg-3">
+                                <div class="cnt-block equal-hight" style={{height:" 349px"}}>
+                                    <figure><img src="images/SG.jpeg" class="img-responsive" style={{objectFit:"cover"}} alt="" /></figure>
+                                    <h3><a href="">Somdeb Ganguly</a></h3>
+                                    {/* <p>Freelance Web Developer</p> */}
+                                    <h4>Branch Representative</h4>
+                                    <ul class="follow-us clearfix">
+                                        {/* <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li> */}
+                                        <li><a href="https://www.instagram.com/laughing_storm3593/?hl=en"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+                                        <li><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li class="col-12 col-md-6 col-lg-3">
+                                <div class="cnt-block equal-hight" style={{height:" 349px"}}>
+                                    <figure><img src="images/SG.jpeg" class="img-responsive" style={{objectFit:"cover"}} alt="" /></figure>
+                                    <h3><a href="">Somdeb Ganguly</a></h3>
+                                    {/* <p>Freelance Web Developer</p> */}
+                                    <h4>Branch Representative</h4>
+                                    <ul class="follow-us clearfix">
+                                        {/* <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li> */}
+                                        <li><a href="https://www.instagram.com/laughing_storm3593/?hl=en"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
                                         <li><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
                                     </ul>
                                 </div>
