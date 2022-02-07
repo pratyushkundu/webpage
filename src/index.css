@@ -1,3 +1,4 @@
+
 @import url("https://stackpath.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css");
 @import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed&family=Roboto+Mono:wght@200&display=swap");
 /* @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
@@ -215,14 +216,14 @@ img {
   /* background:#FAFCEE; */
   display: flex;
   justify-content: center;
-  background-image: url("images/img4.jpg");
+  background-image: url("images/imgb.png");
   /* background-image: url('https://images.pexels.com/photos/167491/pexels-photo-167491.jpeg?auto=compress&cs=tinysrgb&h=650&w=940') no-repeat center center fixed;  */
   background-size: 100% 100%;
   overflow-x: hidden;
   object-fit: contain;
   background-repeat: no-repeat;
   background-color: rgba(0, 0, 0, 0.7);
-  background-blend-mode: darken;
+  background-blend-mode: difference;
 }
 .gallery_div_placement {
   width: 100%;

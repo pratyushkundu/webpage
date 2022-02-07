@@ -61,7 +61,7 @@ const Mritika = () => {
                     <div class="row">
                         <div class="col-md-4 mb-3 wow bounceInUp" data-wow-duration="1.4s">
                             <div class="big-img">
-                                <img src="https://images.pexels.com/photos/167631/pexels-photo-167631.jpeg?auto=compress&cs=tinysrgb&h=650&w=940" class="img-fluid" />
+                                <img src="https://images.pexels.com/photos/167631/pexels-photo-167631.jpeg?auto=compress&cs=tinysrgb&h=650&w=94" class="img-fluid" />
                             </div>
                         </div>
                         <div class="col-md-8">
@@ -244,7 +244,7 @@ const Mritika = () => {
                 <div class="container">
                     <div class="row">
                         <div class="col-md-12 wow fadeInUp">
-                            <h3 class="title-heading text-center font-weight-bold">MRITTIKA LATEST MUSIC</h3>
+                            <h3 class="title-heading text-center font-weight-bold">MRITTIKA GALLERY</h3>
                             <p class="myp text-center">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
                         </div>
                     </div>
@@ -252,56 +252,56 @@ const Mritika = () => {
                         <div class="col-sm-6 col-md-4 col-lg-2 mt-4 gal-item wow bounceInUp" data-wow-duration="1.4s">
                             <div class="music-gal item box">
                                 <a href="https://images.pexels.com/photos/761963/pexels-photo-761963.jpeg?auto=compress&cs=tinysrgb&h=650&w=940" class="fancybox" rel="ligthbox">
-                                    <img class="img-fluid" src="https://images.pexels.com/photos/761963/pexels-photo-761963.jpeg?auto=compress&cs=tinysrgb&h=650&w=940" />
+                                    <img class="img-fluid" src="images/G1.jpeg" />
                                 </a>
                             </div>
                         </div>
                         <div class="col-sm-6 col-md-4 col-lg-2 mt-4 gal-item wow bounceInUp" data-wow-duration="1.4s">
                             <div class="music-gal item box">
                                 <a href="https://images.pexels.com/photos/838696/pexels-photo-838696.jpeg?auto=compress&cs=tinysrgb&h=650&w=940" class="fancybox" rel="ligthbox">
-                                    <img class="img-fluid" src="https://images.pexels.com/photos/838696/pexels-photo-838696.jpeg?auto=compress&cs=tinysrgb&h=650&w=940" />
+                                    <img class="img-fluid" src="images/G2.jpeg" />
                                 </a>
                             </div>
                         </div>
                         <div class="col-sm-6 col-md-4 col-lg-2 mt-4 gal-item wow bounceInUp" data-wow-duration="1.4s">
                             <div class="music-gal item box">
                                 <a href="https://images.pexels.com/photos/1047930/pexels-photo-1047930.jpeg?auto=compress&cs=tinysrgb&h=650&w=940" class="fancybox" rel="ligthbox">
-                                    <img class="img-fluid" src="https://images.pexels.com/photos/1047930/pexels-photo-1047930.jpeg?auto=compress&cs=tinysrgb&h=650&w=940" />
+                                    <img class="img-fluid" src="images/G3.jpeg" />
                                 </a>
                             </div>
                         </div>
                         <div class="col-sm-6 col-md-4 col-lg-2 mt-4 gal-item wow bounceInUp" data-wow-duration="1.4s">
                             <div class="music-gal item box">
                                 <a href="https://images.pexels.com/photos/164693/pexels-photo-164693.jpeg?auto=compress&cs=tinysrgb&h=650&w=940" class="fancybox" rel="ligthbox">
-                                    <img class="img-fluid" src="https://images.pexels.com/photos/164693/pexels-photo-164693.jpeg?auto=compress&cs=tinysrgb&h=650&w=940" />
+                                    <img class="img-fluid" src="images/G4.jpeg" />
                                 </a>
                             </div>
                         </div>
                         <div class="col-sm-6 col-md-4 col-lg-2 mt-4 gal-item wow bounceInUp" data-wow-duration="1.4s">
                             <div class="music-gal item box">
                                 <a href="https://images.pexels.com/photos/876713/pexels-photo-876713.jpeg?auto=compress&cs=tinysrgb&h=650&w=940" class="fancybox" rel="ligthbox">
-                                    <img class="img-fluid" src="https://images.pexels.com/photos/876713/pexels-photo-876713.jpeg?auto=compress&cs=tinysrgb&h=650&w=940" />
+                                    <img class="img-fluid" src="images/G5.jpeg" />
                                 </a>
                             </div>
                         </div>
                         <div class="col-sm-6 col-md-4 col-lg-2 mt-4 gal-item wow bounceInUp" data-wow-duration="1.4s">
                             <div class="music-gal item box">
                                 <a href="https://images.pexels.com/photos/258732/pexels-photo-258732.jpeg?auto=compress&cs=tinysrgb&h=650&w=940" class="fancybox" rel="ligthbox">
-                                    <img class="img-fluid" src="https://images.pexels.com/photos/258732/pexels-photo-258732.jpeg?auto=compress&cs=tinysrgb&h=650&w=940" />
+                                    <img class="img-fluid" src="images/G6.jpeg" />
                                 </a>
                             </div>
                         </div>
                         <div class="col-sm-6 col-md-4 col-lg-2 mt-4 gal-item wow bounceInUp" data-wow-duration="1.4s">
                             <div class="music-gal item box">
                                 <a href="https://images.pexels.com/photos/210887/pexels-photo-210887.jpeg?auto=compress&cs=tinysrgb&h=650&w=940" class="fancybox" rel="ligthbox">
-                                    <img class="img-fluid" src="https://images.pexels.com/photos/210887/pexels-photo-210887.jpeg?auto=compress&cs=tinysrgb&h=650&w=940" />
+                                    <img class="img-fluid" src="images/G7.jpeg" />
                                 </a>
                             </div>
                         </div>
                         <div class="col-sm-6 col-md-4 col-lg-2 mt-4 gal-item wow bounceInUp" data-wow-duration="1.4s">
                             <div class="music-gal item box">
                                 <a href="https://images.pexels.com/photos/210922/pexels-photo-210922.jpeg?auto=compress&cs=tinysrgb&h=650&w=940" class="fancybox" rel="ligthbox">
-                                    <img class="img-fluid" src="https://images.pexels.com/photos/210922/pexels-photo-210922.jpeg?auto=compress&cs=tinysrgb&h=650&w=940" />
+                                    <img class="img-fluid" src="images/G8.jpeg" />
                                 </a>
                             </div>
                         </div>
@@ -342,7 +342,7 @@ const Mritika = () => {
                 <div class="container">
                     <div class="row">
                         <div class="col-md-8 mx-auto wow fadeInUp">
-                            <h3 class="text-center font-weight-bold">MRIT<span class="bg-main">IKA</span> SPONCERS</h3>
+                            <h3 class="text-center font-weight-bold">MRIT<span class="bg-main">IKA</span> SPONSERS</h3>
                             <p class=" text-center">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
                         </div>
                     </div>
