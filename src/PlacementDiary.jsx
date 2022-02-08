@@ -506,85 +506,85 @@ const Events = () => {
                             <div class="row">
                                 <div class="col-sm-6 col-md-4 col-lg-2 mt-4 gal-item wow bounceInUp" data-wow-duration="1.4s">
                                     <div class="music-gal item box">
-                                        <a href="https://images.pexels.com/photos/761963/pexels-photo-761963.jpeg?auto=compress&cs=tinysrgb&h=650&w=940" class="fancybox" rel="ligthbox">
-                                            <img class="img-fluid" src="https://images.pexels.com/photos/761963/pexels-photo-761963.jpeg?auto=compress&cs=tinysrgb&h=650&w=940" />
+                                        <a href="" class="fancybox" rel="ligthbox">
+                                            <img class="img-fluid" src="images/Nation with Namo.png" />
                                         </a>
                                     </div>
                                 </div>
                                 <div class="col-sm-6 col-md-4 col-lg-2 mt-4 gal-item wow bounceInUp" data-wow-duration="1.4s">
                                     <div class="music-gal item box">
-                                        <a href="https://images.pexels.com/photos/838696/pexels-photo-838696.jpeg?auto=compress&cs=tinysrgb&h=650&w=940" class="fancybox" rel="ligthbox">
-                                            <img class="img-fluid" src="https://images.pexels.com/photos/838696/pexels-photo-838696.jpeg?auto=compress&cs=tinysrgb&h=650&w=940" />
+                                        <a href="" class="fancybox" rel="ligthbox">
+                                            <img class="img-fluid" src="images/Tata steel.png" />
                                         </a>
                                     </div>
                                 </div>
                                 <div class="col-sm-6 col-md-4 col-lg-2 mt-4 gal-item wow bounceInUp" data-wow-duration="1.4s">
                                     <div class="music-gal item box">
-                                        <a href="https://images.pexels.com/photos/1047930/pexels-photo-1047930.jpeg?auto=compress&cs=tinysrgb&h=650&w=940" class="fancybox" rel="ligthbox">
-                                            <img class="img-fluid" src="https://images.pexels.com/photos/1047930/pexels-photo-1047930.jpeg?auto=compress&cs=tinysrgb&h=650&w=940" />
+                                        <a href="" class="fancybox" rel="ligthbox">
+                                            <img class="img-fluid" src="images/Saint Gobain.png" />
                                         </a>
                                     </div>
                                 </div>
                                 <div class="col-sm-6 col-md-4 col-lg-2 mt-4 gal-item wow bounceInUp" data-wow-duration="1.4s">
                                     <div class="music-gal item box">
-                                        <a href="https://images.pexels.com/photos/164693/pexels-photo-164693.jpeg?auto=compress&cs=tinysrgb&h=650&w=940" class="fancybox" rel="ligthbox">
-                                            <img class="img-fluid" src="https://images.pexels.com/photos/164693/pexels-photo-164693.jpeg?auto=compress&cs=tinysrgb&h=650&w=940" />
+                                        <a href="" class="fancybox" rel="ligthbox">
+                                            <img class="img-fluid" src="images/ICICI1.png" />
                                         </a>
                                     </div>
                                 </div>
                                 <div class="col-sm-6 col-md-4 col-lg-2 mt-4 gal-item wow bounceInUp" data-wow-duration="1.4s">
                                     <div class="music-gal item box">
                                         <a href="https://images.pexels.com/photos/876713/pexels-photo-876713.jpeg?auto=compress&cs=tinysrgb&h=650&w=940" class="fancybox" rel="ligthbox">
-                                            <img class="img-fluid" src="https://images.pexels.com/photos/876713/pexels-photo-876713.jpeg?auto=compress&cs=tinysrgb&h=650&w=940" />
+                                            <img class="img-fluid" src="images/Aditya.png" />
                                         </a>
                                     </div>
                                 </div>
                                 <div class="col-sm-6 col-md-4 col-lg-2 mt-4 gal-item wow bounceInUp" data-wow-duration="1.4s">
                                     <div class="music-gal item box">
-                                        <a href="https://images.pexels.com/photos/258732/pexels-photo-258732.jpeg?auto=compress&cs=tinysrgb&h=650&w=940" class="fancybox" rel="ligthbox">
-                                            <img class="img-fluid" src="https://images.pexels.com/photos/258732/pexels-photo-258732.jpeg?auto=compress&cs=tinysrgb&h=650&w=940" />
+                                        <a href="" class="fancybox" rel="ligthbox">
+                                            <img class="img-fluid" src="images/TATACLIQ.jpg" />
                                         </a>
                                     </div>
                                 </div>
                                 <div class="col-sm-6 col-md-4 col-lg-2 mt-4 gal-item wow bounceInUp" data-wow-duration="1.4s">
                                     <div class="music-gal item box">
-                                        <a href="https://images.pexels.com/photos/210887/pexels-photo-210887.jpeg?auto=compress&cs=tinysrgb&h=650&w=940" class="fancybox" rel="ligthbox">
-                                            <img class="img-fluid" src="https://images.pexels.com/photos/210887/pexels-photo-210887.jpeg?auto=compress&cs=tinysrgb&h=650&w=940" />
+                                        <a href="" class="fancybox" rel="ligthbox">
+                                            <img class="img-fluid" src="images/Somany.png" />
                                         </a>
                                     </div>
                                 </div>
                                 <div class="col-sm-6 col-md-4 col-lg-2 mt-4 gal-item wow bounceInUp" data-wow-duration="1.4s">
                                     <div class="music-gal item box">
                                         <a href="https://images.pexels.com/photos/210922/pexels-photo-210922.jpeg?auto=compress&cs=tinysrgb&h=650&w=940" class="fancybox" rel="ligthbox">
-                                            <img class="img-fluid" src="https://images.pexels.com/photos/210922/pexels-photo-210922.jpeg?auto=compress&cs=tinysrgb&h=650&w=940" />
+                                            <img class="img-fluid" src="images/krosaki.jfif" />
                                         </a>
                                     </div>
                                 </div>
                                 <div class="col-sm-6 col-md-4 col-lg-2 mt-4 gal-item wow bounceInUp" data-wow-duration="1.4s">
                                     <div class="music-gal item box">
                                         <a href="https://images.pexels.com/photos/756242/pexels-photo-756242.jpeg?auto=compress&cs=tinysrgb&h=650&w=940" class="fancybox" rel="ligthbox">
-                                            <img class="img-fluid" src="https://images.pexels.com/photos/756242/pexels-photo-756242.jpeg?auto=compress&cs=tinysrgb&h=650&w=940" />
+                                            <img class="img-fluid" src="images/glass.jpg" />
                                         </a>
                                     </div>
                                 </div>
                                 <div class="col-sm-6 col-md-4 col-lg-2 mt-4 gal-item wow bounceInUp" data-wow-duration="1.4s">
                                     <div class="music-gal item box">
                                         <a href="https://images.pexels.com/photos/167589/pexels-photo-167589.jpeg?auto=compress&cs=tinysrgb&h=650&w=940" class="fancybox" rel="ligthbox">
-                                            <img class="img-fluid" src="https://images.pexels.com/photos/167589/pexels-photo-167589.jpeg?auto=compress&cs=tinysrgb&h=650&w=940" />
+                                            <img class="img-fluid" src="images/Jsw.png" />
                                         </a>
                                     </div>
                                 </div>
                                 <div class="col-sm-6 col-md-4 col-lg-2 mt-4 gal-item wow bounceInUp" data-wow-duration="1.4s">
                                     <div class="music-gal item box">
                                         <a href="https://images.pexels.com/photos/167626/pexels-photo-167626.jpeg?auto=compress&cs=tinysrgb&h=650&w=940" class="fancybox" rel="ligthbox">
-                                            <img class="img-fluid" src="https://images.pexels.com/photos/167626/pexels-photo-167626.jpeg?auto=compress&cs=tinysrgb&h=650&w=940" />
+                                            <img class="img-fluid" src="images/itc.png" />
                                         </a>
                                     </div>
                                 </div>
                                 <div class="col-sm-6 col-md-4 col-lg-2 mt-4 gal-item wow bounceInUp" data-wow-duration="1.4s">
                                     <div class="music-gal item box">
                                         <a href="https://images.pexels.com/photos/167527/pexels-photo-167527.jpeg?auto=compress&cs=tinysrgb&h=650&w=940" class="fancybox" rel="ligthbox">
-                                            <img class="img-fluid" src="https://images.pexels.com/photos/167527/pexels-photo-167527.jpeg?auto=compress&cs=tinysrgb&h=650&w=940" />
+                                            <img class="img-fluid" src="images/QQQ.png" />
                                         </a>
                                     </div>
                                 </div>
@@ -605,18 +605,18 @@ const Events = () => {
                             <div class="row">
                                 <div class="col-sm-6 col-md-4 col-lg-3 mt-4 wow bounceInUp" data-wow-duration="1.4s">
                                     <div class="card">
-                                        <img class="card-img-top" src="images/SN.jpg" />
+                                        <img class="card-img-top" src="images/Munmi Das (MPR).jpg" />
                                         <div class="card-block">
 
-                                            <h4 class="card-title text-center">SIDDHARTH NANDA</h4>
+                                            <h4 class="card-title text-center">Munmi Das </h4>
 
-                                            <div class="card-text text-center">
+                                            {/* <div class="card-text text-center">
                                                 <div class="social-icons">
                                                     <a href="#" class="btn btn-circle my-social-btn fb"><i class="fa fa-facebook"></i></a>
                                                     <a href="#" class="btn btn-circle my-social-btn twitter"><i class="fa fa-twitter"></i></a>
                                                     <a href="#" class="btn btn-circle my-social-btn google"><i class="fa fa-google"></i></a>
                                                 </div>
-                                            </div>
+                                            </div> */}
                                         </div>
                                         <div class="card-footer text-center">
                                             <small>Lorem Ipsum is simply dummy text of the printing and typesetting</small>
@@ -625,6 +625,94 @@ const Events = () => {
                                     </div>
                                 </div>
                                 <div class="col-sm-6 col-md-4 col-lg-3 mt-4 wow bounceInUp" data-wow-duration="1.4s">
+                                    <div class="card">
+                                        <img class="card-img-top" src="images/Ankita Banerjee (MPR).jpg" />
+                                        <div class="card-block">
+
+                                            <h4 class="card-title text-center">Ankita Banerjee</h4>
+
+                                            {/* <div class="card-text text-center">
+                                                <div class="social-icons">
+                                                    <a href="#" class="btn btn-circle my-social-btn fb"><i class="fa fa-facebook"></i></a>
+                                                    <a href="#" class="btn btn-circle my-social-btn twitter"><i class="fa fa-twitter"></i></a>
+                                                    <a href="#" class="btn btn-circle my-social-btn google"><i class="fa fa-google"></i></a>
+                                                </div>
+                                            </div> */}
+                                        </div>
+                                        <div class="card-footer text-center">
+                                            <small>Lorem Ipsum is simply dummy text of the printing and typesetting</small>
+
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-sm-6 col-md-4 col-lg-3 mt-4 wow bounceInUp" data-wow-duration="1.4s">
+                                    <div class="card">
+                                        <img class="card-img-top" src="images/Suraj Bhan Singh (MPR).jpg" />
+                                        <div class="card-block">
+
+                                            <h4 class="card-title text-center">Suraj Bhan Singh</h4>
+
+                                            {/* <div class="card-text text-center">
+                                                <div class="social-icons">
+                                                    <a href="#" class="btn btn-circle my-social-btn fb"><i class="fa fa-facebook"></i></a>
+                                                    <a href="#" class="btn btn-circle my-social-btn twitter"><i class="fa fa-twitter"></i></a>
+                                                    <a href="#" class="btn btn-circle my-social-btn google"><i class="fa fa-google"></i></a>
+                                                </div>
+                                            </div> */}
+                                        </div>
+                                        <div class="card-footer text-center">
+                                            <small>Lorem Ipsum is simply dummy text of the printing and typesetting</small>
+
+                                        </div>
+                                    </div>
+                                </div>
+                                <div className="row">
+                                <div class="col-sm-6 col-md-4 col-lg-3 mt-4 wow bounceInUp" data-wow-duration="1.4s">
+                                    <div class="card">
+                                        <img class="card-img-top" src="images/Sidhanta Kumar Parija (Tata cliq).jpg" />
+                                        <div class="card-block">
+
+                                            <h4 class="card-title text-center">Sidhanta Kumar Parija</h4>
+
+                                            {/* <div class="card-text text-center">
+                                                <div class="social-icons">
+                                                    <a href="#" class="btn btn-circle my-social-btn fb"><i class="fa fa-facebook"></i></a>
+                                                    <a href="#" class="btn btn-circle my-social-btn twitter"><i class="fa fa-twitter"></i></a>
+                                                    <a href="#" class="btn btn-circle my-social-btn google"><i class="fa fa-google"></i></a>
+                                                </div>
+                                            </div> */}
+                                        </div>
+                                        <div class="card-footer text-center">
+                                            <small>Lorem Ipsum is simply dummy text of the printing and typesetting</small>
+
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-sm-6 col-md-4 col-lg-3 mt-4 wow bounceInUp" data-wow-duration="1.4s">
+                                    <div class="card">
+                                        <img class="card-img-top" src="images/Polukonda Chinmaya ( Tata cliq(.jpg" />
+                                        <div class="card-block">
+
+                                            <h4 class="card-title text-center">Polukonda Chinmaya</h4>
+
+                                            {/* <div class="card-text text-center">
+                                                <div class="social-icons">
+                                                    <a href="#" class="btn btn-circle my-social-btn fb"><i class="fa fa-facebook"></i></a>
+                                                    <a href="#" class="btn btn-circle my-social-btn twitter"><i class="fa fa-twitter"></i></a>
+                                                    <a href="#" class="btn btn-circle my-social-btn google"><i class="fa fa-google"></i></a>
+                                                </div>
+                                            </div> */}
+                                        </div>
+                                        <div class="card-footer text-center">
+                                            <small>Lorem Ipsum is simply dummy text of the printing and typesetting</small>
+
+                                        </div>
+                                    </div>
+                                </div>
+
+                                </div>
+                                
+                                {/* <div class="col-sm-6 col-md-4 col-lg-3 mt-4 wow bounceInUp" data-wow-duration="1.4s">
                                     <div class="card">
                                         <img class="card-img-top" src="images/SS.jpg" />
                                         <div class="card-block">
@@ -686,7 +774,7 @@ const Events = () => {
 
                                         </div>
                                     </div>
-                                </div>
+                                </div> */}
                             </div>
                         </div>
                     </section>

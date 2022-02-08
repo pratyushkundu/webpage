@@ -61,7 +61,7 @@ const Mritika = () => {
                     <div class="row">
                         <div class="col-md-4 mb-3 wow bounceInUp" data-wow-duration="1.4s">
                             <div class="big-img">
-                                <img src="https://images.pexels.com/photos/167631/pexels-photo-167631.jpeg?auto=compress&cs=tinysrgb&h=650&w=94" class="img-fluid" />
+                                <img src="https://images.pexels.com/photos/167631/pexels-photo-167631.jpeg?auto=compress&cs=tinysrgb&h=650&w=940" class="img-fluid" />
                             </div>
                         </div>
                         <div class="col-md-8">
