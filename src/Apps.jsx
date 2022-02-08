@@ -264,7 +264,7 @@ const Apps = () => {
             </div>
             <div className="gallery_div">
                 <div>
-                    <h1 className="headingname">WELCOME TO NITR ICS</h1>
+                    {/* <h1 className="headingname">WELCOME TO NITR ICS</h1> */}
                 </div>
             </div>
             

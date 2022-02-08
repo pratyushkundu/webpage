@@ -14,7 +14,7 @@ const Contact = () => {
             <section id="candy" class="our-webcoderskull padding-lg">
                 <div class="container">
                     <div style={{height:"260px"}}><div class="row heading heading-icon">
-                        <h2 style={{ fontSize: "30px", color: "black", fontWeight: "bolder" }}>HEY ! REACH OUT TO US</h2>
+                        <h2 style={{ fontSize: "30px", color: "black", fontWeight: "bolder" }}></h2>
                     </div></div>
                     <ul class="row">
                         <li class="col-12 col-md-6 col-lg-3">
