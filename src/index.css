@@ -62,7 +62,7 @@ body {
 .headingname {
   /* margin-top:40%; */
   /* padding-top:60px; */
-  margin-top: 160px;
+  margin-top: 60px;
   color: rgb(236, 183, 10);
   font-size: 50px;
 }
@@ -219,7 +219,12 @@ img {
   
   object-fit: scale-down;
   justify-content: center;
+<<<<<<< HEAD
   background-image: url("images/CSS.jpeg");
+=======
+  /* background-image: url("images/imgb.png"); */
+  background-size: 100% 100%;
+>>>>>>> 9d48e5b5d12abd85e954fa0daaf54a7f319adb34
   /* background-image: url('https://images.pexels.com/photos/167491/pexels-photo-167491.jpeg?auto=compress&cs=tinysrgb&h=650&w=940') no-repeat center center fixed;  */
   background-size: cover;
   overflow-x: hidden;
