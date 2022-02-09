@@ -263,9 +263,9 @@ const Apps = () => {
                 <Navbar />
             </div>
             <div className="gallery_div">
-                <div>
-                    {/* <h1 className="headingname">WELCOME TO NITR ICS</h1> */}
-                </div>
+                 {/* <div>
+                    <h1 className="headingname">WELCOME TO NITR ICS</h1>
+                </div>  */}
             </div>
             
             <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css" />
