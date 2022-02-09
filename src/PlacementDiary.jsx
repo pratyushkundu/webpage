@@ -603,7 +603,7 @@ const Events = () => {
                                 </div>
                             </div>
                             <div class="row">
-                                <div class="col-sm-6 col-md-4 col-lg-3 mt-4 wow bounceInUp" data-wow-duration="1.4s">
+                                <div class="col-sm-6 col-md-4 col-lg-4 mt-4 wow bounceInUp" data-wow-duration="1.4s" style={{height : "300px"}}>
                                     <div class="card">
                                         <img class="card-img-top" src="images/Munmi Das (MPR).jpg" />
                                         <div class="card-block">
@@ -624,7 +624,7 @@ const Events = () => {
                                         </div>
                                     </div>
                                 </div>
-                                <div class="col-sm-6 col-md-4 col-lg-3 mt-4 wow bounceInUp" data-wow-duration="1.4s">
+                                <div class="col-sm-6 col-md-4 col-lg-4 mt-4 wow bounceInUp" data-wow-duration="1.4s"style={{height : "300px"}} >
                                     <div class="card">
                                         <img class="card-img-top" src="images/Ankita Banerjee (MPR).jpg" />
                                         <div class="card-block">
@@ -645,7 +645,7 @@ const Events = () => {
                                         </div>
                                     </div>
                                 </div>
-                                <div class="col-sm-6 col-md-4 col-lg-3 mt-4 wow bounceInUp" data-wow-duration="1.4s">
+                                <div class="col-sm-6 col-md-4 col-lg-4 mt-4 wow bounceInUp" data-wow-duration="1.4s"style={{height : "300px"}}>
                                     <div class="card">
                                         <img class="card-img-top" src="images/Suraj Bhan Singh (MPR).jpg" />
                                         <div class="card-block">
@@ -666,8 +666,7 @@ const Events = () => {
                                         </div>
                                     </div>
                                 </div>
-                                <div className="row">
-                                <div class="col-sm-6 col-md-4 col-lg-3 mt-4 wow bounceInUp" data-wow-duration="1.4s">
+                                <div class="col-sm-6 col-md-4 col-lg-4 mt-4 wow bounceInUp" data-wow-duration="1.4s"style={{height : "300px"}}>
                                     <div class="card">
                                         <img class="card-img-top" src="images/Sidhanta Kumar Parija (Tata cliq).jpg" />
                                         <div class="card-block">
@@ -688,7 +687,7 @@ const Events = () => {
                                         </div>
                                     </div>
                                 </div>
-                                <div class="col-sm-6 col-md-4 col-lg-3 mt-4 wow bounceInUp" data-wow-duration="1.4s">
+                                <div class="col-sm-6 col-md-4 col-lg-4 mt-4 wow bounceInUp" data-wow-duration="1.4s"style={{height : "300px"}}>
                                     <div class="card">
                                         <img class="card-img-top" src="images/Polukonda Chinmaya ( Tata cliq(.jpg" />
                                         <div class="card-block">
@@ -708,7 +707,7 @@ const Events = () => {
 
                                         </div>
                                     </div>
-                                </div>
+                            
 
                                 </div>
                                 
