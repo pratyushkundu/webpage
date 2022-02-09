@@ -302,6 +302,23 @@ const Events1 = () => {
                 <h3 class="pb-3 mb-4 font-italic border-bottom">
                     {/* PRESENTATION'S */}
                 </h3>
+                <section class="about-us py-5 " id="about-us">
+                    <div class="container mt-5">
+                        <div class="row">
+                            <div class="col-md-12" style={{ textAlign: "justify" }}>
+                                <h1 class='text-success'>PRESENTATION COMPETITIONS</h1>
+                                {/* <h2>Know More About Us</h2> */}
+                                <hr />
+                                <p>These competitions are conducted time to time to nurture the interest of material science in students and provides them a platform to showcase their presentation making skills and talent. Various presentations are ranked, and students are felicitated according to that.</p>
+
+                            </div>
+                            {/* <div class="col-md-3">
+                                <img src="https://cdn.pixabay.com/photo/2015/03/24/06/40/cup-687147__340.jpg" style={{ height: "450px" }} alt="" />
+                            </div> */}
+                        </div>
+                    </div>
+                    
+                </section>
                 <div class="row">
                     <div class="col-md-6">
                         <div class="card flex-md-row mb-4 shadow-sm h-md-250">

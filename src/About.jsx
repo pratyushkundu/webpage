@@ -41,11 +41,13 @@ const About = () => {
 
                             </div>
                             <div class="col-md-3">
-                                <img src="https://cdn.pixabay.com/photo/2015/03/24/06/40/cup-687147__340.jpg"  style={{height:"450px" }} alt="" />
+                                <img src="https://cdn.pixabay.com/photo/2015/03/24/06/40/cup-687147__340.jpg" style={{ height: "450px" }} alt="" />
                             </div>
                         </div>
                     </div>
+                    
                 </section>
+                
                 {/* <section class="about-us py-5 " id="about-us">
                     <div class="container mt-5">
                         <div class="row">
@@ -84,7 +86,7 @@ To help everyone in this regard, NITR-ICS is going to collect such experiences a
                     </div>
                 </section> */}
                 <div id="gallerydiv">
-                    <h2 id="heading" style={{marginLeft:"90px"}}>MONDAY MATTER</h2>
+                    <h2 id="heading" style={{ marginLeft: "90px" }}>MONDAY MATTER</h2>
                     <div id="paragraph" style={{ textAlign: "justify" }}>
                         <p>Every week, you suffer from the same malady: a terrible case of the Mondays. You dread that alarm going off. And no matter how many things you try—meditation, reciting inspirational quotes, reading a bunch of happy quotes, you're having trouble getting going. But why not think of Monday as an opportunity rather than a punishment? It's a chance to start fresh.
                             Who wants to wake up to a Monday after a good weekend rest? Mondays are boring, seems longer than usual and almost everyone hates it, right? It is also marked by tiredness and reluctance to start the week's work. But not anymore.
@@ -92,8 +94,9 @@ To help everyone in this regard, NITR-ICS is going to collect such experiences a
                             To all material enthusiasts out there, a unique fortuity knocks at your doors. Not everyone is blessed to receive the pearl of wisdom. Give light to the heed of many others who are aspiring to know more.</p>
                     </div>
                 </div>
+                
                 <div id="gallerydiv">
-                    <h2 id="heading" style={{marginLeft:"90px"}}>FLASHBACK FRIDAY</h2>
+                    <h2 id="heading" style={{ marginLeft: "90px" }}>FLASHBACK FRIDAY</h2>
                     <div id="paragraph" style={{ textAlign: "justify" }}>
                         <p>Memories are meant to be remembered, because even the bad memories are usually part of something we once thought was good.Memory is more indelible than ink. Life must be lived forwards, but it can only be understood backwards, through the experience of oneself and others. There is no definitive roadmap to follow for success, while the road is a huge game of Tetris. The inputs that we manage to get, must be arranged in a suitable way to make them advantageous to us. But it is the inputs that are sometimes very difficult to get owing to certain reasons.
 
@@ -101,8 +104,12 @@ To help everyone in this regard, NITR-ICS is going to collect such experiences a
                         </p>
                     </div>
                 </div>
-
             </div>
+            <div class="container" style={{marginTop:"-180px",marginBottom:"150px"}}>
+                <div class="embed-responsive embed-responsive-16by9">
+                    <iframe class="embed-responsive-item" src="//www.youtube.com/embed/EIfB_z3K0mE"></iframe></div>
+            </div>
+
             <div className="social_media_part">
 
                 <footer>
