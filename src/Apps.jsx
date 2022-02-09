@@ -49,9 +49,10 @@ const Apps = () => {
                         <img id="peacock" src="images/FF1.jpg" alt="mypic" />
 
                         <h4 id="proff1" style={{ color: "#000" }}>Prof.Shantanu behera</h4>
-                        <p id="para" style={{ color: "#000" }}>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dignissimos nihil cupiditate quae culpa,
-                            quos labore autem dolores, pariatur laborum voluptates quaerat? Voluptas quidem, provident doloribus
-                            reiciendis nesciunt voluptates doloremque voluptatibus voluptatum. Ipsam, aspernatur ad.
+                        <p id="para" style={{ color: "#000" }}>Dr Shantanu K Behera is an Associate Professor in the Department of Ceramic
+Engineering at NIT Rourkela. Dr Behera an alumnus of NIT Rourkela, and has
+performed his doctoral work at Lehigh University, Bethlehem, USA, and post
+doctoral work at University of Colorado at Boulder, USA.
                         </p>
                     </div>
                 </a>
@@ -370,6 +371,14 @@ It also works to provide exposure to students on material science & technology a
                                 <hr />
                                 <p>Indian Ceramic Society (InCerS) is a non-profit organization established in 1928 under the guidance of Pandit Madan Mohan Malviya with an objective of establishing a network & relationship among all material enthusiasts, industrial professionals and any other people connected to this field.
 The primary objective of InCerS is to promote advancement in ceramic science, arts and technologies, by bringing into close contact those who are engaged in these pursuits, publishing scientific and technical books and journals, holding annual sessions, discussions, meetings, symposia and exhibitions on the subjects of interest. InCerS, NITR is the student chapter of Indian Ceramic Society which organizes annual events like Mrittika. To be a part of InCerS student chapter one needs to pay a membership amount.  Being a part of InCerS student chapter has many benefits like getting huge amount of funds to organize events like MRITTIKA whose budget is more than the annual tech fest of NITR
+NITR-ICS is the student chapter of InCerS at NIT Rourkela with a total strength of
+50+ active members. The club is presided over by Shivam Sharma (3rd year B Tech
+student) from the Department of Ceramic Engineering, NIT Rourkela. Prof.
+Shantanu Behera from the Department of Ceramic Engineering who is an esteemed
+alumnus of NIT Rourkela as well as the current Associate Dean of Alumni
+relations is the club faculty advisor. The club comes under the Technical society of
+SAC and is responsible for organising fests and sessionals related to materials
+science.
 </p>
 
                             </div>

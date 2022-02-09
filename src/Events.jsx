@@ -68,7 +68,7 @@ const Mritika = () => {
                             <div class="inner-section wow fadeInUp">
                                 <h3>Follow the <span class="bg-main">Next Event</span></h3>
                                 <br />
-                                <p class="text-justify">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets.</p>
+                                <p class="text-justify"></p>
 
                                 <div class="linear-grid">
                                     <div class="row">
@@ -99,7 +99,7 @@ const Mritika = () => {
                     <div class="row">
                         <div class="col-md-12 wow fadeInUp">
                             <h3 class="title-heading text-center">MRITTIKA EVENTS</h3>
-                            <p class="myp text-center">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                            <p class="myp text-center">Provides a forum to nurture your knowledge in the presence of working professionals and scientists and a chance to create a connection with them</p>
                         </div>
                     </div>
                     <div class="row wow slideInLeft" data-wow-duration="3s">
@@ -161,9 +161,9 @@ const Mritika = () => {
 
                                     <div class="card-text text-center">
                                         <div class="social-icons">
-                                            <a href="#" class="btn btn-circle my-social-btn fb"><i class="fa fa-facebook"></i></a>
+                                            {/* <a href="#" class="btn btn-circle my-social-btn fb"><i class="fa fa-facebook"></i></a>
                                             <a href="#" class="btn btn-circle my-social-btn twitter"><i class="fa fa-twitter"></i></a>
-                                            <a href="#" class="btn btn-circle my-social-btn google"><i class="fa fa-google"></i></a>
+                                            <a href="#" class="btn btn-circle my-social-btn google"><i class="fa fa-google"></i></a> */}
                                         </div>
                                     </div>
                                 </div>
@@ -224,9 +224,9 @@ const Mritika = () => {
 
                                     <div class="card-text text-center">
                                         <div class="social-icons">
-                                            <a href="#" class="btn btn-circle my-social-btn fb"><i class="fa fa-facebook"></i></a>
+                                            {/* <a href="#" class="btn btn-circle my-social-btn fb"><i class="fa fa-facebook"></i></a>
                                             <a href="#" class="btn btn-circle my-social-btn twitter"><i class="fa fa-twitter"></i></a>
-                                            <a href="#" class="btn btn-circle my-social-btn google"><i class="fa fa-google"></i></a>
+                                            <a href="#" class="btn btn-circle my-social-btn google"><i class="fa fa-google"></i></a> */}
                                         </div>
                                     </div>
                                 </div>
@@ -360,7 +360,7 @@ const Mritika = () => {
                                 </div>
                                 <div class="card-footer">
                                     {/* <small>$ 170</small> */}
-                                    <a href="#" class="pull-right">More Info</a>
+                                    <a href="https://www.adityabirla.com/" class="pull-right">More Info</a>
                                 </div>
                             </div>
                         </div>
@@ -377,7 +377,7 @@ const Mritika = () => {
                                 </div>
                                 <div class="card-footer">
                                     {/* <small>$ 170</small> */}
-                                    <a href="#" class="pull-right">More Info</a>
+                                    <a href="https://www.imerys.com/" class="pull-right">More Info</a>
 
                                 </div>
                             </div>
@@ -395,7 +395,7 @@ const Mritika = () => {
                                 </div>
                                 <div class="card-footer">
                                     {/* <small>$ 170</small> */}
-                                    <a href="#" class="pull-right">More Info</a>
+                                    <a href="https://www.trlkrosaki.com/" class="pull-right">More Info</a>
 
                                 </div>
                             </div>
@@ -414,7 +414,7 @@ const Mritika = () => {
                                 </div>
                                 <div class="card-footer">
                                     {/* <small>$ 170</small> */}
-                                    <a href="#" class="pull-right">More Info</a>
+                                    <a href="https://www.elkem.com/" class="pull-right">More Info</a>
 
                                 </div>
                             </div>

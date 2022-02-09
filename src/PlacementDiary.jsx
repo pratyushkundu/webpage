@@ -395,7 +395,7 @@ const Events = () => {
                     <div class="row">
                         <div class="col-md-12 text-center">
                             <h3 class="my-heading">PLACEMENT<span class="">DIARIES</span></h3>
-                            <p class="myp-slider text-center" style={{fontSize:"18px"}}>Where ceramists unite and become better together</p>
+                            <p class="myp-slider text-center" style={{fontSize:"18px"}}>Your dream job does not exist. You must CREATE IT.</p>
                             <p class="myp text-center">SHARE YOUR MEMORIES   |   CONNECT WITH OTHERS   |   MAKE NEW FRIENDS</p>
                             <a class="btn btn-primary btn-join" href="#">WE ARE PLACED</a>
 
@@ -421,7 +421,9 @@ const Events = () => {
                             <div class="inner-section wow fadeInUp">
                                 <h3>Follow the <span class="bg-main">DRIVE WITH US</span></h3>
                                 <br />
-                                <p class="text-justify">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets.</p>
+                                <p class="text-justify">Keeping all the matter aside, Placements are the things that are most looked upon!
+Reputed core companies such as Aditya Birla Group, Tata Steel, Reliance Industries, MPR Refractories, Vedanta, Saint- Gobain, Piramal and JSW Steel visit the campus and place students!
+Not only that, many reputed non- core companies such as ZS Associates, Wipro, EXL, Infosys, Tredence, Tata, HCL, iQuanti, BYJU’s and ICICI bank also visit the campus and place many students.</p>
 
                                 <div class="linear-grid">
                                     <div class="row">
@@ -500,7 +502,8 @@ const Events = () => {
                     <div class="row">
                         <div class="col-md-12 wow fadeInUp">
                             <h3 class="title-heading text-center font-weight-bold">OUR RECRUTERS</h3>
-                            <p class="myp text-center">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                            <p class="myp text-center">Reputed core companies such as Aditya Birla Group, Tata Steel, Reliance Industries, MPR Refractories, Vedanta, Saint- Gobain, Piramal and JSW Steel visit the campus and place students!
+Not only that, many reputed non- core companies such as ZS Associates, Wipro, EXL, Infosys, Tredence, Tata, HCL, iQuanti, BYJU’s and ICICI bank also visit the campus and place many students.</p>
                         </div>
                     </div>
                     <div class="row">
@@ -599,7 +602,7 @@ const Events = () => {
                     <div class="row">
                         <div class="col-md-8 mx-auto wow fadeInUp">
                             <h3 class="text-center font-weight-bold">PLACEMENT<span class="bg-main">HOLDERS</span> DIARY</h3>
-                            <p class=" text-center">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
+                            <p class=" text-center">Our Proud Alumni's</p>
                         </div>
                     </div>
                     <div class="row">
