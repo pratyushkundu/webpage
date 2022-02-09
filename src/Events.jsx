@@ -35,6 +35,7 @@ const Mritika = () => {
                 </div>
             </nav>
 
+
             <header class="masthead1 text-white ">
                 <div class="overlay"></div>
                 <div class="container slider-top-text">
@@ -44,6 +45,7 @@ const Mritika = () => {
                             <p class="myp-slider text-center">Where ceramists unite and become better together</p>
                             <p class="myp text-center">SHARE YOUR MEMORIES   |   CONNECT WITH OTHERS   |   MAKE NEW FRIENDS</p>
                             <a class="btn btn-primary btn-join" href="#">JOIN THE COMMUNITY</a>
+
                         </div>
                         <div class="col-md-12 text-center mt-5">
                             <div class="scroll-down">
@@ -97,7 +99,7 @@ const Mritika = () => {
                     <div class="row">
                         <div class="col-md-12 wow fadeInUp">
                             <h3 class="title-heading text-center">MRITTIKA EVENTS</h3>
-                            <p class="myp text-center">Provides a forum to nurture your knowledge in the presence of working professionals and scientists and a chance to create a connection with them.</p>
+                            <p class="myp text-center">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
                         </div>
                     </div>
                     <div class="row wow slideInLeft" data-wow-duration="3s">
@@ -145,7 +147,7 @@ const Mritika = () => {
                 <div class="container">
                     <div class="row">
                         <div class="col-md-8 mx-auto wow fadeInUp">
-                            <h3 class="text-center font-weight-bold">MRIT<span class="bg-main">IKA</span> CONNECT</h3>
+                            <h3 class="text-center font-weight-bold">MRIT<span class="bg-main">TIKA</span> CONNECT</h3>
                             <p class=" text-center">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
                         </div>
                     </div>
@@ -243,7 +245,7 @@ const Mritika = () => {
                     <div class="row">
                         <div class="col-md-12 wow fadeInUp">
                             <h3 class="title-heading text-center font-weight-bold">MRITTIKA GALLERY</h3>
-                            <p class="myp text-center">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                            {/* <p class="myp text-center">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p> */}
                         </div>
                     </div>
                     <div class="row">
@@ -306,28 +308,28 @@ const Mritika = () => {
                         <div class="col-sm-6 col-md-4 col-lg-2 mt-4 gal-item wow bounceInUp" data-wow-duration="1.4s">
                             <div class="music-gal item box">
                                 <a href="https://images.pexels.com/photos/756242/pexels-photo-756242.jpeg?auto=compress&cs=tinysrgb&h=650&w=940" class="fancybox" rel="ligthbox">
-                                    <img class="img-fluid" src="https://images.pexels.com/photos/756242/pexels-photo-756242.jpeg?auto=compress&cs=tinysrgb&h=650&w=940" />
+                                    <img class="img-fluid" src="images/G9.jpg" />
                                 </a>
                             </div>
                         </div>
                         <div class="col-sm-6 col-md-4 col-lg-2 mt-4 gal-item wow bounceInUp" data-wow-duration="1.4s">
                             <div class="music-gal item box">
                                 <a href="https://images.pexels.com/photos/167589/pexels-photo-167589.jpeg?auto=compress&cs=tinysrgb&h=650&w=940" class="fancybox" rel="ligthbox">
-                                    <img class="img-fluid" src="https://images.pexels.com/photos/167589/pexels-photo-167589.jpeg?auto=compress&cs=tinysrgb&h=650&w=940" />
+                                    <img class="img-fluid" src="images/G10.jpeg" />
                                 </a>
                             </div>
                         </div>
                         <div class="col-sm-6 col-md-4 col-lg-2 mt-4 gal-item wow bounceInUp" data-wow-duration="1.4s">
                             <div class="music-gal item box">
                                 <a href="https://images.pexels.com/photos/167626/pexels-photo-167626.jpeg?auto=compress&cs=tinysrgb&h=650&w=940" class="fancybox" rel="ligthbox">
-                                    <img class="img-fluid" src="https://images.pexels.com/photos/167626/pexels-photo-167626.jpeg?auto=compress&cs=tinysrgb&h=650&w=940" />
+                                    <img class="img-fluid" src="images/G11.jpg" />
                                 </a>
                             </div>
                         </div>
                         <div class="col-sm-6 col-md-4 col-lg-2 mt-4 gal-item wow bounceInUp" data-wow-duration="1.4s">
                             <div class="music-gal item box">
                                 <a href="https://images.pexels.com/photos/167527/pexels-photo-167527.jpeg?auto=compress&cs=tinysrgb&h=650&w=940" class="fancybox" rel="ligthbox">
-                                    <img class="img-fluid" src="https://images.pexels.com/photos/167527/pexels-photo-167527.jpeg?auto=compress&cs=tinysrgb&h=650&w=940" />
+                                    <img class="img-fluid" src="images/G12.jpg" />
                                 </a>
                             </div>
                         </div>
@@ -340,60 +342,78 @@ const Mritika = () => {
                 <div class="container">
                     <div class="row">
                         <div class="col-md-8 mx-auto wow fadeInUp">
-                            <h3 class="text-center font-weight-bold">MRIT<span class="bg-main">IKA</span> SPONSERS</h3>
+                            <h3 class="text-center font-weight-bold">MRIT<span class="bg-main">TIKA</span> SPONSERS</h3>
                             <p class=" text-center">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
                         </div>
                     </div>
                     <div class="row">
-                        <div class="col-sm-6 col-md-4 col-lg-4 mt-4 wow bounceInUp" data-wow-duration="1.4s">
+                        <div class="col-sm-6 col-md-4 col-lg-3 mt-4 wow bounceInUp" data-wow-duration="1.4s">
                             <div class="card">
-                                <img class="card-img-top h-262" src="https://images.pexels.com/photos/449627/pexels-photo-449627.jpeg?auto=compress&cs=tinysrgb&h=650&w=940" />
+                                <img class="card-img-top h-262" src="images/S1.jpeg" />
                                 <div class="card-block">
 
-                                    <h4 class="card-title">Lorem Ipsum Dolor Site Amet</h4>
+                                    {/* <h4 class="card-title">Lorem Ipsum Dolor Site Amet</h4> */}
 
                                     <div class="card-text">
-                                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's.</p>
+                                        {/* <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's.</p> */}
                                     </div>
                                 </div>
                                 <div class="card-footer">
-                                    <small>$ 170</small>
+                                    {/* <small>$ 170</small> */}
                                     <a href="#" class="pull-right">More Info</a>
                                 </div>
                             </div>
                         </div>
-                        <div class="col-sm-6 col-md-4 col-lg-4 mt-4 wow bounceInUp" data-wow-duration="1.4s">
+                        <div class="col-sm-6 col-md-4 col-lg-3 mt-4 wow bounceInUp" data-wow-duration="1.4s">
                             <div class="card">
-                                <img class="card-img-top h-262" src="https://images.pexels.com/photos/56005/fiji-beach-sand-palm-trees-56005.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" />
+                                <img class="card-img-top h-262" src="images/S2.jpeg" />
                                 <div class="card-block">
 
-                                    <h4 class="card-title">Lorem Ipsum Dolor Site Amet</h4>
+                                    {/* <h4 class="card-title">Lorem Ipsum Dolor Site Amet</h4> */}
 
                                     <div class="card-text">
-                                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's.</p>
+                                        {/* <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's.</p> */}
                                     </div>
                                 </div>
                                 <div class="card-footer">
-                                    <small>$ 170</small>
+                                    {/* <small>$ 170</small> */}
+                                    <a href="#" class="pull-right">More Info</a>
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-md-4 col-lg-3 mt-4 wow bounceInUp" data-wow-duration="1.4s">
+                            <div class="card">
+                                <img class="card-img-top h-262" src="images/S3.jpeg" />
+                                <div class="card-block">
+
+                                    {/* <h4 class="card-title">Lorem Ipsum Dolor Site Amet</h4> */}
+
+                                    <div class="card-text">
+                                        {/* <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's.</p> */}
+                                    </div>
+                                </div>
+                                <div class="card-footer">
+                                    {/* <small>$ 170</small> */}
                                     <a href="#" class="pull-right">More Info</a>
 
                                 </div>
                             </div>
                         </div>
 
-                        <div class="col-sm-6 col-md-4 col-lg-4 mt-4 wow bounceInUp" data-wow-duration="1.4s">
+                        <div class="col-sm-6 col-md-4 col-lg-3 mt-4 wow bounceInUp" data-wow-duration="1.4s">
                             <div class="card">
-                                <img class="card-img-top h-262" src="https://images.pexels.com/photos/753626/pexels-photo-753626.jpeg?auto=compress&cs=tinysrgb&h=650&w=940" />
+                                <img class="card-img-top h-262" src="images/S4.jpeg" />
                                 <div class="card-block">
 
-                                    <h4 class="card-title ">Lorem Ipsum Dolor Site Amet</h4>
+                                    {/* <h4 class="card-title ">Lorem Ipsum Dolor Site Amet</h4> */}
 
                                     <div class="card-text ">
-                                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's.</p>
+                                        {/* <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's.</p> */}
                                     </div>
                                 </div>
                                 <div class="card-footer">
-                                    <small>$ 170</small>
+                                    {/* <small>$ 170</small> */}
                                     <a href="#" class="pull-right">More Info</a>
 
                                 </div>
@@ -407,7 +427,7 @@ const Mritika = () => {
                 <div class="container">
                     <div class="row">
                         <div class="col-md-8 mx-auto wow fadeInUp">
-                            <h3 class="text-center font-weight-bold">MRIT<span class="bg-main">IKA</span> FEATURED EVENT</h3>
+                            <h3 class="text-center font-weight-bold">MRIT<span class="bg-main">TIKA</span> FEATURED EVENT</h3>
                             <p class=" text-center">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
                         </div>
                     </div>
