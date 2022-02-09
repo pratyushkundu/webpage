@@ -146,7 +146,7 @@ const Mritika = () => {
                     <div class="row">
                         <div class="col-md-8 mx-auto wow fadeInUp">
                             <h3 class="text-center font-weight-bold">MRIT<span class="bg-main">IKA</span> CONNECT</h3>
-                            {/* <p class=" text-center">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p> */}
+                            <p class=" text-center">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
                         </div>
                     </div>
                     <div class="row">
