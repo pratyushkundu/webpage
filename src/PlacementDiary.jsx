@@ -619,7 +619,7 @@ Not only that, many reputed non- core companies such as ZS Associates, Wipro, EX
                     <div class="row">
                         <div class="col-md-8 mx-auto wow fadeInUp">
                             <h3 class="text-center font-weight-bold">PLACEMENT<span class="bg-main">HOLDERS</span> DIARY</h3>
-                            <p class=" text-center">Our Proud Alumni's</p>
+                            <p class=" text-center">Your talent determines what you can do</p>
                         </div>
                     </div>
                     <div class="row">
@@ -631,7 +631,7 @@ Not only that, many reputed non- core companies such as ZS Associates, Wipro, EX
                                     <h4 class="card-title text-center">Munmi Das </h4>
                                 </div>
                                 <div class="card-footer text-center">
-                                    <small>Lorem Ipsum is simply dummy text of the printing and typesetting</small>
+                                    <bold>MPR Refractories placed</bold>
 
                                 </div>
                             </div>
@@ -645,7 +645,7 @@ Not only that, many reputed non- core companies such as ZS Associates, Wipro, EX
 
                                 </div>
                                 <div class="card-footer text-center">
-                                    <small>Lorem Ipsum is simply dummy text of the printing and typesetting</small>
+                                    <bold>MPR Refractories placed</bold>
 
                                 </div>
                             </div>
@@ -660,8 +660,7 @@ Not only that, many reputed non- core companies such as ZS Associates, Wipro, EX
 
                                 </div>
                                 <div class="card-footer text-center">
-                                    <small>Lorem Ipsum is simply dummy text of the printing and typesetting</small>
-
+                                    <bold>MPR Refractories placed</bold>
                                 </div>
                             </div>
                         </div>
@@ -676,7 +675,7 @@ Not only that, many reputed non- core companies such as ZS Associates, Wipro, EX
 
                                     </div>
                                     <div class="card-footer text-center">
-                                        <small>Lorem Ipsum is simply dummy text of the printing and typesetting</small>
+                                        <bold>TATA CLIQ Placed</bold>
 
                                     </div>
                                 </div>
@@ -691,7 +690,8 @@ Not only that, many reputed non- core companies such as ZS Associates, Wipro, EX
 
                                     </div>
                                     <div class="card-footer text-center">
-                                        <small>Lorem Ipsum is simply dummy text of the printing and typesetting</small>
+                                    <bold>TATA CLIQ Placed</bold>
+
 
                                     </div>
                                 </div>

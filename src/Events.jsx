@@ -174,7 +174,7 @@ const Mritika = () => {
                                 <img class="card-img-top" style={{ height: "270px" }} src="images/SN.jpg" />
                                 <div class="card-block">
 
-                                    <h4 class="card-title text-center">SIDDHARTH NANDA</h4>
+                                    <h4 class="card-title text-center">SIDDHARTHA NANDA</h4>
 
                                     <div class="card-text text-center">
                                         <div class="social-icons">
