@@ -2,16 +2,32 @@ import React from 'react';
 import Navbar from './Navbar';
 import Navbar1 from './Navbar1';
 import App from './App';
-
+const functionnav = ()=>{
+    const widths = 700
+    if(window.screen.width <= widths){
+        return(<>
+             <div class="top_div">
+            <div>
+                <div id="logo" style={{ cursor: "pointer" }}><img src="images/pics.png" style={{ height: "48px", width: "55px", background: "100% 100%", borderRadius: "0px", padding: "2px" }} /></div>
+            </div>
+            <Navbar />
+        </div>
+        </>)
+    }
+        else{
+            return <Navbar />
+        }
+    }
 const About = () => {
     return (
         <><div class="main_div">
-            <div class="top_div">
+            {/* <div class="top_div">
                 <div>
                     <div id="logo" style={{ cursor: "pointer" }}><img src="images/logo1.jpg" style={{ height: "48px", width: "55px", background: "100% 100%", borderRadius: "0px", padding: "2px" }} /></div>
                 </div>
                 <Navbar />
-            </div>
+            </div> */}
+            {functionnav()}
             <div className="gallery">
                 {/* <div className="memory">
                     <h1 id="heading">ABOUT NITR ICS</h1>

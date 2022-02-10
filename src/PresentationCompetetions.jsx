@@ -274,15 +274,31 @@ const Events1 = () => {
     //             </div>
     //             {functiondeal()}
     //         </div>
-
+    const functionnav = ()=>{
+        const widths = 700
+        if(window.screen.width <= widths){
+            return(<>
+                 <div class="top_div">
+                <div>
+                    <div id="logo" style={{ cursor: "pointer" }}><img src="images/pics.png" style={{ height: "48px", width: "55px", background: "100% 100%", borderRadius: "0px", padding: "2px" }} /></div>
+                </div>
+                <Navbar />
+            </div>
+            </>)
+        }
+            else{
+                return <Navbar />
+            }
+        }
     return<>
         <div class="main_div">
-            <div class="top_div">
+            {/* <div class="top_div">
                 <div>
                     <div id="logo" style={{ cursor: "pointer" }}><img src="images/logo1.png" style={{ height: "48px", width: "55px", background: "100% 100%", borderRadius: "0px", padding: "2px" }} /></div>
                 </div>
                 <Navbar />
-            </div>
+            </div> */}
+            {functionnav()}
             <div class="container">
                 {/* <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css" />
                 <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
