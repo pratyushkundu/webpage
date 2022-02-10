@@ -263,7 +263,7 @@ const Apps = () => {
             </>)
         }
             else{
-                return <Navbar />
+                return <Navbar/>
             }
         }
     return (

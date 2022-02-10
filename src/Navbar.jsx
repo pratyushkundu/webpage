@@ -77,7 +77,7 @@ const Navbar1 = () => {
     }
     else {
         return (<>    <div class="menu-bar">
-            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" />
+            {/* <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" /> */}
             <link rel="stylesheet" href="index.css" />
             {/* <h1 class="logo" style={{cursor:"pointer"}}>NITR<span>ICS</span></h1> */}
             <div>
