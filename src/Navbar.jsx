@@ -76,6 +76,40 @@ const Navbar1 = () => {
         </>)
     }
     else {
+        // return (<>    <div class="menu-bar">
+        //     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" />
+        //     <link rel="stylesheet" href="index.css" />
+        //     <h1 class="logo">Light<span>Code.</span></h1>
+        //     <ul>
+        //         <li><a href="#">Home</a></li>
+        //         <li><a href="#">About</a></li>
+        //         <li><a href="#">Pages <i class="fas fa-caret-down"></i></a>
+
+        //             <div class="dropdown-menu">
+        //                 <ul>
+        //                     <li><a href="#">Pricing</a></li>
+        //                     <li><a href="#">Portfolio</a></li>
+        //                     <li>
+        //                         <a href="#">Team <i class="fas fa-caret-right"></i></a>
+
+        //                         <div class="dropdown-menu-1">
+        //                             <ul>
+        //                                 <li><a href="#">Team-1</a></li>
+        //                                 <li><a href="#">Team-2</a></li>
+        //                                 <li><a href="#">Team-3</a></li>
+        //                                 <li><a href="#">Team-4</a></li>
+        //                             </ul>
+        //                         </div>
+        //                     </li>
+        //                     <li><a href="#">FAQ</a></li>
+        //                 </ul>
+        //             </div>
+        //         </li>
+        //         <li><a href="#">Blog</a>
+        //         </li>
+        //         <li><a href="#">Contact us</a></li>
+        //     </ul>
+        // </div></>)
         return (<>
             <div className="hello_div">
                 <NavLink to="/" exact activeClassName="active_class" style={{ textDecoration: "none" }}>
@@ -121,13 +155,12 @@ const Navbar1 = () => {
                 </NavLink>
                 <div className="menu_1">
                     <ul>
-                    <NavLink to="/events" exact activeClassName="active_class" style={{ textDecoration: "none", color: "red" }} ><li> <h3 class="my-heading " style={{fontSize:"15px",marginLeft:"-50px"}}><span class="bg-main">Placement-Diaries</span></h3></li> </NavLink>
-                    <NavLink to="/events1" exact activeClassName="active_class" style={{ textDecoration: "none", color: "red" }} > <h3 class="my-heading " style={{fontSize:"15px",marginLeft:"-50px"}}><span class="bg-main">Presentation-Competetions</span></h3></NavLink>
+                    <NavLink to="/events" exact activeClassName="active_class" style={{ textDecoration: "none" }} ><li> <h3 class="my-heading " style={{fontSize:"15px",marginLeft:"-50px",background:"black"}}><span class="bg-main">Placement-Diaries</span></h3></li> </NavLink>
+                    <NavLink to="/events1" exact activeClassName="active_class" style={{ textDecoration: "none"}} > <h3 class="my-heading " style={{fontSize:"15px",marginLeft:"-50px"}}><span class="bg-main">Presentation-Competetions</span></h3></NavLink>
                     </ul>
                 </div>
- 
             </div>
-         
+
             <div className="hello_div">
                 <NavLink to="/mritika" exact activeClassName="active_class" style={{ textDecoration: "none" }}>
                     <h2 className="nav_hover" style={{ fontSize: "20px" }}>Mrittika</h2>
@@ -150,5 +183,6 @@ const Navbar = () => {
     return (<> <div className="nav_bar">
         {Navbar1()}
     </div></>)
+    // return(<><div>{Navbar1()}</div></>)
 }
 export default Navbar;
