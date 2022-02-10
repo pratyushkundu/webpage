@@ -2,16 +2,32 @@ import React from 'react';
 import Navbar from './Navbar';
 import Navbar1 from './Navbar1';
 
-
+const functionnav = ()=>{
+    const widths = 700
+    if(window.screen.width <= widths){
+        return(<>
+             <div class="top_div">
+            <div>
+                <div id="logo" style={{ cursor: "pointer" }}><img src="images/logo." style={{ height: "48px", width: "55px", background: "100% 100%", borderRadius: "0px", padding: "2px" }} /></div>
+            </div>
+            <Navbar />
+        </div>
+        </>)
+    }
+        else{
+            return <Navbar />
+        }
+    }
 const Members = () => {
     return (
         <><div class="main_div">
-            <div class="top_div">
+            {/* <div class="top_div">
                 <div>
                     <div id="logo" style={{ cursor: "pointer" }}><img src="images/logo1.jpg" style={{ height: "48px", width: "55px", background: "100% 100%", borderRadius: "0px", padding: "2px" }} /></div>
                 </div>
                 <Navbar />
-            </div>
+            </div> */}
+            {functionnav()}
 
             <section class="our-webcoderskull padding-lg">
                 
@@ -31,7 +47,7 @@ const Members = () => {
                                 <p></p>
                                 <ul class="follow-us clearfix">
                                     {/* <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li> */}
-                                    <li><a href="https://instagram.com/blac._.knight?utm_medium=copy_link "><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+                                    <li><a href="https://instagram.com/blac._.knight?utm_medium=copy_link"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
                                     <li><a href="https://www.linkedin.com/in/shivam-sharma-86a130179/"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
                                 </ul>
                             </div>
@@ -164,12 +180,12 @@ const Members = () => {
             
                     <div class="container">
                         <div class="row heading heading-icon">
-                            <h2>DEVELPOMENT TEAM</h2>
+                            <h2>DEVLOPMENT TEAM</h2>
                         </div>
                         <ul class="row">
                             <li class="col-12 col-md-6 col-lg-3">
                                 <div class="cnt-block equal-hight" style={{height:" 349px"}}>
-                                    <figure><img src="images/PK.jpeg" class="img-responsive" alt="" style={{objectFit:"cover"}}/></figure>
+                                    <figure><img src="images/PKS.jpeg" class="img-responsive" alt="" style={{objectFit:"cover"}}/></figure>
                                     <h3><a href="">Pratyush Kundu</a></h3>
                                     {/* <p>Web Developer</p> */}
                                     <h4>Web Developer</h4>

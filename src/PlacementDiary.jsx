@@ -315,15 +315,32 @@ const Events = () => {
     //             </footer>
     //         </div>
     //   </div></>)
+    const functionnav = ()=>{
+        const widths = 700
+        if(window.screen.width <= widths){
+            return(<>
+                 <div class="top_div">
+                <div>
+                    <div id="logo" style={{ cursor: "pointer" }}><img src="images/pics.png" style={{ height: "48px", width: "55px", background: "100% 100%", borderRadius: "0px", padding: "2px" }} /></div>
+                </div>
+                <Navbar />
+            </div>
+            </>)
+        }
+            else{
+                return <Navbar />
+            }
+        }
     return <>
 
         <div className='main_div'>
-            <div class="top_div">
+            {/* <div class="top_div">
                 <div>
                     <div id="logo" style={{ cursor: "pointer" }}><img src="images/logo1.jpg" style={{ height: "48px", width: "55px", background: "100% 100%", borderRadius: "0px", padding: "2px" }} /></div>
                 </div>
                 <Navbar />
-            </div>
+            </div> */}
+            {functionnav()}
             {/* 
                     <nav class="navbar fixed-top navbar-expand-lg navbar-dark">
                         <div class="container">
