@@ -22,18 +22,18 @@ body {
   /* flex-direction: row; */
   /* justify-content: space-evenly; */
 }
-.end_bars_inside {
+/* .end_bars_inside { */
   /* text-align: left;
   margin-left: 50px;
   margin-bottom: 20px; */
-}
-.end_bars_inside_1 {
+/* } */
+/* .end_bars_inside_1 { */
   /* margin-right: -50px;
   margin-top:-40px;
   text-align: right;
   margin-right: 0px;
   margin-bottom: 20px; */
-}
+/* } */
 
 .logo_part .img_3 .fa-facebook,
 .fa-instagram,
@@ -1555,7 +1555,7 @@ background: url("http://www.webcoderskull.com/img/right-sider-banner.png") no-re
 background-size: 100% 100%;
 }
 #candy{
-  background: url("images/contactus.jpg") no-repeat center  / cover;
+  background: url("images/C.jpg") no-repeat center  / cover;
 
 }
 .our-webcoderskull .cnt-block{ 
@@ -1868,12 +1868,10 @@ hr.my-border {
 
 .mybg-events {
   background: url('https://images.pexels.com/photos/167491/pexels-photo-167491.jpeg?auto=compress&cs=tinysrgb&h=650&w=940') no-repeat center center fixed;
-  /* background: url("images/img4.jpg") no-repeat center center fixed;  */
   background-size: cover;
 }
 .mybg-events1 {
   background: url('https://images.pexels.com/photos/167491/pexels-photo-167491.jpeg?auto=compress&cs=tinysrgb&h=650&w=940') no-repeat center center fixed;
-  /* background: url("images/img4.jpg") no-repeat center center fixed;  */
   background-size: cover;
 }
 
