@@ -61,7 +61,7 @@ const Mritika = () => {
                     <div class="row">
                         <div class="col-md-4 mb-3 wow bounceInUp" data-wow-duration="1.4s">
                             <div class="big-img">
-                                <img src="https://images.pexels.com/photos/167631/pexels-photo-167631.jpeg?auto=compress&cs=tinysrgb&h=650&w=940" class="img-fluid" />
+                                <img src="images/CR.jpg" class="img-fluid" />
                             </div>
                         </div>
                         <div class="col-md-8">
@@ -75,13 +75,13 @@ const Mritika = () => {
                                 <div class="linear-grid">
                                     <div class="row">
                                         <div class="col-sm-6 col-md-3 mb-2 wow bounceInUp" data-wow-duration="1.4s" >
-                                            <img src="https://images.pexels.com/photos/534031/pexels-photo-534031.jpeg?auto=compress&cs=tinysrgb&h=350" class="img-thumbnail" />
+                                            <img src="images/NITR.webp" class="img-thumbnail" />
                                         </div>
                                         <div class=" col-sm-6 col-md-3 mb-2 wow bounceInUp" data-wow-duration="1.4s">
-                                            <img src="https://images.pexels.com/photos/258804/pexels-photo-258804.jpeg?auto=compress&cs=tinysrgb&h=350" class="img-thumbnail" />
+                                            <img src="images/G8.jpeg" class="img-thumbnail" />
                                         </div>
                                         <div class="col-sm-6 col-md-3 mb-2 wow bounceInUp" data-wow-duration="1.4s">
-                                            <img src="https://images.pexels.com/photos/285598/pexels-photo-285598.jpeg?auto=compress&cs=tinysrgb&h=350" class="img-thumbnail" />
+                                            <img src="images/G4.jpeg" class="img-thumbnail" />
                                         </div>
                                         <div class="col-sm-6 col-md-3 mb-2 wow bounceInUp" data-wow-duration="1.4s">
                                             <img src="https://images.pexels.com/photos/167605/pexels-photo-167605.jpeg?auto=compress&cs=tinysrgb&h=350" class="img-thumbnail" />
@@ -360,7 +360,7 @@ const Mritika = () => {
                     <div class="row">
                         <div class="col-md-8 mx-auto wow fadeInUp">
                             <h3 class="text-center font-weight-bold">MRIT<span class="bg-main">TIKA</span> SPONSERS</h3>
-                            <p class=" text-center">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
+                            <p class=" text-center">To become a better you, remember to be grateful to people who have contributed to making you who you are today"</p>
                         </div>
                     </div>
                     <div class="row">
@@ -445,7 +445,8 @@ const Mritika = () => {
                     <div class="row">
                         <div class="col-md-8 mx-auto wow fadeInUp">
                             <h3 class="text-center font-weight-bold">MRIT<span class="bg-main">TIKA</span> FEATURED EVENT</h3>
-                            <p class=" text-center">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
+
+                            <p class=" text-center"> <strong>“Our response to an event is more important than the event itself.”</strong></p>
                         </div>
                     </div>
                     <div class="row">
@@ -457,10 +458,15 @@ const Mritika = () => {
                         <div class="col-sm-6 col-md-4 col-lg-6 mt-4">
                             <div class="my-right-text wow fadeInUp">
 
-                                <p class="text-justify font-italic">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets. remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown.</p>
+                                <p class="text-justify font-italic">
+“All work and no play makes Jack a dull boy”
+This saying goes well with Mrittika as well. Apart from all the exciting and insightful lectures, the Mrittika organizing team went ahead with organizing a fun event Teka Teki in collaboration with Chitraang. 
+In the game, the participants were supposed to arrange tiles in a pattern. The student who did it the fastest received earphones as a gift. 
+Besides this, a cultural night which was scheduled to happen on the night of 6th April but unfortunately got canceled owing to the rough weather. 
+</p>
 
-                                <a href="#" class="link-color">SAKTI</a>
-                                <p class="text-muted">Lorem Ipsum Dolor Sit Amet</p>
+                                <a href="#" class="link-color">Event</a>
+                                <p class="text-muted">Teka - Teki </p>
                             </div>
                         </div>
 
