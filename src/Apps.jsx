@@ -14,7 +14,7 @@ import img from './images/img4.jpg'
 
 const useStyles = makeStyles({
     image: {
-        height: 400,
+        height: 380,
         width: 320,
     },
     wrapper: {
@@ -89,7 +89,6 @@ const Apps = () => {
                 <a href="/blog1" style={{ textDecoration: "none" }}>
                     <div className="img_1">
                         <img id="peacock" src="images/FF2.png" alt="mypic" />
-
                     </div>
                 </a>
                 <a href="/blog2" style={{ textDecoration: "none" }}>
