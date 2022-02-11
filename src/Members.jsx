@@ -179,7 +179,7 @@ const Members = () => {
             
                     <div class="container">
                         <div class="row heading heading-icon">
-                            <h2>DEVLOPMENT TEAM</h2>
+                            <h2>DEVLOPEMENT TEAM</h2>
                         </div>
                         <ul class="row">
                             <li class="col-12 col-md-6 col-lg-3">
@@ -235,9 +235,9 @@ const Members = () => {
                         </section>
                         <section>
                             <span><i class="fa fa-phone"></i></span>
-                            <span>Siddhartha Nanda  8093308828</span>
+                            <span>Siddhartha  8093308828</span>
                             <span><i class="fa fa-phone"></i></span>
-                            <span>Sakti Swarup  9337318011</span>
+                            <span>Sakti  9337318011</span>
                         </section>
                         <section>
                             <span><i class="fa fa-envelope"></i></span>

@@ -905,9 +905,9 @@ Not only that, many reputed non- core companies such as ZS Associates, Wipro, EX
                         </section>
                         <section>
                             <span><i class="fa fa-phone"></i></span>
-                            <span>Siddhartha Nanda  8093308828</span>
+                            <span>Siddhartha  8093308828</span>
                             <span><i class="fa fa-phone"></i></span>
-                            <span>Sakti Swarup  9337318011</span>
+                            <span>Sakti   9337318011</span>
                         </section>
                         <section>
                             <span><i class="fa fa-envelope"></i></span>

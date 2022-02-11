@@ -321,7 +321,7 @@ img {
   color: #000;
 }
 
-/* .gallery_div {
+.gallery_div {
   width: 100%;
   height: 500px;
  
@@ -333,14 +333,18 @@ img {
   background-repeat: no-repeat;
   background-color: rgba(0, 0, 0, 0.7);
   background-blend-mode: difference;
-} */
-.gallery_div {
+}
+/* .gallery_div {
   width: 100%;
   height: 500px;
   justify-content: center;
   background-image: url("images/ICS.jpeg");
   background-size:cover ;
-}
+  overflow-x: hidden;
+  object-fit: contain;
+  background-repeat: no-repeat;
+
+} */
 .gallery_div_placement {
   width: 100%;
   height: 500px;

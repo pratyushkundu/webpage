@@ -64,7 +64,7 @@ const Navbar1 = () => {
                                 {/* <li><h3>hello</h3></li> */}
                             </ul>
                         </div></li>
-                    <li><a href="/mritika">Mritika</a></li>
+                    <li><a href="/mritika">Mrittika</a></li>
                     <div class="closeMenu" onClick={functionclose}><i class="fa fa-times"></i></div>
                     <span class="icons">
                         <a href=""><i class="fa fa-facebook"></i></a>
@@ -93,7 +93,7 @@ const Navbar1 = () => {
                     <div class="dropdown-menu">
                         <ul>
                             <li><a href="/events">Placement-Diaries</a></li>
-                            <li><a href="/events1">Presentastion-Competitions</a></li>
+                            <li><a href="/events1">Presentation-Competitions</a></li>
                             {/* <li>
                                 <a href="#">Team <i class="fas fa-caret-right"></i></a>
 
