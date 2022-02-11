@@ -43,7 +43,7 @@ const Members = () => {
                         <li class="col-12 col-md-6 col-lg-3">
                             <div class="cnt-block equal-hight" style={{height:" 349px"}}>
                                 <figure><img src="images/SIS.jpg" class="img-responsive" alt="" /></figure>
-                                <h3><a href="">Shivam Sharma </a></h3>
+                                <h3>Shivam Sharma </h3>
                                 <p></p>
                                 <ul class="follow-us clearfix">
                                     {/* <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li> */}
@@ -55,7 +55,7 @@ const Members = () => {
                         <li class="col-12 col-md-6 col-lg-3">
                             <div class="cnt-block equal-hight" style={{height:" 349px"}}>
                                 <figure><img src="images/TK.jpg" class="img-responsive" alt="" /></figure>
-                                <h3><a href="#">Tanay Kumar</a></h3>
+                                <h3>Tanay Kumar</h3>
                                 <p></p>
                                 <ul class="follow-us clearfix">
                                     {/* <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li> */}
@@ -83,7 +83,7 @@ const Members = () => {
                             <li class="col-12 col-md-6 col-lg-3">
                                 <div class="cnt-block equal-hight" style={{height:" 349px"}}>
                                     <figure><img src="images/SN.jpg" class="img-responsive" alt="" style={{objectFit:"cover"}}/></figure>
-                                    <h3><a href="">Siddhartha Nanda</a></h3>
+                                    <h3>Siddhartha Nanda</h3>
                                     {/* <p>Web Developer</p> */}
                                     <h4>Chairperson</h4>
                                     <ul class="follow-us clearfix">
@@ -96,7 +96,7 @@ const Members = () => {
                             <li class="col-12 col-md-6 col-lg-3">
                                 <div class="cnt-block equal-hight" style={{height:" 349px"}}>
                                     <figure><img src="images/SS.jpg" style={{objectFit:"cover"}} class="img-responsive" alt="" /></figure>
-                                    <h3><a href="#">Sakti Swarup Mohapatra</a></h3>
+                                    <h3>Sakti Swarup Mohapatra</h3>
                                     {/* <p>Freelance Web Developer</p> */}
                                     <h4>Vice Chairperson</h4>
                                     <ul class="follow-us clearfix">
@@ -109,7 +109,7 @@ const Members = () => {
                             <li class="col-12 col-md-6 col-lg-3">
                                 <div class="cnt-block equal-hight" style={{height:" 349px"}}>
                                     <figure><img src="images/DP.jpg" class="img-responsive" style={{objectFit:"cover" ,backgroundRepeat:"no-repeat"}} alt="" /></figure>
-                                    <h3><a href="http://www.webcoderskull.com/">Deepshikha Brahma</a></h3>
+                                    <h3>Deepshikha Brahma</h3>
                                     {/* <p>Freelance Developer</p> */}
                                     <h4>Secretary</h4>
                                     <ul class="follow-us clearfix">
@@ -122,7 +122,7 @@ const Members = () => {
                             <li class="col-12 col-md-6 col-lg-3">
                                 <div class="cnt-block equal-hight" style={{height:" 349px"}}>
                                     <figure><img src="images/RP.jpg" class="img-responsive" style={{objectFit:"cover"}} alt="" /></figure>
-                                    <h3><a href="http://www.webcoderskull.com/">Riyali Priya</a></h3>
+                                    <h3>Riyali Priya</h3>
                                     {/* <p>Freelance Developer</p> */}
                                     <h4>joint Secretary</h4>
                                     <ul class="follow-us clearfix">
@@ -135,7 +135,7 @@ const Members = () => {
                             <li class="col-12 col-md-6 col-lg-3">
                                 <div class="cnt-block equal-hight" style={{height:" 349px"}}>
                                     <figure><img src="images/IP.jpeg" class="img-responsive" style={{objectFit:"cover"}} alt="" /></figure>
-                                    <h3><a href="">Ipsita patra</a></h3>
+                                    <h3>Ipsita patra</h3>
                                     {/* <p>Freelance Web Developer</p> */}
                                     <h4>Treasurer</h4>
                                     <ul class="follow-us clearfix">
@@ -148,7 +148,7 @@ const Members = () => {
                             <li class="col-12 col-md-6 col-lg-3">
                                 <div class="cnt-block equal-hight" style={{height:" 349px"}}>
                                     <figure><img src="images/NK.jpeg" class="img-responsive" style={{objectFit:"cover"}} alt="" /></figure>
-                                    <h3><a href="">Naveen kumar Yadav</a></h3>
+                                    <h3>Naveen kumar Yadav</h3>
                                     {/* <p>Freelance Web Developer</p> */}
                                     <h4>3rd yr Branch Representative</h4>
                                     <ul class="follow-us clearfix">
@@ -161,8 +161,7 @@ const Members = () => {
                             <li class="col-12 col-md-6 col-lg-3">
                                 <div class="cnt-block equal-hight" style={{height:" 349px"}}>
                                     <figure><img src="images/SG.jpeg" class="img-responsive" style={{objectFit:"cover"}} alt="" /></figure>
-                                    <h3><a href="">Somdeb Ganguly</a></h3>
-                                    {/* <p>Freelance Web Developer</p> */}
+                                    <h3>Somdeb Ganguly</h3>
                                     <h4>4th yr Branch Representative</h4>
                                     <ul class="follow-us clearfix">
                                         {/* <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li> */}
@@ -186,7 +185,7 @@ const Members = () => {
                             <li class="col-12 col-md-6 col-lg-3">
                                 <div class="cnt-block equal-hight" style={{height:" 349px"}}>
                                     <figure><img src="images/PKS.jpeg" class="img-responsive" alt="" style={{objectFit:"cover"}}/></figure>
-                                    <h3><a href="">Pratyush Kundu</a></h3>
+                                    <h3>Pratyush Kundu</h3>
                                     {/* <p>Web Developer</p> */}
                                     <h4>Web Developer</h4>
                                     <ul class="follow-us clearfix">
@@ -199,7 +198,7 @@ const Members = () => {
                             <li class="col-12 col-md-6 col-lg-3">
                                 <div class="cnt-block equal-hight" style={{height:" 349px"}}>
                                     <figure><img src="images/JS.jpeg" style={{objectFit:"cover"}} class="img-responsive" alt="" /></figure>
-                                    <h3><a href="#">Jagrit Sahu</a></h3>
+                                    <h3>Jagrit Sahu</h3>
                                     {/* <p>Freelance Web Developer</p> */}
                                     <h4>Web Developer</h4>
                                     <ul class="follow-us clearfix">

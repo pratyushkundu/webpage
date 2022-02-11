@@ -13,44 +13,40 @@ import blog2 from '../Blog2'
 
 export const SliderData1 = [
   {
-    reciever:"",
+    reciever:"https://www.instagram.com/p/CDhKg5lh4cr/",
     image:img1
  },
 
     {
-      reciever:"/blog",
+      reciever:"https://www.instagram.com/p/CD-yFPklaCg/",
       image:img2
     },
     {
-      reciever:"/blog1",
+      reciever:"https://www.instagram.com/p/CEjCQZXFNkH/",
       image:img3
     },
     {
-      reciever:"/blog2",
+      reciever:"https://www.instagram.com/p/CE0wHsLF87y/",
       image:img4
     },
     {
-      reciever:"/blog2",
+      reciever:"https://www.instagram.com/p/CFG8jIxlHhr/",
       image:img5
     }   ,
     {
-      reciever:"/blog2",
+      reciever:"https://www.instagram.com/p/CGO3uy_FLOW/",
       image:img6
-    }   ,
+    }   ,  
     {
-      reciever:"/blog2",
-      image:img6
-    }   ,
-    {
-      reciever:"/blog2",
+      reciever:"https://www.instagram.com/p/CGzorlFFf-4/",
       image:img7
     }   ,
     {
-      reciever:"/blog2",
+      reciever:"https://www.instagram.com/p/CJ5OuilF7cx/",
       image:img8
     }   ,
     {
-        reciever:"/blog2",
+        reciever:"https://www.instagram.com/p/CKLCWNDFfT5/",
         image:img9
       }   ,
   ];

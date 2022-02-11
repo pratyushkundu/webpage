@@ -115,7 +115,7 @@ const Mritika = () => {
                     <div class="row wow slideInLeft" data-wow-duration="3s">
                         <div class="col-md-4 mb-3">
                             <div class="big-img2">
-                                <img src="https://images.pexels.com/photos/167527/pexels-photo-167527.jpeg?auto=compress&cs=tinysrgb&h=650&w=940" class="img-fluid" />
+                                <img src="images/20190407_185026.jpg" class="img-fluid" />
                             </div>
 
                         </div>
@@ -125,12 +125,12 @@ const Mritika = () => {
                                     <div class="row">
                                         <div class="col-sm-6 col-md-4 mb-3">
 
-                                            <img src="https://images.pexels.com/photos/761963/pexels-photo-761963.jpeg?auto=compress&cs=tinysrgb&h=650&w=940" class="img-fluid" />
+                                            <img src="images/20190406_115551.jpg" class="img-fluid" />
 
                                         </div>
                                         <div class="col-sm-6 col-md-8 mb-3 ">
 
-                                            <img src=" https://images.pexels.com/photos/164693/pexels-photo-164693.jpeg?auto=compress&cs=tinysrgb&h=650&w=940" class="img-fluid" />
+                                            <img src="images/20190406_122141.jpg" class="img-fluid" />
 
                                         </div>
 
@@ -149,7 +149,7 @@ const Mritika = () => {
                                         </div>
                                         <div class=" col-md-4 ">
 
-                                            <img src="https://images.pexels.com/photos/1150837/pexels-photo-1150837.jpeg?auto=compress&cs=tinysrgb&h=650&w=940" class="img-fluid" />
+                                            <img src="images/20190407_152923.jpg" class="img-fluid" />
 
                                         </div>
                                     </div>
@@ -174,7 +174,7 @@ const Mritika = () => {
                                 <img class="card-img-top" style={{ height: "270px" }} src="images/SN.jpg" />
                                 <div class="card-block">
 
-                                    <h4 class="card-title text-center">SIDDHARTH NANDA</h4>
+                                    <h4 class="card-title text-center">SIDDHARTHA NANDA</h4>
 
                                     <div class="card-text text-center">
                                         <div class="social-icons">
