@@ -44,7 +44,7 @@ const Apps = () => {
         const width2 = 700;
         if (window.screen.width >= width2) {
             return <>
-                <a href="/blog" style={{ textDecoration: "none" }}>
+                <a href="https://www.instagram.com/p/CDS1J9vFbij/" style={{ textDecoration: "none" }}>
                     <div className="img_1">
                         <img id="peacock" src="images/FF1.jpg" alt="mypic" />
 
@@ -56,7 +56,7 @@ const Apps = () => {
                         </p>
                     </div>
                 </a>
-                <a href="/blog1" style={{ textDecoration: "none" }}>
+                <a href="https://www.instagram.com/p/CEI5jnlFMcP/" style={{ textDecoration: "none" }}>
                     <div className="img_1">
                         <img id="peacock" src="images/FF2.png" alt="mypic" />
 
@@ -67,7 +67,7 @@ const Apps = () => {
                         </p>
                     </div>
                 </a>
-                <a href="/blog2" style={{ textDecoration: "none" }}>
+                <a href="https://www.instagram.com/p/CE_3lEvFcMb/" style={{ textDecoration: "none" }}>
                     <div className="img_1">
                         <img id="peacock" src="images/FF3.png" alt="mypic" />
 
@@ -103,7 +103,7 @@ const Apps = () => {
     const functiondeal2 = () => {
         const width2 = 700;
         if (window.screen.width >= width2) {
-            return <><a href="/blog1" style={{ textDecoration: "none" }}>
+            return <><a href="https://www.instagram.com/p/CCkm_4zFWC9/" style={{ textDecoration: "none" }}>
                 <div className="img_2">
                     <img id="peacock_1" src="images/MM1.jpg " alt="mypic" />
                     <p id="para1" style={{ color: "#000" }}>Oil spillage in water is a major environmental issue which takes years to clean up. Many methods are available to remove the oil from surface but now we have a material which is much more efficient and easier to use.
@@ -111,7 +111,7 @@ const Apps = () => {
                     </p>
                 </div>
             </a>
-                <a href="/blog1" style={{ textDecoration: "none" }}>
+                <a href="https://www.instagram.com/p/CC2itWVlEyy/" style={{ textDecoration: "none" }}>
                     <div className="img_2">
                         <img id="peacock_1" src="images/MM2.jpg" alt="mypic" />
                         <p id="para1" style={{ color: "#000" }}>Faster and efficient energy storage devices and materials used for the same are on the rise. Catering to the specific properties required for various application requires major breakthroughs in their development. One such development is a Ceramic Electrolyte Sheet which will be used in Next-Generation Rechargable Batteries.
@@ -120,7 +120,7 @@ const Apps = () => {
                         </p>
                     </div>
                 </a>
-                <a href="/blog1" style={{ textDecoration: "none" }}>
+                <a href="https://www.instagram.com/p/CDJRzw0lpLH/" style={{ textDecoration: "none" }}>
                     <div className="img_2">
                         <img id="peacock_1" src="images/MM3.jpg" alt="mypic" />
                         <p id="para1" style={{ color: "#000" }}>Cement is the most widely used commodity after water. But to make cement, refractories are required. To improve the quality of lime kiln refractories for more efficient production of cement, here is an effort by Mr. Abhipshit Kumar, B. Tech. 2018 batch, former employee at TRL Krosaki Refractories Ltd. and currently enrolled in M.Tech. in IISc.

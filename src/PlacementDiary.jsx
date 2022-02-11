@@ -619,7 +619,7 @@ Not only that, many reputed non- core companies such as ZS Associates, Wipro, EX
                     <div class="row">
                         <div class="col-md-8 mx-auto wow fadeInUp">
                             <h3 class="text-center font-weight-bold">PLACEMENT<span class="bg-main">HOLDERS</span> DIARY</h3>
-                            <p class=" text-center">Your talent determines what you can do</p>
+                            <p class=" text-center"> <bold>Your talent determines what you can do</bold> </p>
                         </div>
                     </div>
                     <div class="row">
@@ -631,7 +631,7 @@ Not only that, many reputed non- core companies such as ZS Associates, Wipro, EX
                                     <h4 class="card-title text-center">Munmi Das </h4>
                                 </div>
                                 <div class="card-footer text-center">
-                                    <bold>MPR Refractories placed</bold>
+                                    <h5><strong>MPR Refractories Placed </strong></h5>
 
                                 </div>
                             </div>
@@ -645,7 +645,8 @@ Not only that, many reputed non- core companies such as ZS Associates, Wipro, EX
 
                                 </div>
                                 <div class="card-footer text-center">
-                                    <bold>MPR Refractories placed</bold>
+                                <h5><strong>MPR Refractories Placed </strong></h5>
+                                
 
                                 </div>
                             </div>
@@ -660,7 +661,8 @@ Not only that, many reputed non- core companies such as ZS Associates, Wipro, EX
 
                                 </div>
                                 <div class="card-footer text-center">
-                                    <bold>MPR Refractories placed</bold>
+                                <h5><strong>MPR Refractories Placed </strong></h5>
+                                
                                 </div>
                             </div>
                         </div>
@@ -675,7 +677,7 @@ Not only that, many reputed non- core companies such as ZS Associates, Wipro, EX
 
                                     </div>
                                     <div class="card-footer text-center">
-                                        <bold>TATA CLIQ Placed</bold>
+                                        <h5><strong> TATA CLIQ Placed</strong></h5>
 
                                     </div>
                                 </div>
@@ -690,7 +692,8 @@ Not only that, many reputed non- core companies such as ZS Associates, Wipro, EX
 
                                     </div>
                                     <div class="card-footer text-center">
-                                    <bold>TATA CLIQ Placed</bold>
+                                    <h5><strong> TATA CLIQ Placed</strong></h5>
+                                    
 
 
                                     </div>
