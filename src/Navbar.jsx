@@ -64,7 +64,8 @@ const Navbar1 = () => {
                                 {/* <li><h3>hello</h3></li> */}
                             </ul>
                         </div></li>
-                    <li><a href="/mritika">Mrittika</a></li>
+                        <li><a href="/mritika"><h3 class="my-heading " style={{ fontSize: "18px" }}><span class="bg-main">MRITTIKA</span></h3></a></li>
+                    {/* <li><a href="/mritika">Mrittika</a></li> */}
                     <div class="closeMenu" onClick={functionclose}><i class="fa fa-times"></i></div>
                     <span class="icons">
                         <a href=""><i class="fa fa-facebook"></i></a>
