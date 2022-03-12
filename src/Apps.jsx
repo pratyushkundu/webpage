@@ -3,6 +3,7 @@ import { NavLink } from 'react-router-dom';
 import Navbar from "./Navbar";
 import Navbar1 from './Navbar1';
 import App1 from './App1';
+import App from './App';
 import Carousel from 'react-multi-carousel'
 import "react-multi-carousel/lib/styles.css";
 import { SliderData } from './component/SliderData';
@@ -220,7 +221,7 @@ const Apps = () => {
     const functiondeals = () => {
         const width2 = 700;
         if (window.screen.width <= width2) {
-            return <App1 />
+            return <App />
         }
         else {
             return <Carousel

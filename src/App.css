@@ -243,7 +243,7 @@
     .image1 {
       /* height: 1000px; */
       margin-left:10%;
-      height:500px;
+      height:430px;
       /* width:750px; */
       width:80%;
         border-radius: 10px;
@@ -282,9 +282,9 @@
       .image {
         /* height: 1000px; */
         margin-left:10%;
-        height:500px;
+        height:430px;
         /* width:750px; */
-        width:90%;
+        width:80%;
           border-radius: 10px;
         }
         .slider {
