@@ -2,108 +2,123 @@ import React from 'react';
 import Navbar from './Navbar';
 import Navbar1 from './Navbar1';
 
+const functionnav = ()=>{
+    const widths = 700
+    if(window.screen.width <= widths){
+        return(<>
+             <div class="top_div">
+            <div>
+                <div id="logo" style={{ cursor: "pointer" }}><img src="images/pics.png" style={{ height: "48px", width: "55px", background: "100% 100%", borderRadius: "0px", padding: "2px" }} /></div>
+            </div>
+            <Navbar />
+        </div>
+        </>)
+    }
+        else{
+            return <Navbar />
+        }
+    }
 const Contact = () => {
-        return(
+    return (
         <><div class="main_div">
-            <div class="top_div">
+            {/* <div class="top_div">
                 <div>
-                <div id="logo" style={{ cursor: "pointer" }}>NITR ICS</div>
+                    <div id="logo" style={{ cursor: "pointer" }}><img src="images/logo1.jpg" style={{ height: "48px", width: "55px", background: "100% 100%", borderRadius: "0px", padding: "2px" }} /></div>
                 </div>
-
-                {/* <div class="nav_bar">
-                    <h2 class="nav_hover">Home</h2>
-                    <h2 class="nav_hover">AboutSociety</h2>
-                    <h2 class="nav_hover">Members</h2>
-                    <h2 class="nav_hover">ContactUs</h2>
-                </div> */}
-                <Navbar/>
-            </div>
-            
-            <div class="gallery_div">
-                <div class="img_4">
-                    {/* <img src="images/img4.jpg" alt="mypic" /> */}
-                    <h1>Contact page</h1>
-                </div>
-            </div>
-            {/* <div class="flash_1" style={{ backgroundcolor: "#FAFCEE" }}>
-                <div id="flash_inside"><h1>FLASHBACK FRIDAY</h1></div>
-            </div>
-            <div class="image_div_1">
-                <div class="img_1">
-                    <img id="peacock" src="images/img1.jpeg" alt="mypic" />
-                    <h2 id="proff1">Proff.Shnatanu T behera</h2>
-                    <p id="para">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dignissimos nihil cupiditate quae culpa,
-                        quos labore autem dolores, pariatur laborum voluptates quaerat? Voluptas quidem, provident doloribus
-                        reiciendis nesciunt voluptates doloremque voluptatibus voluptatum. Ipsam, aspernatur ad.
-                    </p>
-                </div>
-                <div class="img_1">
-                    <img id="peacock" src="images/img2.jpeg" alt="mypic" />
-                    <h2 id="proff1">Proff.Shnatanu T behera</h2>
-                    <p id="para">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dignissimos nihil cupiditate quae culpa,
-                        quos labore autem dolores, pariatur laborum voluptates quaerat? Voluptas quidem, provident doloribus
-                        reiciendis nesciunt voluptates doloremque voluptatibus voluptatum. Ipsam, aspernatur ad.
-                    </p>
-                </div>
-                <div class="img_1">
-                    <img id="peacock" src="images/img3.jpeg" alt="mypic" />
-                    <h2 id="proff1">Proff.Shnatanu T behera</h2>
-                    <p id="para">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dignissimos nihil cupiditate quae culpa,
-                        quos labore autem dolores, pariatur laborum voluptates quaerat? Voluptas quidem, provident doloribus
-                        reiciendis nesciunt voluptates doloremque voluptatibus voluptatum. Ipsam, aspernatur ad.
-                    </p>
-                </div>
-            </div>
-            <div class="flash_2" style={{ backgroundcolor: "#FAFCEE" }}>
-                <h1>MONDAY MORNING</h1>
-            </div>
-
-            <div class="image_div_2">
-                <div class="img_2">
-                    <img id="peacock_1" src="images/monday1.jpeg " alt="mypic" />
-                    <p id="para1">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dignissimos nihil cupiditate quae culpa,
-                        quos labore autem dolores, pariatur laborum voluptates quaerat? Voluptas quidem, provident doloribus
-                        reiciendis nesciunt voluptates doloremque voluptatibus voluptatum. Ipsam, aspernatur ad.
-                    </p>
-                </div>
-                <div class="img_2">
-                    <img id="peacock_1" src="images/monday2.jpeg" alt="mypic" />
-                    <p id="para1">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dignissimos nihil cupiditate quae culpa,
-                        quos labore autem dolores, pariatur laborum voluptates quaerat? Voluptas quidem, provident doloribus
-                        reiciendis nesciunt voluptates doloremque voluptatibus voluptatum. Ipsam, aspernatur ad.
-                    </p>
-                </div>
-                <div class="img_2">
-                    <img id="peacock_1" src="images/monday3.jpeg" alt="mypic" />
-                    <p id="para1">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dignissimos nihil cupiditate quae culpa,
-                        quos labore autem dolores, pariatur laborum voluptates quaerat? Voluptas quidem, provident doloribus
-                        reiciendis nesciunt voluptates doloremque voluptatibus voluptatum. Ipsam, aspernatur ad.
-                    </p>
-                </div>
+                <Navbar />
             </div> */}
+            {functionnav()}
+            <section id="candy" class="our-webcoderskull padding-lg">
+                <div class="container">
+                    <div style={{height:"260px"}}><div class="row heading heading-icon">
+                        <h2 style={{ fontSize: "30px", color: "black", fontWeight: "bolder" }}></h2>
+                    </div></div>
+                    <ul class="row">
+                        <li class="col-12 col-md-6 col-lg-3">
+                            <div class="cnt-block equal-hight" style={{ height: " 355px" }}>
+                                <figure><img src="images/SB.jpg" style={{objectFit:"cover"}} class="img-responsive" alt="" /></figure>
+                                <h3><a href="https://www.linkedin.com/in/shanbehera/">Prof. Shantanu Behera</a></h3>
+                                <p>Department of ceramic Engineering</p>
+                                <p>mail id: beherash@nitrkl.ac.in</p>
+                                <p>Contact no: +91 8328928574</p>
+                                <ul class="follow-us clearfix">
+                                    {/* <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li> */}
+                                    {/* <li><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li> */}
+                                    {/* <li><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li> */}
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="col-12 col-md-6 col-lg-3">
+                            <div class="cnt-block equal-hight" style={{ height: " 355px" }}>
+                                <figure><img src="images/SN.jpg" class="img-responsive" alt="" style={{objectFit:"cover"}}/></figure>
+                                <h3><a href="https://www.linkedin.com/in/siddhartha-nanda-2000/">Siddhartha Nanda</a></h3>
+                                <p>Department of Ceramic Engineering</p>
+                                <p>mail id: nanda.siddhartha2018@gmail.com</p>
+                                <p>Contact no: +91 8093308828</p>
+                                <ul class="follow-us clearfix">
+                                    {/* <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li> */}
+                                    {/* <li><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li> */}
+                                    {/* <li><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li> */}
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="col-12 col-md-6 col-lg-3">
+                            <div class="cnt-block equal-hight" style={{ height: " 355px" }}>
+                                <figure><img src="images/SS.jpg" class="img-responsive" style={{objectFit:"cover"}} alt="" /></figure>
+                                <h3><a href="#">Sakti Swarup Mohapatra</a></h3>
+                                <p>Department of Ceramic Engineering</p>
+                                <p>mail id: sakti.ssm9080@gmail.com</p>
+                                <p>Contact no: +91 9337318011</p>
+                                <ul class="follow-us clearfix">
+                                    {/* <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li> */}
+                                    {/* <li><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li> */}
+                                    {/* <li><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li> */}
+                                </ul>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </section>
             <div class="social_media_part">
-                <div class="logo_part">
-                    <div class="img_3">
-                        <img src="images/facebook.png" style={{ height: "70px" }} alt="mypic" />
+                <footer>
+                    <div class="top_header">
+                        <section>
+                            <span><i class="fa fa-map-marker"></i></span>
+                            <span>NATIONAL INSTITUTE OF TECHNOLOGY ROURKELA, Odisha, India, 769008</span>
+                        </section>
+                        <section>
+                            <span><i class="fa fa-phone"></i></span>
+                            <span>Siddhartha   8093308828</span>
+                            <span><i class="fa fa-phone"></i></span>
+                            <span>Sakti   9337318011</span>
+                        </section>
+                        <section>
+                            <span><i class="fa fa-envelope"></i></span>
+                            <span>incersnitr@gmail.com</span>
+                        </section>
                     </div>
-                    <div class="img_3">
-                        <img src="images/instagram.png" style={{ height: "70px" }} alt="mypic" />
+                    <span class="border-shape"></span>
+                    <div class="bottom_content">
+                        <section>
+                            <a href="#"><i class="fa fa-facebook" style={{ fontSize: "2rem" }}></i></a>
+                            <a href="#"><i class="fa fa-instagram" style={{ fontSize: "2rem" }}></i></a>
+                            <a href="#"><i class="fa fa-linkedin" style={{ fontSize: "2rem" }}></i></a>
+                            {/* <a href="#"><i class="fa fa-telegram"></i></a> */}
+                        </section>
+                        <section>
+                            <a href="/" style={{ fontSize: "1.1rem" }}>Home</a>
+                            <a href="/about" style={{ fontSize: "1.1rem" }}>About</a>
+                            <a href="/contact" style={{ fontSize: "1.1rem" }}>Contact</a>
+                            <a href="/members" style={{ fontSize: "1.1rem" }}>Members</a>
+                        </section>
                     </div>
-                    <div class="img_3">
-                        <img src="images/linkedin.png" style={{ height: "70px" }} alt="mypic" />
+                    <div class="copyright">
+                        Copyright © 2021 NITRICS - All rights reserved
                     </div>
-                </div>
-                <div class="end_bar">
-                    {/* <div class="info_div">
-                        <h2 class="nav_hover_1">Home</h2>
-                        <h2 class="nav_hover_1">AboutSociety</h2>
-                        <h2 class="nav_hover_1">Members</h2>
-                        <h2 class="nav_hover_1">ContactUs</h2>
-                    </div> */}
-                    <Navbar1/>
-                </div>
+                </footer>
             </div>
-        </div></>
-        );
+        </div>
+        </>
+    );
 }
 export default Contact;
